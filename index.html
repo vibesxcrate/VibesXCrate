@@ -237,38 +237,49 @@ async function loadCricketMatches() {
 
     list.replaceChildren();
 
-    matches.forEach(match => {
-      const card = document.createElement("article");
-      card.className = "card";
+   
+matches.forEach(match => {
+  const card = document.createElement("article");
+  card.className = "card live-card";
 
-      const heading = document.createElement("h3");
-      heading.textContent = match.name || "Cricket match";
+  const label = document.createElement("p");
+  label.className = "label";
+  label.textContent = match.matchType
+    ? match.matchType.toUpperCase() + " MATCH"
+    : "CRICKET MATCH";
 
-      const score = document.createElement("p");
-      score.className = "muted";
+  const heading = document.createElement("h3");
+  heading.className = "live-heading";
+  heading.textContent = match.name || "Cricket match";
 
-      const scoreLines = Array.isArray(match.score)
-        ? match.score.map(s =>
-            `${s.inning || ""}: ${s.r ?? 0}/${s.w ?? 0} (${s.o ?? 0} overs)`
-          )
-        : [];
+  const scoreBox = document.createElement("div");
+  scoreBox.className = "live-score-box";
 
-      score.textContent = scoreLines.join(" | ") || "Score not available yet";
-
-      const details = document.createElement("p");
-      details.className = "muted";
-      details.textContent = match.status || "Match status unavailable";
-
-      const label = document.createElement("p");
-      label.className = "label";
-      label.textContent = match.matchType
-        ? match.matchType.toUpperCase()
-        : "CRICKET";
-
-      card.append(label, heading, score, details);
-      list.appendChild(card);
+  if (Array.isArray(match.score) && match.score.length > 0) {
+    match.score.forEach(innings => {
+      const scoreLine = document.createElement("p");
+      scoreLine.className = "live-score";
+      scoreLine.textContent =
+        (innings.inning || "Innings") + ": " +
+        (innings.r ?? 0) + "/" + (innings.w ?? 0) +
+        " (" + (innings.o ?? 0) + " overs)";
+      scoreBox.appendChild(scoreLine);
     });
-  } catch (error) {
+  } else {
+    const noScore = document.createElement("p");
+    noScore.className = "muted";
+    noScore.textContent = "Score not available yet";
+    scoreBox.appendChild(noScore);
+  }
+
+  const details = document.createElement("p");
+  details.className = "muted";
+  details.textContent = match.status || "Match status unavailable";
+
+  card.append(label, heading, scoreBox, details);
+  list.appendChild(card);
+});
+  } catch (error) { 
     status.textContent =
       "Unable to load scores right now. Please try again later.";
     console.error("Cricket score error:", error);
