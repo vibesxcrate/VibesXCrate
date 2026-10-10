@@ -83,6 +83,30 @@
       line-height: 1.6;
     }
     footer { text-align: center; padding: 28px 15px; color: #969ba8; background: #11141c; font-size: 12px; }
+
+/* VibesXCrate interactive effects */
+.card {
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #e6bd62;
+}
+
+.button {
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
   </style>
 </head>
 <body>
