@@ -21,18 +21,13 @@
       display: flex;
       align-items: center;
       gap: 12px;
-    }
-    .logo {
-      width: 52px;
-      height: 52px;
-      border-radius: 50%;
-      background: #d6ad56;
-      color: #111;
-      display: grid;
-      place-items: center;
-      font-size: 22px;
-      font-weight: 900;
-    }
+    }  
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  flex-shrink: 0;
+}  
     header h1 { font-size: 21px; margin: 0; }
     header p { margin: 5px 0 0; color: #c9a85c; font-size: 12px; }
     nav {
@@ -92,7 +87,7 @@
 </head>
 <body>
   <header>
-    <div class="logo">VX</div>
+    <img class="logo" src="save_20261010_135558.jpg" alt="VibesXCrate Logo">
     <div>
       <h1>VIBES<span style="color:#e6bd62">X</span>CRATE</h1>
       <p>YOUR CRICKET. YOUR VIBES.</p>
