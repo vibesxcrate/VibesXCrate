@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VibesXCrate | Cricket Central</title>
+  <meta name="description" content="VibesXCrate - your cricket hub for fixtures, scores, news and match updates.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #080a0f;
+      color: #f7f7f7;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 18px;
+      background: #11141c;
+      border-bottom: 1px solid #34302a;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: #d6ad56;
+      color: #111;
+      display: grid;
+      place-items: center;
+      font-size: 22px;
+      font-weight: 900;
+    }
+    header h1 { font-size: 21px; margin: 0; }
+    header p { margin: 5px 0 0; color: #c9a85c; font-size: 12px; }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      padding: 15px 8px;
+      background: #171a23;
+      flex-wrap: wrap;
+    }
+    nav a { color: #eee; text-decoration: none; font-size: 14px; }
+    nav a:hover { color: #e6bd62; }
+    .hero {
+      padding: 48px 20px;
+      text-align: center;
+      background: radial-gradient(ellipse at top, #39301c, #10121a 65%);
+    }
+    .tag { color: #e6bd62; letter-spacing: 3px; font-size: 11px; }
+    .hero h2 { font-size: clamp(32px, 8vw, 54px); margin: 15px 0; }
+    .hero h2 span { color: #e6bd62; }
+    .hero p { color: #c0c3cd; line-height: 1.7; }
+    .section { padding: 25px 18px; max-width: 900px; margin: auto; }
+    .section h2 { font-size: 23px; }
+    .section h2 span { color: #e6bd62; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(230px,1fr)); gap: 15px; }
+    .card {
+      padding: 20px;
+      background: #141720;
+      border: 1px solid #34302a;
+      border-radius: 12px;
+    }
+    .label { color: #e6bd62; font-size: 11px; letter-spacing: 1px; }
+    .card h3 { margin: 12px 0; }
+    .muted { color: #a9adba; font-size: 14px; line-height: 1.6; }
+    .button {
+      display: inline-block;
+      padding: 11px 15px;
+      margin-top: 8px;
+      background: #e6bd62;
+      color: #111;
+      text-decoration: none;
+      border-radius: 7px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .notice {
+      margin-top: 18px;
+      padding: 14px;
+      border-left: 3px solid #e6bd62;
+      background: #171a23;
+      color: #c0c3cd;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    footer { text-align: center; padding: 28px 15px; color: #969ba8; background: #11141c; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">VX</div>
+    <div>
+      <h1>VIBES<span style="color:#e6bd62">X</span>CRATE</h1>
+      <p>YOUR CRICKET. YOUR VIBES.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#matches">Matches</a>
+    <a href="#news">Cricket Hub</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="tag">WELCOME TO THE CRICKET HUB</div>
+    <h2>FEEL THE <span>GAME.</span></h2>
+    <p>Cricket updates, match guides and all the vibes.<br>Welcome to VibesXCrate.</p>
+    <a class="button" href="#matches">EXPLORE MATCHES</a>
+  </section>
+
+  <section class="section" id="matches">
+    <h2>Match <span>Centre</span></h2>
+    <p class="muted">Your home for cricket fixtures and match updates.</p>
+    <div class="cards">
+      <article class="card">
+        <div class="label">INTERNATIONAL CRICKET</div>
+        <h3>India Match Updates</h3>
+        <p class="muted">Check upcoming fixtures, match results and official coverage.</p>
+        <a class="button" href="https://www.bcci.tv/" target="_blank" rel="noopener">VISIT BCCI</a>
+      </article>
+      <article class="card">
+        <div class="label">WORLD CRICKET</div>
+        <h3>Global Tournaments</h3>
+        <p class="muted">Explore international tournaments and official match information.</p>
+        <a class="button" href="https://www.icc-cricket.com/" target="_blank" rel="noopener">VISIT ICC</a>
+      </article>
+      <article class="card">
+        <div class="label">LIVE COVERAGE</div>
+        <h3>Watch Officially</h3>
+        <p class="muted">Find authorised viewing options for your region.</p>
+        <a class="button" href="https://www.bcci.tv/" target="_blank" rel="noopener">OFFICIAL LINKS</a>
+      </article>
+    </div>
+    <div class="notice">
+      This is the first version of VibesXCrate. Live scores and match video are not connected yet. Match footage will only be shown if the necessary rights are obtained.
+    </div>
+  </section>
+
+  <section class="section" id="news">
+    <h2>The Cricket <span>Hub</span></h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Match Previews</h3>
+        <p class="muted">Publish your own previews, team analysis and cricket opinions here.</p>
+      </article>
+      <article class="card">
+        <h3>Cricket Stories</h3>
+        <p class="muted">Share original articles about players, teams and memorable moments.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About <span>VibesXCrate</span></h2>
+    <p class="muted">A cricket platform built for fans. Our goal is to bring match information, original content and authorised viewing links together in one place.</p>
+  </section>
+
+  <footer>
+    <p>VIBESXCRATE © 2026</p>
+    <p>Cricket passion. Real vibes.</p>
+  </footer>
+</body>
+</html>
