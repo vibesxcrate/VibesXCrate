@@ -208,6 +208,57 @@ html {
   scroll-behavior: smooth;
 }
 
+
+    /* Year and tournament points-table controls */
+    .points-controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 18px 0;
+    }
+    .points-control label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    .points-select {
+      width: 100%;
+      padding: 12px;
+      background: #080a0f;
+      color: #fff;
+      border: 1px solid #4a5060;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+    .points-table-title {
+      margin: 22px 0 8px;
+      color: #e6bd62;
+      font-size: 22px;
+    }
+    .points-table-wrap { overflow-x: auto; }
+    .points-table {
+      width: 100%;
+      min-width: 560px;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    .points-table th, .points-table td {
+      padding: 12px 9px;
+      border-bottom: 1px solid #292e3a;
+      white-space: nowrap;
+    }
+    .points-table th {
+      color: #e6bd62;
+      font-size: 12px;
+      letter-spacing: .4px;
+    }
+    .points-table td:first-child, .points-table th:first-child {
+      text-align: left;
+    }
+    @media (max-width: 480px) {
+      .points-controls { gap: 8px; }
+      .points-select { padding: 10px 7px; font-size: 13px; }
+    }
+
   </style>
 </head>
 <body>
@@ -269,7 +320,6 @@ html {
   </div>
 </section>
 
-  ```html
 <section class="section" id="upcoming">
   <h2>Upcoming <span>Fixtures</span></h2>
   <p class="muted">Keep track of upcoming cricket action.</p>
@@ -291,160 +341,133 @@ html {
     </article>
   </div>
 </section>
-```
-
-  ```html
 
 <section class="section" id="points-table">
-  <h2>Points <span>Table</span></h2>
-  <p class="muted">Shared tournament standings, updated by VibesXCrate.</p>
+  <h2 style="text-align:center;font-size:28px;letter-spacing:1px;">POINTS TABLE</h2>
+  <p class="muted" style="text-align:center;">Choose a year and tournament to view the standings.</p>
 
-  <div class="card" style="overflow-x:auto;">
-    <label for="tournament-name" class="label">TOURNAMENT NAME</label>
-    <input
-      id="tournament-name"
-      type="text"
-      value="My Tournament"
-      style="display:block;width:100%;margin:10px 0 18px;padding:12px;background:#080a0f;color:#fff;border:1px solid #343b4c;border-radius:7px;"
-    >
-    <button id="load-points" type="button">Load Standings</button>
+  <div class="card">
+    <div class="points-controls">
+      <div class="points-control">
+        <label for="points-year" class="label">YEAR</label>
+        <select id="points-year" class="points-select" aria-label="Choose year"></select>
+      </div>
+      <div class="points-control">
+        <label for="points-tournament" class="label">TOURNAMENT</label>
+        <select id="points-tournament" class="points-select" aria-label="Choose tournament"></select>
+      </div>
+    </div>
 
+    <h3 id="points-table-title" class="points-table-title">IPL 2026</h3>
     <p id="points-status" class="muted" aria-live="polite">Loading standings...</p>
 
-    <table style="width:100%;border-collapse:collapse;text-align:center;min-width:480px;">
-      <thead>
-        <tr style="color:#e6bd62;border-bottom:1px solid #343b4c;">
-          <th style="padding:12px;">Team</th>
-          <th>P</th><th>W</th><th>L</th><th>NR</th><th>Pts</th>
-        </tr>
-      </thead>
-      <tbody id="points-table-body"></tbody>
-    </table>
+    <div class="points-table-wrap">
+      <table class="points-table">
+        <thead>
+          <tr>
+            <th>Team</th><th>P</th><th>W</th><th>L</th><th>NR</th><th>Pts</th><th>NRR</th>
+          </tr>
+        </thead>
+        <tbody id="points-table-body"></tbody>
+      </table>
+    </div>
 
     <p class="muted" style="margin-top:15px;">
-      P = Played · W = Won · L = Lost · NR = No Result · Pts = Points
+      P = Played · W = Won · L = Lost · NR = No Result · Pts = Points · NRR = Net Run Rate
     </p>
+    <p class="muted">Standings are read-only for visitors. Tables will appear here when verified data is added to the website's points-data.json file.</p>
   </div>
-
-  <details class="card" style="margin-top:20px;padding:16px;">
-    <summary style="cursor:pointer;color:#e6bd62;">Admin: Update Standings</summary>
-    <p class="muted">Enter your private admin token to update the shared table. Never share it.</p>
-
-    <label for="admin-token" class="label">PRIVATE ADMIN TOKEN</label>
-    <input id="admin-token" type="password" autocomplete="off"
-      placeholder="Enter your admin token"
-      style="display:block;width:100%;margin:8px 0 14px;padding:12px;background:#080a0f;color:#fff;border:1px solid #343b4c;border-radius:7px;">
-
-    <label for="team-data" class="label">TEAM DATA (JSON)</label>
-    <textarea id="team-data" rows="9"
-      style="display:block;width:100%;margin:8px 0 14px;padding:12px;background:#080a0f;color:#fff;border:1px solid #343b4c;border-radius:7px;font-family:monospace;"
->[{"team_name":"Chennai Super Kings","played":0,"won":0,"lost":0,"no_result":0,"points":0},{"team_name":"Mumbai Indians","played":0,"won":0,"lost":0,"no_result":0,"points":0}]</textarea>
-
-    <button id="save-points" type="button">Save Standings</button>
-    <p id="admin-status" class="muted" aria-live="polite"></p>
-  </details>
 </section>
-
 
 <script>
 (() => {
-  const API = "https://vibesxcrate-live-api.granthsharma-1235.workers.dev";
-  const tournamentInput = document.getElementById("tournament-name");
-  const body = document.getElementById("points-table-body");
+  const yearSelect = document.getElementById("points-year");
+  const tournamentSelect = document.getElementById("points-tournament");
+  const title = document.getElementById("points-table-title");
   const status = document.getElementById("points-status");
-  const adminToken = document.getElementById("admin-token");
-  const teamData = document.getElementById("team-data");
-  const adminStatus = document.getElementById("admin-status");
+  const body = document.getElementById("points-table-body");
+  let pointsData = null;
 
-  if (!tournamentInput || !body || !status) return;
+  function selectedTournament() {
+    const year = pointsData.years.find(item => String(item.year) === yearSelect.value);
+    return year?.tournaments.find(item => item.id === tournamentSelect.value);
+  }
 
-  async function loadPoints() {
-    const tournament = tournamentInput.value.trim();
-    if (!tournament) {
-      status.textContent = "Enter a tournament name.";
-      return;
-    }
+  function fillTournaments() {
+    const year = pointsData.years.find(item => String(item.year) === yearSelect.value);
+    tournamentSelect.replaceChildren();
+    (year?.tournaments || []).forEach(tournament => {
+      const option = document.createElement("option");
+      option.value = tournament.id;
+      option.textContent = tournament.name;
+      tournamentSelect.appendChild(option);
+    });
+    renderTable();
+  }
 
-    status.textContent = "Loading standings...";
+  function renderTable() {
+    if (!pointsData) return;
+    const tournament = selectedTournament();
+    title.textContent = tournament
+      ? tournament.name + " " + yearSelect.value
+      : "Points Table " + yearSelect.value;
     body.replaceChildren();
 
+    const teams = Array.isArray(tournament?.teams) ? [...tournament.teams] : [];
+    teams.sort((a, b) => (Number(b.points) - Number(a.points)) ||
+      (Number(b.nrr || 0) - Number(a.nrr || 0)));
+
+    teams.forEach(team => {
+      const row = document.createElement("tr");
+      [
+        team.team_name, team.played, team.won, team.lost,
+        team.no_result, team.points, Number(team.nrr || 0).toFixed(3)
+      ].forEach(value => {
+        const cell = document.createElement("td");
+        cell.textContent = value ?? "—";
+        row.appendChild(cell);
+      });
+      body.appendChild(row);
+    });
+
+    status.textContent = teams.length
+      ? "Verified standings loaded."
+      : "Standings for this tournament and year have not been added yet.";
+  }
+
+  async function initPointsTable() {
+    status.textContent = "Loading tournament list...";
     try {
-      const response = await fetch(
-        API + "/points?tournament=" + encodeURIComponent(tournament)
-      );
-      const data = await response.json();
-
-      if (!response.ok) throw new Error(data.error || "Could not load standings.");
-
-      for (const team of data.teams || []) {
-        const row = document.createElement("tr");
-        row.style.borderBottom = "1px solid #292e3a";
-
-        [
-          team.team_name, team.played, team.won,
-          team.lost, team.no_result, team.points
-        ].forEach(value => {
-          const cell = document.createElement("td");
-          cell.style.padding = "12px 8px";
-          cell.textContent = value;
-          row.appendChild(cell);
-        });
-
-        body.appendChild(row);
+      const response = await fetch("./points-data.json", { cache: "no-store" });
+      if (!response.ok) throw new Error("Could not load points-data.json.");
+      pointsData = await response.json();
+      if (!Array.isArray(pointsData.years) || !pointsData.years.length) {
+        throw new Error("No years are configured yet.");
       }
 
-      status.textContent = data.teams && data.teams.length
-        ? "Standings loaded."
-        : "No teams added yet. Use the admin form to add teams.";
+      yearSelect.replaceChildren();
+      pointsData.years
+        .slice()
+        .sort((a, b) => Number(b.year) - Number(a.year))
+        .forEach(item => {
+          const option = document.createElement("option");
+          option.value = String(item.year);
+          option.textContent = String(item.year);
+          yearSelect.appendChild(option);
+        });
+
+      yearSelect.value = pointsData.years.some(item => String(item.year) === "2026")
+        ? "2026"
+        : yearSelect.options[0].value;
+      fillTournaments();
     } catch (error) {
-      status.textContent = error.message || "Could not load standings.";
+      status.textContent = error.message || "Could not load the points table.";
     }
   }
 
-  document.getElementById("load-points").addEventListener("click", loadPoints);
-
-  document.getElementById("save-points").addEventListener("click", async () => {
-    const tournament = tournamentInput.value.trim();
-    const token = adminToken.value;
-    adminStatus.textContent = "";
-
-    if (!tournament || !token) {
-      adminStatus.textContent = "Enter the tournament name and admin token.";
-      return;
-    }
-
-    let teams;
-    try {
-      teams = JSON.parse(teamData.value);
-    } catch {
-      adminStatus.textContent = "Team data is not valid JSON.";
-      return;
-    }
-
-    adminStatus.textContent = "Saving...";
-
-    try {
-      const response = await fetch(API + "/points", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": "Bearer " + token
-        },
-        body: JSON.stringify({ tournament, teams })
-      });
-
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.error || "Could not save standings.");
-
-      adminStatus.textContent = "Standings saved successfully!";
-      adminToken.value = "";
-      await loadPoints();
-    } catch (error) {
-      adminStatus.textContent = error.message || "Could not save standings.";
-    }
-  });
-
-  loadPoints();
+  yearSelect.addEventListener("change", fillTournaments);
+  tournamentSelect.addEventListener("change", renderTable);
+  initPointsTable();
 })();
 </script>
 
