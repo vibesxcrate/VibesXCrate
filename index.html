@@ -403,9 +403,8 @@ matches.forEach(match => {
 
   const isOngoing =
     !isLive &&
-    (match.matchStarted === true ||
-      /stumps|day \d+|session|lunch|tea/i.test(status));
-
+    /stumps|day \d+|session|lunch|tea/i.test(status);
+  
   const badgeText = isLive
     ? "LIVE"
     : isOngoing
