@@ -273,7 +273,23 @@
     {"team_name": "England", "played": 3, "won": 0, "lost": 3, "no_result": 0, "points": 0, "nrr": -1.159}
   ]
 },
- {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
+ 
+
+{
+  "id": "womens-world-cup",
+  "name": "ICC Women's Cricket World Cup",
+  "teams": [
+    {"team_name": "Australia", "played": 7, "won": 6, "lost": 0, "no_result": 1, "points": 13, "nrr": 2.102},
+    {"team_name": "England", "played": 7, "won": 5, "lost": 1, "no_result": 1, "points": 11, "nrr": 1.233},
+    {"team_name": "South Africa", "played": 7, "won": 5, "lost": 2, "no_result": 0, "points": 10, "nrr": -0.379},
+    {"team_name": "India", "played": 7, "won": 3, "lost": 3, "no_result": 1, "points": 7, "nrr": 0.628},
+    {"team_name": "Sri Lanka", "played": 7, "won": 1, "lost": 3, "no_result": 3, "points": 5, "nrr": -1.035},
+    {"team_name": "New Zealand", "played": 7, "won": 1, "lost": 4, "no_result": 2, "points": 4, "nrr": -0.876},
+    {"team_name": "Bangladesh", "played": 7, "won": 1, "lost": 5, "no_result": 1, "points": 3, "nrr": -0.578},
+    {"team_name": "Pakistan", "played": 7, "won": 0, "lost": 4, "no_result": 3, "points": 3, "nrr": -2.651}
+  ]
+},
+ {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
     {"year": 2026, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Royal Challengers Bengaluru","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.783},
   {"team_name":"Gujarat Titans","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.695},
