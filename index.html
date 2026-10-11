@@ -411,6 +411,8 @@ html {
   const title = document.getElementById("points-table-title");
   const status = document.getElementById("points-status");
   const body = document.getElementById("points-table-body");
+  const stageControls = document.getElementById("points-stage-controls");
+let selectedStage = "Group Stage";
   let pointsData = null;
 
   function selectedTournament() {
@@ -430,35 +432,110 @@ html {
     renderTable();
   }
 
+  
   function renderTable() {
     if (!pointsData) return;
+
     const tournament = selectedTournament();
     title.textContent = tournament
       ? tournament.name + " " + yearSelect.value
       : "Points Table " + yearSelect.value;
-    body.replaceChildren();
 
-    const teams = Array.isArray(tournament?.teams) ? [...tournament.teams] : [];
-    teams.sort((a, b) => (Number(b.points) - Number(a.points)) ||
-      (Number(b.nrr || 0) - Number(a.nrr || 0)));
+    body.replaceChildren();
+    stageControls.replaceChildren();
+    stageControls.hidden = true;
+
+    if (!tournament) {
+      status.textContent = "No tournament selected.";
+      return;
+    }
+
+    // Support separate tournament stages when stage data is available.
+    const stages = Array.isArray(tournament.stages)
+      ? tournament.stages
+      : [];
+
+    // Keep existing tournaments working without stage data.
+    const hasGroups = Array.isArray(tournament.teams) &&
+      tournament.teams.some(team => team.group);
+
+    const availableStages = stages.length
+      ? stages
+      : hasGroups
+        ? [{ name: "Group Stage", teams: tournament.teams }]
+        : [];
+
+    let teams;
+
+    if (availableStages.length) {
+      stageControls.hidden = false;
+
+      if (!availableStages.some(stage => stage.name === selectedStage)) {
+        selectedStage = availableStages[0].name;
+      }
+
+      availableStages.forEach(stage => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "points-stage-button" +
+          (stage.name === selectedStage ? " active" : "");
+        button.textContent = stage.name;
+        button.setAttribute(
+          "aria-pressed",
+          String(stage.name === selectedStage)
+        );
+
+        button.addEventListener("click", () => {
+          selectedStage = stage.name;
+          renderTable();
+        });
+
+        stageControls.appendChild(button);
+      });
+
+      const currentStage = availableStages.find(
+        stage => stage.name === selectedStage
+      );
+
+      teams = Array.isArray(currentStage?.teams)
+        ? [...currentStage.teams]
+        : [];
+    } else {
+      teams = Array.isArray(tournament.teams)
+        ? [...tournament.teams]
+        : [];
+    }
+
+    teams.sort((a, b) =>
+      (Number(b.points ?? 0) - Number(a.points ?? 0)) ||
+      (Number(b.nrr ?? 0) - Number(a.nrr ?? 0))
+    );
 
     teams.forEach(team => {
       const row = document.createElement("tr");
+
       [
-        team.team_name, team.played, team.won, team.lost,
-        team.no_result, team.points, Number(team.nrr || 0).toFixed(3)
+        team.team_name,
+        team.played,
+        team.won,
+        team.lost,
+        team.no_result,
+        team.points,
+        Number(team.nrr ?? 0).toFixed(3)
       ].forEach(value => {
         const cell = document.createElement("td");
         cell.textContent = value ?? "—";
         row.appendChild(cell);
       });
+
       body.appendChild(row);
     });
 
     status.textContent = teams.length
-      ? "Verified standings loaded."
-      : "Standings for this tournament and year have not been added yet.";
+      ? "Standings loaded."
+      : "Standings for this stage have not been added yet.";
   }
+
 
   async function initPointsTable() {
     status.textContent = "Loading tournament list...";
