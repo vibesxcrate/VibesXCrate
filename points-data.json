@@ -271,10 +271,21 @@
         {"team_name": "Nepal", "played": 4, "won": 0, "lost": 3, "no_result": 1, "points": 1, "nrr": -0.542, "group": "Group D"}
     ]
   },
-  {
-    "name": "Super 8",
-    "teams": []
-  },
+  
+{
+  "name": "Super 8",
+  "teams": [
+    {"team_name": "India", "played": 3, "won": 3, "lost": 0, "no_result": 0, "points": 6, "nrr": 2.017, "group": "Super 8 Group 1"},
+    {"team_name": "Afghanistan", "played": 3, "won": 2, "lost": 1, "no_result": 0, "points": 4, "nrr": -0.305, "group": "Super 8 Group 1"},
+    {"team_name": "Australia", "played": 3, "won": 1, "lost": 2, "no_result": 0, "points": 2, "nrr": -0.331, "group": "Super 8 Group 1"},
+    {"team_name": "Bangladesh", "played": 3, "won": 0, "lost": 3, "no_result": 0, "points": 0, "nrr": -1.709, "group": "Super 8 Group 1"},
+    {"team_name": "South Africa", "played": 3, "won": 3, "lost": 0, "no_result": 0, "points": 6, "nrr": 0.599, "group": "Super 8 Group 2"},
+    {"team_name": "England", "played": 3, "won": 2, "lost": 1, "no_result": 0, "points": 4, "nrr": 1.992, "group": "Super 8 Group 2"},
+    {"team_name": "West Indies", "played": 3, "won": 1, "lost": 2, "no_result": 0, "points": 2, "nrr": 0.963, "group": "Super 8 Group 2"},
+    {"team_name": "USA", "played": 3, "won": 0, "lost": 3, "no_result": 0, "points": 0, "nrr": -3.906, "group": "Super 8 Group 2"}
+  ]
+},
+
   {
     "name": "Knockout",
     "teams": []
