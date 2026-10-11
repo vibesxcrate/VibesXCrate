@@ -268,7 +268,7 @@
     {"team_name": "Nepal", "played": 4, "won": 0, "lost": 3, "no_result": 1, "points": 1, "nrr": -0.542, "group": "Group D"}
   ]
 },
-, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+ {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2025, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Punjab Kings","played":14,"won":9,"lost":4,"no_result":1,"points":19,"nrr":0.372},
   {"team_name":"Royal Challengers Bengaluru","played":14,"won":9,"lost":4,"no_result":1,"points":19,"nrr":0.301},
