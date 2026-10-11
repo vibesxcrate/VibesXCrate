@@ -239,27 +239,42 @@ async function loadCricketMatches() {
       throw new Error(result.reason || "Cricket data unavailable");
     }
 
-    const today = new Date().toISOString().slice(0, 10);
+   const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+const todayStr = [
+  today.getFullYear(),
+  String(today.getMonth() + 1).padStart(2, "0"),
+  String(today.getDate()).padStart(2, "0")
+].join("-");
 
 const matches = [...result.data]
+  .filter(match => {
+    const status = (match.status || "").toLowerCase();
+
+    const completed =
+      match.matchEnded === true ||
+      /match ended|completed|finished|won by|no result|abandoned|cancelled|canceled/i.test(status);
+
+    return !completed;
+  })
   .sort((a, b) => {
-    const getPriority = (match) => {
+    const priority = match => {
       const status = (match.status || "").toLowerCase();
 
       if (
         status.includes("live") ||
-        status.includes("in progress") ||
-        status.includes("stumps")
+        status.includes("in progress")
       ) return 0;
 
-      if (match.date >= today) return 1;
+      if (match.date >= todayStr) return 1;
 
       return 2;
     };
 
-    return getPriority(a) - getPriority(b) ||
-      (new Date(b.dateTimeGMT || b.date || 0) -
-       new Date(a.dateTimeGMT || a.date || 0));
+    return priority(a) - priority(b) ||
+      new Date(a.dateTimeGMT || a.date || 0) -
+      new Date(b.dateTimeGMT || b.date || 0);
   })
   .slice(0, 6);
 
