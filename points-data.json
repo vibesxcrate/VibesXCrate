@@ -1,0 +1,84 @@
+{
+  "years": [
+    {
+      "year": 2026,
+      "tournaments": [
+        {
+          "id": "ipl",
+          "name": "IPL",
+          "teams": []
+        },
+        {
+          "id": "wpl",
+          "name": "WPL",
+          "teams": []
+        },
+        {
+          "id": "icc-mens-t20-world-cup",
+          "name": "ICC Men's T20 World Cup",
+          "teams": []
+        },
+        {
+          "id": "icc-womens-t20-world-cup",
+          "name": "ICC Women's T20 World Cup",
+          "teams": []
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "tournaments": [
+        {
+          "id": "ipl",
+          "name": "IPL",
+          "teams": []
+        },
+        {
+          "id": "wpl",
+          "name": "WPL",
+          "teams": []
+        },
+        {
+          "id": "icc-champions-trophy",
+          "name": "ICC Champions Trophy",
+          "teams": []
+        },
+        {
+          "id": "asia-cup",
+          "name": "Asia Cup",
+          "teams": []
+        },
+        {
+          "id": "icc-womens-cricket-world-cup",
+          "name": "ICC Women's Cricket World Cup",
+          "teams": []
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "tournaments": [
+        {
+          "id": "ipl",
+          "name": "IPL",
+          "teams": []
+        },
+        {
+          "id": "wpl",
+          "name": "WPL",
+          "teams": []
+        },
+        {
+          "id": "icc-mens-t20-world-cup",
+          "name": "ICC Men's T20 World Cup",
+          "teams": []
+        },
+        {
+          "id": "icc-womens-t20-world-cup",
+          "name": "ICC Women's T20 World Cup",
+          "teams": []
+        }
+      ]
+    }
+  ]
+}
