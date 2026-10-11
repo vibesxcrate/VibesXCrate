@@ -126,7 +126,7 @@
   {"team_name":"Sunrisers Hyderabad","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":-0.239},
   {"team_name":"Delhi Daredevils","played":14,"won":5,"lost":8,"no_result":1,"points":11,"nrr":-0.049},
   {"team_name":"Kings XI Punjab","played":14,"won":3,"lost":11,"no_result":0,"points":6,"nrr":-1.436}
-]}, {"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "ipl", "name": "IPL", "teams": []}]},
+]}, {"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
     {"year": 2016, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Gujarat Lions","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":-0.374},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":0.932},
@@ -198,7 +198,7 @@
   {"team_name":"Sunrisers Hyderabad","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.379},
   {"team_name":"Chennai Super Kings","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.203},
   {"team_name":"Mumbai Indians","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.506}
-]}, {"id": "mens-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+]}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2023, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Gujarat Titans","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.809},
   {"team_name":"Chennai Super Kings","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.652},
@@ -258,7 +258,22 @@
 {"team_name":"Royal Challengers Bengaluru","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.196},
 {"team_name":"UP Warriorz","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.259}
 ]}, 
-{"id": "mens-world-cup", "name": "ICC Champions Trophy", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
+
+{
+  "id": "champions-trophy",
+  "name": "ICC Champions Trophy",
+  "teams": [
+    {"team_name": "India", "played": 3, "won": 3, "lost": 0, "no_result": 0, "points": 6, "nrr": 0.715},
+    {"team_name": "New Zealand", "played": 3, "won": 2, "lost": 1, "no_result": 0, "points": 4, "nrr": 0.267},
+    {"team_name": "Bangladesh", "played": 3, "won": 0, "lost": 2, "no_result": 1, "points": 1, "nrr": -0.443},
+    {"team_name": "Pakistan", "played": 3, "won": 0, "lost": 2, "no_result": 1, "points": 1, "nrr": -1.087},
+    {"team_name": "South Africa", "played": 3, "won": 2, "lost": 0, "no_result": 1, "points": 5, "nrr": 2.395},
+    {"team_name": "Australia", "played": 3, "won": 1, "lost": 0, "no_result": 2, "points": 4, "nrr": 0.475},
+    {"team_name": "Afghanistan", "played": 3, "won": 1, "lost": 1, "no_result": 1, "points": 3, "nrr": -0.990},
+    {"team_name": "England", "played": 3, "won": 0, "lost": 3, "no_result": 0, "points": 0, "nrr": -1.159}
+  ]
+},
+ {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
     {"year": 2026, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Royal Challengers Bengaluru","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.783},
   {"team_name":"Gujarat Titans","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.695},
