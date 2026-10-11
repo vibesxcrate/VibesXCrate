@@ -239,7 +239,29 @@ async function loadCricketMatches() {
       throw new Error(result.reason || "Cricket data unavailable");
     }
 
-    const matches = result.data.slice(0, 6);
+    const today = new Date().toISOString().slice(0, 10);
+
+const matches = [...result.data]
+  .sort((a, b) => {
+    const getPriority = (match) => {
+      const status = (match.status || "").toLowerCase();
+
+      if (
+        status.includes("live") ||
+        status.includes("in progress") ||
+        status.includes("stumps")
+      ) return 0;
+
+      if (match.date >= today) return 1;
+
+      return 2;
+    };
+
+    return getPriority(a) - getPriority(b) ||
+      (new Date(b.dateTimeGMT || b.date || 0) -
+       new Date(a.dateTimeGMT || a.date || 0));
+  })
+  .slice(0, 6);
 
     if (matches.length === 0) {
       status.textContent = "No match information is available right now.";
@@ -301,7 +323,7 @@ matches.forEach(match => {
 }
 
 loadCricketMatches();
-setInterval(loadCricketMatches, 60000);
+setInterval(loadCricketMatches, 300000);
 
   
 async function loadCricketNews() {
