@@ -103,6 +103,107 @@
   filter: brightness(1.12);
 }
 
+    
+/* Professional live match cards */
+.live-card {
+  border: 1px solid #343b4c;
+  border-radius: 16px;
+  padding: 20px;
+  background: linear-gradient(145deg, #141a28, #20283a);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.live-card:hover {
+  transform: translateY(-4px);
+  border-color: #e6bd62;
+}
+
+.match-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.match-format {
+  color: #c9cddd;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.match-badge {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.match-badge.live {
+  background: #3b111b;
+  color: #ff647c;
+}
+
+.match-badge.upcoming {
+  background: #332a0b;
+  color: #ffd66b;
+}
+
+.match-badge.ongoing {
+  background: #10352c;
+  color: #6ee7b7;
+}
+
+.live-heading {
+  color: #ffffff;
+  overflow-wrap: anywhere;
+  line-height: 1.4;
+}
+
+.live-score-box {
+  padding: 12px;
+  margin: 14px 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.live-score {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.match-details-button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid #58657b;
+  border-radius: 9px;
+  background: #29364d;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.match-details-button:hover {
+  background: #394965;
+}
+
+.match-extra {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  overflow-wrap: anywhere;
+}
+
+.match-extra[hidden] {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -289,15 +390,46 @@ const matches = [...result.data]
     list.replaceChildren();
 
    
+
 matches.forEach(match => {
   const card = document.createElement("article");
   card.className = "card live-card";
 
-  const label = document.createElement("p");
-  label.className = "label";
-  label.textContent = match.matchType
-    ? match.matchType.toUpperCase() + " MATCH"
-    : "CRICKET MATCH";
+  const status = (match.status || "").toLowerCase();
+  const type = (match.matchType || "cricket").toUpperCase();
+
+  const isLive =
+    /\blive\b|in progress|innings break/i.test(status);
+
+  const isOngoing =
+    !isLive &&
+    (match.matchStarted === true ||
+      /stumps|day \d+|session|lunch|tea/i.test(status));
+
+  const badgeText = isLive
+    ? "LIVE"
+    : isOngoing
+      ? "IN PROGRESS"
+      : "UPCOMING";
+
+  const badgeClass = isLive
+    ? "live"
+    : isOngoing
+      ? "ongoing"
+      : "upcoming";
+
+  const topLine = document.createElement("div");
+  topLine.className = "match-topline";
+
+  const label = document.createElement("span");
+  label.className = "match-format";
+  label.textContent = type + " MATCH";
+
+  const badge = document.createElement("span");
+  badge.className = "match-badge " + badgeClass;
+  badge.textContent = badgeText;
+
+  topLine.append(label, badge);
 
   const heading = document.createElement("h3");
   heading.className = "live-heading";
@@ -323,13 +455,55 @@ matches.forEach(match => {
     scoreBox.appendChild(noScore);
   }
 
-  const details = document.createElement("p");
-  details.className = "muted";
-  details.textContent = match.status || "Match status unavailable";
+  const statusLine = document.createElement("p");
+  statusLine.className = "muted";
+  statusLine.textContent =
+    match.status || "Match status unavailable";
 
-  card.append(label, heading, scoreBox, details);
+  const extra = document.createElement("div");
+  extra.className = "match-extra";
+  extra.hidden = true;
+
+  const extraInfo = [
+    ["Format", type],
+    ["Status", match.status || "Not available"],
+    ["Venue", match.venue || "Not available"],
+    ["Date", match.date || "Not available"],
+    ["Started", match.matchStarted === true ? "Yes" : "Not confirmed"],
+    ["Completed", match.matchEnded === true ? "Yes" : "No"]
+  ];
+
+  extraInfo.forEach(([key, value]) => {
+    const line = document.createElement("p");
+    line.className = "muted";
+    line.textContent = key + ": " + value;
+    extra.appendChild(line);
+  });
+
+  const detailsButton = document.createElement("button");
+  detailsButton.className = "match-details-button";
+  detailsButton.type = "button";
+  detailsButton.textContent = "VIEW MATCH DETAILS +";
+
+  detailsButton.addEventListener("click", () => {
+    extra.hidden = !extra.hidden;
+    detailsButton.textContent = extra.hidden
+      ? "VIEW MATCH DETAILS +"
+      : "HIDE MATCH DETAILS −";
+  });
+
+  card.append(
+    topLine,
+    heading,
+    scoreBox,
+    statusLine,
+    detailsButton,
+    extra
+  );
+
   list.appendChild(card);
 });
+
   } catch (error) { 
     status.textContent =
       "Unable to load scores right now. Please try again later.";
