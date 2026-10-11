@@ -450,6 +450,34 @@ matches.forEach(match => {
   const heading = document.createElement("h3");
   heading.className = "live-heading";
   heading.textContent = match.name || "Cricket match";
+  
+
+  const scorecardButton = document.createElement("button");
+  scorecardButton.className = "match-details-button";
+  scorecardButton.type = "button";
+  scorecardButton.textContent = "VIEW FULL SCORECARD 🏏";
+
+  const scorecardPanel = document.createElement("div");
+  scorecardPanel.className = "match-extra";
+  scorecardPanel.hidden = true;
+
+  scorecardButton.addEventListener("click", async () => {
+    scorecardPanel.hidden = false;
+    scorecardPanel.textContent = "Loading scorecard...";
+
+    try {
+      if (!match.id) {
+        throw new Error("Match ID is not available");
+      }
+
+      const scorecard = await loadMatchScorecard(match.id);
+      scorecardPanel.textContent =
+        JSON.stringify(scorecard, null, 2);
+    } catch (error) {
+      scorecardPanel.textContent =
+        "Scorecard unavailable: " + error.message;
+    }
+  });
 
   const scoreBox = document.createElement("div");
   scoreBox.className = "live-score-box";
@@ -508,14 +536,18 @@ matches.forEach(match => {
       : "HIDE MATCH DETAILS −";
   });
 
+  
   card.append(
     topLine,
     heading,
     scoreBox,
     statusLine,
     detailsButton,
-    extra
+    extra,
+    scorecardButton,
+    scorecardPanel
   );
+
 
   list.appendChild(card);
 });
