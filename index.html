@@ -322,6 +322,23 @@ html {
 
 <script>
 const CRICKET_WORKER_URL = "https://vibesxcrate-live-api.granthsharma-1235.workers.dev/";
+  
+
+async function loadMatchScorecard(matchId) {
+  const url = CRICKET_WORKER_URL +
+    "scorecard?id=" + encodeURIComponent(matchId);
+
+  const response = await fetch(url);
+  const result = await response.json();
+
+  if (!response.ok || result.status === "failure") {
+    throw new Error(
+      result.reason || result.error || "Scorecard unavailable"
+    );
+  }
+
+  return result;
+}
 
 async function loadCricketMatches() {
   const status = document.getElementById("live-status");
