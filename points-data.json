@@ -237,8 +237,7 @@
 {"team_name":"Royal Challengers Bengaluru","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.306},
 {"team_name":"UP Warriorz","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.371},
 {"team_name":"Gujarat Giants","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-1.158}
-]}
-}, 
+]}, 
 {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2025, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Punjab Kings","played":14,"won":9,"lost":4,"no_result":1,"points":19,"nrr":0.372},
