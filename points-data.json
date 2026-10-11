@@ -238,6 +238,17 @@
   {"team_name":"Chennai Super Kings","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.647}
 ]
 }, {"id": "wpl", "name": "WPL", "teams": []}, {"id": "mens-world-cup", "name": "ICC Champions Trophy", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
-    {"year": 2026, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "wpl", "name": "WPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]}
+    {"year": 2026, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+  {"team_name":"Royal Challengers Bengaluru","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.783},
+  {"team_name":"Gujarat Titans","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.695},
+  {"team_name":"Sunrisers Hyderabad","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.524},
+  {"team_name":"Rajasthan Royals","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":0.189},
+  {"team_name":"Punjab Kings","played":14,"won":7,"lost":6,"no_result":1,"points":15,"nrr":0.309},
+  {"team_name":"Delhi Capitals","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":-0.651},
+  {"team_name":"Kolkata Knight Riders","played":14,"won":6,"lost":7,"no_result":1,"points":13,"nrr":-0.147},
+  {"team_name":"Chennai Super Kings","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.345},
+  {"team_name":"Mumbai Indians","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.584},
+  {"team_name":"Lucknow Super Giants","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.740}
+]}, {"id": "wpl", "name": "WPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]}
   ]
 }
