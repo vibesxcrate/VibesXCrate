@@ -259,6 +259,30 @@ html {
       .points-select { padding: 10px 7px; font-size: 13px; }
     }
 
+.points-stage-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 18px;
+}
+
+.points-stage-button {
+  padding: 9px 13px;
+  border: 1px solid #4a5060;
+  border-radius: 7px;
+  background: #141720;
+  color: #f7f7f7;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.points-stage-button.active {
+  background: #e6bd62;
+  color: #111;
+  border-color: #e6bd62;
+  font-weight: bold;
+}
+    
   </style>
 </head>
 <body>
@@ -359,6 +383,7 @@ html {
     </div>
 
     <h3 id="points-table-title" class="points-table-title">IPL 2026</h3>
+    <div id="points-stage-controls" class="points-stage-controls" hidden></div>
     <p id="points-status" class="muted" aria-live="polite">Loading standings...</p>
 
     <div class="points-table-wrap">
