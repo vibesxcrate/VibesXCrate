@@ -1,84 +1,66 @@
+
 {
+  "metadata": {
+    "title": "VibesXCrate Historical Cricket Archive",
+    "start_year": 1973,
+    "end_year": 2026,
+    "note": "Empty teams arrays mean verified standings have not yet been added. They do not mean zero points.",
+    "nrr_note": "Do not invent historical net run rates."
+  },
   "years": [
-    {
-      "year": 2026,
-      "tournaments": [
-        {
-          "id": "ipl",
-          "name": "IPL",
-          "teams": []
-        },
-        {
-          "id": "wpl",
-          "name": "WPL",
-          "teams": []
-        },
-        {
-          "id": "icc-mens-t20-world-cup",
-          "name": "ICC Men's T20 World Cup",
-          "teams": []
-        },
-        {
-          "id": "icc-womens-t20-world-cup",
-          "name": "ICC Women's T20 World Cup",
-          "teams": []
-        }
-      ]
-    },
-    {
-      "year": 2025,
-      "tournaments": [
-        {
-          "id": "ipl",
-          "name": "IPL",
-          "teams": []
-        },
-        {
-          "id": "wpl",
-          "name": "WPL",
-          "teams": []
-        },
-        {
-          "id": "icc-champions-trophy",
-          "name": "ICC Champions Trophy",
-          "teams": []
-        },
-        {
-          "id": "asia-cup",
-          "name": "Asia Cup",
-          "teams": []
-        },
-        {
-          "id": "icc-womens-cricket-world-cup",
-          "name": "ICC Women's Cricket World Cup",
-          "teams": []
-        }
-      ]
-    },
-    {
-      "year": 2024,
-      "tournaments": [
-        {
-          "id": "ipl",
-          "name": "IPL",
-          "teams": []
-        },
-        {
-          "id": "wpl",
-          "name": "WPL",
-          "teams": []
-        },
-        {
-          "id": "icc-mens-t20-world-cup",
-          "name": "ICC Men's T20 World Cup",
-          "teams": []
-        },
-        {
-          "id": "icc-womens-t20-world-cup",
-          "name": "ICC Women's T20 World Cup",
-          "teams": []
-        }
-      ]
-    }
+    {"year": 1973, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
+    {"year": 1974, "tournaments": []},
+    {"year": 1975, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    {"year": 1976, "tournaments": []},
+    {"year": 1977, "tournaments": []},
+    {"year": 1978, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
+    {"year": 1979, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    {"year": 1980, "tournaments": []},
+    {"year": 1981, "tournaments": []},
+    {"year": 1982, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
+    {"year": 1983, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    {"year": 1984, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+    {"year": 1985, "tournaments": []},
+    {"year": 1986, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+    {"year": 1987, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    {"year": 1988, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 1989, "tournaments": []},
+    {"year": 1990, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+    {"year": 1991, "tournaments": []},
+    {"year": 1992, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    {"year": 1993, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
+    {"year": 1994, "tournaments": []},
+    {"year": 1995, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+    {"year": 1996, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    {"year": 1997, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+    {"year": 1998, "tournaments": [{"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 1999, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    {"year": 2000, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2001, "tournaments": []},
+    {"year": 2002, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}]},
+    {"year": 2003, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    {"year": 2004, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2005, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}]},
+    {"year": 2006, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2007, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}]},
+    {"year": 2008, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2009, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}]},
+    {"year": 2010, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2011, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "ipl", "name": "IPL", "teams": []}]},
+    {"year": 2012, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2013, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "IPL", "teams": []}]},
+    {"year": 2014, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2015, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "ipl", "name": "IPL", "teams": []}]},
+    {"year": 2016, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2017, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "IPL", "teams": []}]},
+    {"year": 2018, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2019, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "ipl", "name": "IPL", "teams": []}]},
+    {"year": 2020, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2021, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}]},
+    {"year": 2022, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2023, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
+    {"year": 2024, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2025, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "wpl", "name": "WPL", "teams": []}, {"id": "mens-world-cup", "name": "ICC Champions Trophy", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
+    {"year": 2026, "tournaments": [{"id": "ipl", "name": "IPL", "teams": []}, {"id": "wpl", "name": "WPL", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]}
   ]
 }
