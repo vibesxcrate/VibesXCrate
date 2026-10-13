@@ -254,10 +254,32 @@ html {
     .points-table td:first-child, .points-table th:first-child {
       text-align: left;
     }
-    @media (max-width: 480px) {
-      .points-controls { gap: 8px; }
-      .points-select { padding: 10px 7px; font-size: 13px; }
-    }
+    
+@media (max-width: 480px) {
+  .points-controls {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .points-select {
+    width: 100%;
+    min-height: 42px;
+    padding: 9px 10px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  .points-table-title {
+    font-size: 18px;
+    overflow-wrap: anywhere;
+  }
+
+  .points-stage-button {
+    padding: 9px 11px;
+    font-size: 12px;
+  }
+}
+
 
 .points-stage-controls {
   display: flex;
