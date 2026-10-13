@@ -304,7 +304,68 @@ html {
   border-color: #e6bd62;
   font-weight: bold;
 }
+
     
+/* Custom dark dropdowns for mobile */
+.custom-select {
+  display: block;
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f7f7f7;
+  background: #11141c;
+  border: 1px solid #4a5060;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.custom-select:focus-visible {
+  outline: 2px solid #e6bd62;
+  outline-offset: 2px;
+}
+
+.custom-select-menu {
+  margin-top: 6px;
+  max-height: 220px;
+  overflow-y: auto;
+  background: #11141c;
+  border: 1px solid #343b4c;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.custom-select-menu[hidden] {
+  display: none;
+}
+
+.custom-select-option {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  border: 0;
+  border-bottom: 1px solid #292e3a;
+  background: transparent;
+  color: #f7f7f7;
+  text-align: left;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.custom-select-option:last-child {
+  border-bottom: 0;
+}
+
+.custom-select-option:hover,
+.custom-select-option:focus-visible,
+.custom-select-option.active {
+  background: #e6bd62;
+  color: #11141c;
+}
+ 
   </style>
 </head>
 <body>
@@ -392,17 +453,37 @@ html {
   <h2 style="text-align:center;font-size:28px;letter-spacing:1px;">POINTS TABLE</h2>
   <p class="muted" style="text-align:center;">Choose a year and tournament to view the standings.</p>
 
-  <div class="card">
-    <div class="points-controls">
-      <div class="points-control">
-        <label for="points-year" class="label">YEAR</label>
-        <select id="points-year" class="points-select" aria-label="Choose year"></select>
-      </div>
-      <div class="points-control">
-        <label for="points-tournament" class="label">TOURNAMENT</label>
-        <select id="points-tournament" class="points-select" aria-label="Choose tournament"></select>
-      </div>
+  
+<div class="card">
+  <div class="points-controls">
+    <div class="points-control">
+      <label for="points-year" class="label">YEAR</label>
+      <button
+        type="button"
+        id="points-year"
+        class="points-select custom-select"
+        aria-label="Choose year"
+        aria-expanded="false">
+        Choose year ▾
+      </button>
+      <div id="points-year-menu" class="custom-select-menu" hidden></div>
     </div>
+
+    <div class="points-control">
+      <label for="points-tournament" class="label">TOURNAMENT</label>
+      <button
+        type="button"
+        id="points-tournament"
+        class="points-select custom-select"
+        aria-label="Choose tournament"
+        aria-expanded="false">
+        Choose tournament ▾
+      </button>
+      <div id="points-tournament-menu" class="custom-select-menu" hidden></div>
+    </div>
+  </div>
+</div>
+
 
     <h3 id="points-table-title" class="points-table-title">IPL 2026</h3>
     <div id="points-stage-controls" class="points-stage-controls" hidden></div>
@@ -426,42 +507,131 @@ html {
   </div>
 </section>
 
+
 <script>
 (() => {
   const yearSelect = document.getElementById("points-year");
   const tournamentSelect = document.getElementById("points-tournament");
+  const yearMenu = document.getElementById("points-year-menu");
+  const tournamentMenu = document.getElementById("points-tournament-menu");
   const title = document.getElementById("points-table-title");
   const status = document.getElementById("points-status");
   const body = document.getElementById("points-table-body");
   const stageControls = document.getElementById("points-stage-controls");
-let selectedStage = "Group Stage";
+
+  let selectedStage = "Group Stage";
   let pointsData = null;
+  let selectedYear = "";
+  let selectedTournamentId = "";
 
   function selectedTournament() {
-    const year = pointsData.years.find(item => String(item.year) === yearSelect.value);
-    return year?.tournaments.find(item => item.id === tournamentSelect.value);
+    const year = pointsData?.years.find(
+      item => String(item.year) === selectedYear
+    );
+    return year?.tournaments?.find(
+      item => item.id === selectedTournamentId
+    );
+  }
+
+  function closeMenus() {
+    yearMenu.hidden = true;
+    tournamentMenu.hidden = true;
+    yearSelect.setAttribute("aria-expanded", "false");
+    tournamentSelect.setAttribute("aria-expanded", "false");
+  }
+
+  function renderMenu(button, menu, options, selectedValue, onSelect) {
+    menu.replaceChildren();
+
+    options.forEach(optionData => {
+      const option = document.createElement("button");
+      option.type = "button";
+      option.className = "custom-select-option" +
+        (String(optionData.value) === String(selectedValue) ? " active" : "");
+      option.textContent = optionData.label;
+      option.setAttribute(
+        "aria-pressed",
+        String(String(optionData.value) === String(selectedValue))
+      );
+
+      option.addEventListener("click", () => {
+        onSelect(String(optionData.value));
+        closeMenus();
+      });
+
+      menu.appendChild(option);
+    });
+  }
+
+  function updateYearMenu() {
+    const years = pointsData.years
+      .slice()
+      .sort((a, b) => Number(b.year) - Number(a.year))
+      .map(item => ({
+        value: String(item.year),
+        label: String(item.year)
+      }));
+
+    renderMenu(yearSelect, yearMenu, years, selectedYear, value => {
+      selectedYear = value;
+      yearSelect.textContent = value + " ▾";
+      selectedStage = "Group Stage";
+      fillTournaments();
+      updateYearMenu();
+    });
+  }
+
+  function updateTournamentMenu() {
+    const year = pointsData.years.find(
+      item => String(item.year) === selectedYear
+    );
+
+    const tournaments = (year?.tournaments || []).map(tournament => ({
+      value: tournament.id,
+      label: tournament.name
+    }));
+
+    renderMenu(
+      tournamentSelect,
+      tournamentMenu,
+      tournaments,
+      selectedTournamentId,
+      value => {
+        selectedTournamentId = value;
+        const tournament = selectedTournament();
+        tournamentSelect.textContent =
+          (tournament?.name || "Choose tournament") + " ▾";
+        selectedStage = "Group Stage";
+        renderTable();
+        updateTournamentMenu();
+      }
+    );
   }
 
   function fillTournaments() {
-    const year = pointsData.years.find(item => String(item.year) === yearSelect.value);
-    tournamentSelect.replaceChildren();
-    (year?.tournaments || []).forEach(tournament => {
-      const option = document.createElement("option");
-      option.value = tournament.id;
-      option.textContent = tournament.name;
-      tournamentSelect.appendChild(option);
-    });
+    const year = pointsData.years.find(
+      item => String(item.year) === selectedYear
+    );
+
+    const tournaments = year?.tournaments || [];
+    selectedTournamentId = tournaments.length ? tournaments[0].id : "";
+
+    const firstTournament = tournaments[0];
+    tournamentSelect.textContent =
+      (firstTournament?.name || "Choose tournament") + " ▾";
+
+    updateTournamentMenu();
     renderTable();
   }
 
-  
   function renderTable() {
     if (!pointsData) return;
 
     const tournament = selectedTournament();
+
     title.textContent = tournament
-      ? tournament.name + " " + yearSelect.value
-      : "Points Table " + yearSelect.value;
+      ? tournament.name + " " + selectedYear
+      : "Points Table " + selectedYear;
 
     body.replaceChildren();
     stageControls.replaceChildren();
@@ -472,12 +642,10 @@ let selectedStage = "Group Stage";
       return;
     }
 
-    // Support separate tournament stages when stage data is available.
     const stages = Array.isArray(tournament.stages)
       ? tournament.stages
       : [];
 
-    // Keep existing tournaments working without stage data.
     const hasGroups = Array.isArray(tournament.teams) &&
       tournament.teams.some(team => team.group);
 
@@ -558,39 +726,79 @@ let selectedStage = "Group Stage";
       : "Standings for this stage have not been added yet.";
   }
 
+  yearSelect.addEventListener("click", () => {
+    const opening = yearMenu.hidden;
+    closeMenus();
+
+    if (opening) {
+      yearMenu.hidden = false;
+      yearSelect.setAttribute("aria-expanded", "true");
+    }
+  });
+
+  tournamentSelect.addEventListener("click", () => {
+    const opening = tournamentMenu.hidden;
+    closeMenus();
+
+    if (opening) {
+      tournamentMenu.hidden = false;
+      tournamentSelect.setAttribute("aria-expanded", "true");
+    }
+  });
+
+  document.addEventListener("click", event => {
+    if (
+      !yearSelect.contains(event.target) &&
+      !yearMenu.contains(event.target) &&
+      !tournamentSelect.contains(event.target) &&
+      !tournamentMenu.contains(event.target)
+    ) {
+      closeMenus();
+    }
+  });
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeMenus();
+  });
 
   async function initPointsTable() {
     status.textContent = "Loading tournament list...";
+
     try {
-      const response = await fetch("./points-data.json", { cache: "no-store" });
-      if (!response.ok) throw new Error("Could not load points-data.json.");
+      const response = await fetch("./points-data.json", {
+        cache: "no-store"
+      });
+
+      if (!response.ok) {
+        throw new Error("Could not load points-data.json.");
+      }
+
       pointsData = await response.json();
+
       if (!Array.isArray(pointsData.years) || !pointsData.years.length) {
         throw new Error("No years are configured yet.");
       }
 
-      yearSelect.replaceChildren();
-      pointsData.years
+      const sortedYears = pointsData.years
         .slice()
-        .sort((a, b) => Number(b.year) - Number(a.year))
-        .forEach(item => {
-          const option = document.createElement("option");
-          option.value = String(item.year);
-          option.textContent = String(item.year);
-          yearSelect.appendChild(option);
-        });
+        .sort((a, b) => Number(b.year) - Number(a.year));
 
-      yearSelect.value = pointsData.years.some(item => String(item.year) === "2026")
+      selectedYear = pointsData.years.some(
+        item => String(item.year) === "2026"
+      )
         ? "2026"
-        : yearSelect.options[0].value;
+        : String(sortedYears[0].year);
+
+      yearSelect.textContent = selectedYear + " ▾";
+
+      updateYearMenu();
       fillTournaments();
     } catch (error) {
-      status.textContent = error.message || "Could not load the points table.";
+      status.textContent =
+        error.message || "Could not load the points table.";
     }
   }
 
-  yearSelect.addEventListener("change", fillTournaments);
-  tournamentSelect.addEventListener("change", renderTable);
   initPointsTable();
 })();
 </script>
