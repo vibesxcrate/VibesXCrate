@@ -42,7 +42,258 @@
     {"year": 2004, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2005, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}]},
     {"year": 2006, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2007, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}]},
+    {"year": 2007, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, 
+{
+  "id": "mens-t20-world-cup",
+  "name": "ICC Men's T20 World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "South Africa",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.974,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 0.149,
+          "group": "Group A"
+        },
+        {
+          "team_name": "West Indies",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.233,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Australia",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 0.987,
+          "group": "Group B"
+        },
+        {
+          "team_name": "England",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 0.209,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Zimbabwe",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -1.196,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 4.721,
+          "group": "Group C"
+        },
+        {
+          "team_name": "New Zealand",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 2.396,
+          "group": "Group C"
+        },
+        {
+          "team_name": "Kenya",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -8.047,
+          "group": "Group C"
+        },
+        {
+          "team_name": "India",
+          "played": 2,
+          "won": 1,
+          "lost": 0,
+          "no_result": 1,
+          "points": 3,
+          "nrr": 0,
+          "group": "Group D"
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 1.275,
+          "group": "Group D"
+        },
+        {
+          "team_name": "Scotland",
+          "played": 2,
+          "won": 0,
+          "lost": 1,
+          "no_result": 1,
+          "points": 1,
+          "nrr": -2.55,
+          "group": "Group D"
+        }
+      ]
+    },
+    {
+      "name": "Super 8",
+      "teams": [
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.75,
+          "group": "Group E"
+        },
+        {
+          "team_name": "New Zealand",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.05,
+          "group": "Group E"
+        },
+        {
+          "team_name": "South Africa",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.116,
+          "group": "Group E"
+        },
+        {
+          "team_name": "England",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -0.7,
+          "group": "Group E"
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.843,
+          "group": "Group F"
+        },
+        {
+          "team_name": "Australia",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 2.256,
+          "group": "Group F"
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.697,
+          "group": "Group F"
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.031,
+          "group": "Group F"
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "date": "22 September 2007",
+          "team1": "New Zealand",
+          "score1": "143/8 (20 overs)",
+          "team2": "Pakistan",
+          "score2": "147/4 (18.5 overs)",
+          "result": "Pakistan won by 6 wickets"
+        },
+        {
+          "name": "Semi-Final 2",
+          "date": "22 September 2007",
+          "team1": "India",
+          "score1": "188/5 (20 overs)",
+          "team2": "Australia",
+          "score2": "173/7 (20 overs)",
+          "result": "India won by 15 runs"
+        },
+        {
+          "name": "Final",
+          "date": "24 September 2007",
+          "team1": "India",
+          "score1": "157/5 (20 overs)",
+          "team2": "Pakistan",
+          "score2": "152 all out (19.3 overs)",
+          "result": "India won by 5 runs",
+          "champion": "India"
+        }
+      ]
+    }
+  ]
+}
+
     {"year": 2008, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Rajasthan Royals","played":14,"won":11,"lost":3,"no_result":0,"points":22,"nrr":0.632},
   {"team_name":"Kings XI Punjab","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.509},
