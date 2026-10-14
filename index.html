@@ -500,6 +500,9 @@ html {
       </table>
     </div>
 
+  <div id="points-matches-list" class="cards" hidden
+     style="margin-top:18px;"></div>
+
     <p class="muted" style="margin-top:15px;">
       P = Played · W = Won · L = Lost · NR = No Result · Pts = Points · NRR = Net Run Rate
     </p>
@@ -518,6 +521,8 @@ html {
   const status = document.getElementById("points-status");
   const body = document.getElementById("points-table-body");
   const stageControls = document.getElementById("points-stage-controls");
+  const matchesList = document.getElementById("points-matches-list");
+const tableWrap = document.querySelector(".points-table-wrap");
 
   let selectedStage = "Group Stage";
   let pointsData = null;
@@ -636,6 +641,9 @@ html {
     body.replaceChildren();
     stageControls.replaceChildren();
     stageControls.hidden = true;
+    matchesList.replaceChildren();
+matchesList.hidden = true;
+tableWrap.hidden = false;
 
     if (!tournament) {
       status.textContent = "No tournament selected.";
@@ -690,6 +698,52 @@ html {
       teams = Array.isArray(currentStage?.teams)
         ? [...currentStage.teams]
         : [];
+if (Array.isArray(currentStage?.matches) &&
+    currentStage.matches.length > 0) {
+
+  tableWrap.hidden = true;
+  matchesList.hidden = false;
+
+  currentStage.matches.forEach(match => {
+    const card = document.createElement("article");
+    card.className = "card";
+
+    const label = document.createElement("div");
+    label.className = "label";
+    label.textContent = match.name || "Knockout Match";
+
+    const date = document.createElement("p");
+    date.className = "muted";
+    date.textContent = match.date || "";
+
+    const score = document.createElement("h3");
+    score.textContent =
+      (match.team1 || "Team 1") + " " +
+      (match.score1 || "") + " vs " +
+      (match.team2 || "Team 2") + " " +
+      (match.score2 || "");
+
+    const result = document.createElement("p");
+    result.className = "muted";
+    result.textContent = match.result || "Result unavailable";
+
+    card.append(label, date, score, result);
+
+    if (match.champion) {
+      const champion = document.createElement("p");
+      champion.style.color = "#e6bd62";
+      champion.style.fontWeight = "bold";
+      champion.textContent = "🏆 Champion: " + match.champion;
+      card.appendChild(champion);
+    }
+
+    matchesList.appendChild(card);
+  });
+
+  status.textContent = "Knockout match results loaded.";
+  return;
+}
+      
     } else {
       teams = Array.isArray(tournament.teams)
         ? [...tournament.teams]
