@@ -758,11 +758,9 @@ if (Array.isArray(currentStage?.matches) &&
 
     
 if (
-      selectedYear === "2024" &&
-      selectedTournamentId === "mens-t20-world-cup" &&
-      ["Group Stage", "Super 8"].includes(selectedStage) &&
-      teams.some(team => team.group)
-    ) {
+  selectedTournamentId === "mens-t20-world-cup" &&
+  teams.some(team => team.group)
+) {
 
       tableElement.hidden = true;
 
@@ -770,9 +768,15 @@ if (
       groupContainer.id = "points-group-tables";
 
      
-const groupNames = selectedStage === "Super 8"
-  ? ["Super 8 Group 1", "Super 8 Group 2"]
-  : ["Group A", "Group B", "Group C", "Group D"];
+const groupNames = [
+  ...new Set(
+    teams
+      .map(team => team.group)
+      .filter(Boolean)
+  )
+].sort((a, b) => a.localeCompare(b, undefined, {
+  numeric: true
+}));
 
 groupNames.forEach(groupName => {
 
