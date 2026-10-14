@@ -523,6 +523,7 @@ html {
   const stageControls = document.getElementById("points-stage-controls");
   const matchesList = document.getElementById("points-matches-list");
 const tableWrap = document.querySelector(".points-table-wrap");
+const tableElement = tableWrap.querySelector(".points-table");
 
   let selectedStage = "Group Stage";
   let pointsData = null;
@@ -644,6 +645,10 @@ const tableWrap = document.querySelector(".points-table-wrap");
     matchesList.replaceChildren();
 matchesList.hidden = true;
 tableWrap.hidden = false;
+tableElement.hidden = false;
+
+const oldGroupTables = document.getElementById("points-group-tables");
+if (oldGroupTables) oldGroupTables.remove();
 
     if (!tournament) {
       status.textContent = "No tournament selected.";
@@ -750,6 +755,85 @@ if (Array.isArray(currentStage?.matches) &&
         : [];
     }
 
+
+    if (
+      selectedYear === "2024" &&
+      selectedTournamentId === "mens-t20-world-cup" &&
+      selectedStage === "Group Stage" &&
+      teams.some(team => team.group)
+    ) {
+      tableElement.hidden = true;
+
+      const groupContainer = document.createElement("div");
+      groupContainer.id = "points-group-tables";
+
+      ["Group A", "Group B", "Group C", "Group D"].forEach(groupName => {
+        const groupTeams = teams
+          .filter(team => team.group === groupName)
+          .sort((a, b) =>
+            (Number(b.points ?? 0) - Number(a.points ?? 0)) ||
+            (Number(b.nrr ?? 0) - Number(a.nrr ?? 0))
+          );
+
+        if (!groupTeams.length) return;
+
+        const heading = document.createElement("h3");
+        heading.className = "points-table-title";
+        heading.textContent = groupName;
+        heading.style.fontSize = "18px";
+        groupContainer.appendChild(heading);
+
+        const groupWrap = document.createElement("div");
+        groupWrap.className = "points-table-wrap";
+
+        const groupTable = document.createElement("table");
+        groupTable.className = "points-table";
+
+        const thead = document.createElement("thead");
+        const headerRow = document.createElement("tr");
+
+        ["Team", "P", "W", "L", "NR", "Pts", "NRR"].forEach(label => {
+          const th = document.createElement("th");
+          th.textContent = label;
+          headerRow.appendChild(th);
+        });
+
+        thead.appendChild(headerRow);
+
+        const tbody = document.createElement("tbody");
+
+        groupTeams.forEach(team => {
+          const row = document.createElement("tr");
+
+          [
+            team.team_name,
+            team.played,
+            team.won,
+            team.lost,
+            team.no_result,
+            team.points,
+            Number(team.nrr ?? 0).toFixed(3)
+          ].forEach(value => {
+            const cell = document.createElement("td");
+            cell.textContent = value ?? "—";
+            row.appendChild(cell);
+          });
+
+          tbody.appendChild(row);
+        });
+
+        groupTable.append(thead, tbody);
+        groupWrap.appendChild(groupTable);
+        groupContainer.appendChild(groupWrap);
+      });
+
+      tableWrap.appendChild(groupContainer);
+      status.textContent = "Group-wise standings loaded.";
+      return;
+    }
+    
+
+    
     teams.sort((a, b) =>
       (Number(b.points ?? 0) - Number(a.points ?? 0)) ||
       (Number(b.nrr ?? 0) - Number(a.nrr ?? 0))
