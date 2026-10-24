@@ -567,9 +567,10 @@
       "score1": "176/7 (20 overs)",
       "team2": "South Africa",
       "score2": "169/8 (20 overs)",
-      "result": "India won by 7 runs",
+           "result": "India won by 7 runs",
       "champion": "India"
-         ]
+    }
+  ]
     }
   ]
 },
