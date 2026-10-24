@@ -290,9 +290,9 @@
           "champion": "India"
         }
       ]
-    }
+       }
   ]
-},
+}]},
 
     {"year": 2008, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Rajasthan Royals","played":14,"won":11,"lost":3,"no_result":0,"points":22,"nrr":0.632},
