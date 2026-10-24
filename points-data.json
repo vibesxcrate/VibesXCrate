@@ -313,7 +313,80 @@
   {"team_name":"Rajasthan Royals","played":14,"won":6,"lost":7,"no_result":1,"points":13,"nrr":-0.352},
   {"team_name":"Mumbai Indians","played":14,"won":5,"lost":8,"no_result":1,"points":11,"nrr":0.297},
   {"team_name":"Kolkata Knight Riders","played":14,"won":3,"lost":10,"no_result":1,"points":7,"nrr":-0.789}
-]}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}]},
+]}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {
+  "id": "mens-t20-world-cup",
+  "name": "ICC Men's T20 World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"India","played":2,"won":2,"lost":0,"no_result":0,"points":4,"nrr":1.227,"group":"Group A"},
+        {"team_name":"Ireland","played":2,"won":1,"lost":1,"no_result":0,"points":2,"nrr":-0.162,"group":"Group A"},
+        {"team_name":"Bangladesh","played":2,"won":0,"lost":2,"no_result":0,"points":0,"nrr":-0.996,"group":"Group A"},
+
+        {"team_name":"England","played":2,"won":1,"lost":1,"no_result":0,"points":2,"nrr":1.175,"group":"Group B"},
+        {"team_name":"Pakistan","played":2,"won":1,"lost":1,"no_result":0,"points":2,"nrr":0.850,"group":"Group B"},
+        {"team_name":"Netherlands","played":2,"won":1,"lost":1,"no_result":0,"points":2,"nrr":-2.025,"group":"Group B"},
+
+        {"team_name":"Sri Lanka","played":2,"won":2,"lost":0,"no_result":0,"points":4,"nrr":0.626,"group":"Group C"},
+        {"team_name":"West Indies","played":2,"won":1,"lost":1,"no_result":0,"points":2,"nrr":0.715,"group":"Group C"},
+        {"team_name":"Australia","played":2,"won":0,"lost":2,"no_result":0,"points":0,"nrr":-1.331,"group":"Group C"},
+
+        {"team_name":"South Africa","played":2,"won":2,"lost":0,"no_result":0,"points":4,"nrr":3.275,"group":"Group D"},
+        {"team_name":"New Zealand","played":2,"won":1,"lost":1,"no_result":0,"points":2,"nrr":0.309,"group":"Group D"},
+        {"team_name":"Scotland","played":2,"won":0,"lost":2,"no_result":0,"points":0,"nrr":-5.281,"group":"Group D"}
+      ]
+    },
+    {
+      "name": "Super 8",
+      "teams": [
+        {"team_name":"South Africa","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":0.787,"group":"Group E"},
+        {"team_name":"West Indies","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.063,"group":"Group E"},
+        {"team_name":"England","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.414,"group":"Group E"},
+        {"team_name":"India","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-0.466,"group":"Group E"},
+
+        {"team_name":"Sri Lanka","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.267,"group":"Group F"},
+        {"team_name":"Pakistan","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.185,"group":"Group F"},
+        {"team_name":"New Zealand","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.232,"group":"Group F"},
+        {"team_name":"Ireland","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.183,"group":"Group F"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "date": "18 June 2009",
+          "team1": "South Africa",
+          "score1": "142/5 (20 overs)",
+          "team2": "Pakistan",
+          "score2": "149/4 (19.4 overs)",
+          "result": "Pakistan won by 7 wickets"
+        },
+        {
+          "name": "Semi-Final 2",
+          "date": "19 June 2009",
+          "team1": "Sri Lanka",
+          "score1": "158/5 (20 overs)",
+          "team2": "West Indies",
+          "score2": "101 all out (17.4 overs)",
+          "result": "Sri Lanka won by 57 runs"
+        },
+        {
+          "name": "Final",
+          "date": "21 June 2009",
+          "team1": "Sri Lanka",
+          "score1": "138/6 (20 overs)",
+          "team2": "Pakistan",
+          "score2": "139/2 (18.4 overs)",
+          "result": "Pakistan won by 8 wickets",
+          "champion": "Pakistan"
+        }
+      ]
+    }
+  ]
+}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}]},
     {"year": 2010, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Mumbai Indians","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":1.084},
   {"team_name":"Deccan Chargers","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":-0.297},
