@@ -898,7 +898,239 @@
 ,
     {"year": 1997, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1998, "tournaments": [{"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 1999, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+   
+{
+  "year": 1999,
+  "tournaments": [
+    {
+      "id": "mens-world-cup",
+      "name": "ICC Men's Cricket World Cup",
+      "stages": [
+        {
+          "name": "Group Stage",
+          "teams": [
+            {
+              "team_name": "South Africa",
+              "group": "Group A",
+              "played": 5,
+              "won": 4,
+              "lost": 1,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "group": "Group A",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "Zimbabwe",
+              "group": "Group A",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "England",
+              "group": "Group A",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "group": "Group A",
+              "played": 5,
+              "won": 2,
+              "lost": 3,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Kenya",
+              "group": "Group A",
+              "played": 5,
+              "won": 0,
+              "lost": 5,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            },
+            {
+              "team_name": "Pakistan",
+              "group": "Group B",
+              "played": 5,
+              "won": 4,
+              "lost": 1,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "Australia",
+              "group": "Group B",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "group": "Group B",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "group": "Group B",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "Bangladesh",
+              "group": "Group B",
+              "played": 5,
+              "won": 2,
+              "lost": 3,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Scotland",
+              "group": "Group B",
+              "played": 5,
+              "won": 0,
+              "lost": 5,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Super Six",
+          "teams": [
+            {
+              "team_name": "Pakistan",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "Australia",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "South Africa",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "played": 5,
+              "won": 2,
+              "lost": 2,
+              "no_result": 1,
+              "points": 5,
+              "nrr": null
+            },
+            {
+              "team_name": "Zimbabwe",
+              "played": 5,
+              "won": 2,
+              "lost": 2,
+              "no_result": 1,
+              "points": 5,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "played": 5,
+              "won": 1,
+              "lost": 4,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Semi-Finals",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Semi-Final 1",
+              "team1": "New Zealand",
+              "team2": "Pakistan",
+              "score1": "241/7",
+              "score2": "242/1",
+              "result": "Pakistan won by 9 wickets"
+            },
+            {
+              "name": "Semi-Final 2",
+              "team1": "Australia",
+              "team2": "South Africa",
+              "score1": "213",
+              "score2": "213",
+              "result": "Match tied"
+            }
+          ]
+        },
+        {
+          "name": "Final",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "team1": "Pakistan",
+              "team2": "Australia",
+              "score1": "132",
+              "score2": "133/2",
+              "result": "Australia won by 8 wickets",
+              "champion": "Australia"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
     {"year": 2000, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2002, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}]},
     {"year": 2003, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
