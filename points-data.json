@@ -410,7 +410,140 @@
 },
     {"year": 1984, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1986, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
-    {"year": 1987, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    
+{
+  "year": 1987,
+  "tournaments": [
+    {
+      "id": "mens-world-cup",
+      "name": "ICC Men's Cricket World Cup",
+      "stages": [
+        {
+          "name": "Group Stage",
+          "teams": [
+            {
+              "team_name": "India",
+              "group": "Group A",
+              "played": 6,
+              "won": 5,
+              "lost": 1,
+              "no_result": 0,
+              "points": 20,
+              "nrr": null
+            },
+            {
+              "team_name": "Australia",
+              "group": "Group A",
+              "played": 6,
+              "won": 5,
+              "lost": 1,
+              "no_result": 0,
+              "points": 20,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "group": "Group A",
+              "played": 6,
+              "won": 2,
+              "lost": 4,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "Zimbabwe",
+              "group": "Group A",
+              "played": 6,
+              "won": 0,
+              "lost": 6,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            },
+            {
+              "team_name": "Pakistan",
+              "group": "Group B",
+              "played": 6,
+              "won": 5,
+              "lost": 1,
+              "no_result": 0,
+              "points": 20,
+              "nrr": null
+            },
+            {
+              "team_name": "England",
+              "group": "Group B",
+              "played": 6,
+              "won": 4,
+              "lost": 2,
+              "no_result": 0,
+              "points": 16,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "group": "Group B",
+              "played": 6,
+              "won": 3,
+              "lost": 3,
+              "no_result": 0,
+              "points": 12,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "group": "Group B",
+              "played": 6,
+              "won": 0,
+              "lost": 6,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Semi-Finals",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Semi-Final 1",
+              "team1": "Australia",
+              "team2": "Pakistan",
+              "score1": "267/8",
+              "score2": "249",
+              "result": "Australia won by 18 runs"
+            },
+            {
+              "name": "Semi-Final 2",
+              "team1": "England",
+              "team2": "India",
+              "score1": "254/6",
+              "score2": "219",
+              "result": "England won by 35 runs"
+            }
+          ]
+        },
+        {
+          "name": "Final",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "team1": "Australia",
+              "team2": "England",
+              "score1": "253/5",
+              "score2": "246/8",
+              "result": "Australia won by 7 runs",
+              "champion": "Australia"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
     {"year": 1988, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 1990, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1992, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
