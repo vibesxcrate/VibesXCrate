@@ -1996,6 +1996,87 @@
   {"team_name":"Mumbai Indians","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.584},
   {"team_name":"Lucknow Super Giants","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.740}
 ]}, 
+
+{
+  "id": "mens-t20-world-cup",
+  "name": "ICC Men's T20 World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"India","played":4,"won":4,"lost":0,"no_result":0,"points":8,"nrr":2.500,"group":"Group A"},
+        {"team_name":"Pakistan","played":4,"won":3,"lost":1,"no_result":0,"points":6,"nrr":0.976,"group":"Group A"},
+        {"team_name":"USA","played":4,"won":2,"lost":2,"no_result":0,"points":4,"nrr":0.788,"group":"Group A"},
+        {"team_name":"Netherlands","played":4,"won":1,"lost":3,"no_result":0,"points":2,"nrr":-1.217,"group":"Group A"},
+        {"team_name":"Namibia","played":4,"won":0,"lost":4,"no_result":0,"points":0,"nrr":-3.108,"group":"Group A"},
+
+        {"team_name":"Zimbabwe","played":4,"won":3,"lost":0,"no_result":1,"points":7,"nrr":1.506,"group":"Group B"},
+        {"team_name":"Sri Lanka","played":4,"won":3,"lost":1,"no_result":0,"points":6,"nrr":1.741,"group":"Group B"},
+        {"team_name":"Australia","played":4,"won":2,"lost":2,"no_result":0,"points":4,"nrr":1.523,"group":"Group B"},
+        {"team_name":"Ireland","played":4,"won":1,"lost":2,"no_result":1,"points":3,"nrr":0.150,"group":"Group B"},
+        {"team_name":"Oman","played":4,"won":0,"lost":4,"no_result":0,"points":0,"nrr":-4.845,"group":"Group B"},
+
+        {"team_name":"West Indies","played":4,"won":4,"lost":0,"no_result":0,"points":8,"nrr":1.874,"group":"Group C"},
+        {"team_name":"England","played":4,"won":3,"lost":1,"no_result":0,"points":6,"nrr":0.201,"group":"Group C"},
+        {"team_name":"Scotland","played":4,"won":1,"lost":3,"no_result":0,"points":2,"nrr":0.184,"group":"Group C"},
+        {"team_name":"Italy","played":4,"won":1,"lost":3,"no_result":0,"points":2,"nrr":-1.020,"group":"Group C"},
+        {"team_name":"Nepal","played":4,"won":1,"lost":3,"no_result":0,"points":2,"nrr":-1.349,"group":"Group C"},
+
+        {"team_name":"South Africa","played":4,"won":4,"lost":0,"no_result":0,"points":8,"nrr":1.943,"group":"Group D"},
+        {"team_name":"New Zealand","played":4,"won":3,"lost":1,"no_result":0,"points":6,"nrr":1.227,"group":"Group D"},
+        {"team_name":"Afghanistan","played":4,"won":2,"lost":2,"no_result":0,"points":4,"nrr":0.889,"group":"Group D"},
+        {"team_name":"UAE","played":4,"won":1,"lost":3,"no_result":0,"points":2,"nrr":-1.364,"group":"Group D"},
+        {"team_name":"Canada","played":4,"won":0,"lost":4,"no_result":0,"points":0,"nrr":-2.426,"group":"Group D"}
+      ]
+    },
+    {
+      "name": "Super 8",
+      "teams": [
+        {"team_name":"South Africa","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.259,"group":"Super 8 Group 1"},
+        {"team_name":"India","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.106,"group":"Super 8 Group 1"},
+        {"team_name":"West Indies","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.993,"group":"Super 8 Group 1"},
+        {"team_name":"Zimbabwe","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.415,"group":"Super 8 Group 1"},
+
+        {"team_name":"England","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.096,"group":"Super 8 Group 2"},
+        {"team_name":"New Zealand","played":3,"won":1,"lost":1,"no_result":1,"points":3,"nrr":1.390,"group":"Super 8 Group 2"},
+        {"team_name":"Pakistan","played":3,"won":1,"lost":1,"no_result":1,"points":3,"nrr":-0.123,"group":"Super 8 Group 2"},
+        {"team_name":"Sri Lanka","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.950,"group":"Super 8 Group 2"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "date": "4 March 2026",
+          "team1": "South Africa",
+          "score1": "169/8",
+          "team2": "New Zealand",
+          "score2": "173/1",
+          "result": "New Zealand won by 9 wickets"
+        },
+        {
+          "name": "Semi-Final 2",
+          "date": "5 March 2026",
+          "team1": "India",
+          "score1": "253/7",
+          "team2": "England",
+          "score2": "246/7",
+          "result": "India won by 7 runs"
+        },
+        {
+          "name": "Final",
+          "date": "8 March 2026",
+          "team1": "India",
+          "score1": "255/5",
+          "team2": "New Zealand",
+          "score2": "159",
+          "result": "India won by 96 runs",
+          "champion": "India"
+        }
+      ]
+    },
 {"id": "wpl", "name": "WPL", "teams": [
 {"team_name":"Royal Challengers Bengaluru","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":1.247},
 {"team_name":"Gujarat Giants","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":-0.168},
@@ -2005,5 +2086,7 @@
 ]}, 
 {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}
     ]}
+  ]
+}
   ]
 }
