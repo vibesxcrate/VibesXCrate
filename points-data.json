@@ -2076,7 +2076,8 @@
           "champion": "India"
         }
       ]
-    },
+    }
+    ]},
 {"id": "wpl", "name": "WPL", "teams": [
 {"team_name":"Royal Challengers Bengaluru","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":1.247},
 {"team_name":"Gujarat Giants","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":-0.168},
@@ -2086,7 +2087,5 @@
 ]}, 
 {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}
     ]}
-  ]
-}
   ]
 }
