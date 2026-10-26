@@ -1389,9 +1389,293 @@
     {"year": 2004, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2005, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}]},
     {"year": 2006, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2007, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, 
-{
-  "id": "mens-t20-world-cup",
+    {"year": 2007, "tournaments": [
+    {
+      "id": "mens-world-cup",
+      "name": "ICC Men's Cricket World Cup",
+      "stages": [
+        {
+          "name": "Group Stage",
+          "teams": [
+            {
+              "team_name": "Australia",
+              "group": "Group A",
+              "played": 3,
+              "won": 3,
+              "lost": 0,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "South Africa",
+              "group": "Group A",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Netherlands",
+              "group": "Group A",
+              "played": 3,
+              "won": 1,
+              "lost": 2,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            },
+            {
+              "team_name": "Scotland",
+              "group": "Group A",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "group": "Group B",
+              "played": 3,
+              "won": 3,
+              "lost": 0,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "group": "Group B",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Bangladesh",
+              "group": "Group B",
+              "played": 3,
+              "won": 1,
+              "lost": 2,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            },
+            {
+              "team_name": "Bermuda",
+              "group": "Group B",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "group": "Group C",
+              "played": 3,
+              "won": 3,
+              "lost": 0,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "England",
+              "group": "Group C",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Kenya",
+              "group": "Group C",
+              "played": 3,
+              "won": 1,
+              "lost": 2,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            },
+            {
+              "team_name": "Canada",
+              "group": "Group C",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "group": "Group D",
+              "played": 3,
+              "won": 3,
+              "lost": 0,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "Ireland",
+              "group": "Group D",
+              "played": 3,
+              "won": 1,
+              "lost": 1,
+              "no_result": 1,
+              "points": 3,
+              "nrr": null
+            },
+            {
+              "team_name": "Zimbabwe",
+              "group": "Group D",
+              "played": 3,
+              "won": 1,
+              "lost": 1,
+              "no_result": 1,
+              "points": 3,
+              "nrr": null
+            },
+            {
+              "team_name": "Pakistan",
+              "group": "Group D",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Super Eight",
+          "teams": [
+            {
+              "team_name": "Australia",
+              "played": 7,
+              "won": 7,
+              "lost": 0,
+              "no_result": 0,
+              "points": 14,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "played": 7,
+              "won": 5,
+              "lost": 2,
+              "no_result": 0,
+              "points": 10,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "played": 7,
+              "won": 5,
+              "lost": 2,
+              "no_result": 0,
+              "points": 10,
+              "nrr": null
+            },
+            {
+              "team_name": "South Africa",
+              "played": 7,
+              "won": 4,
+              "lost": 3,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "England",
+              "played": 7,
+              "won": 3,
+              "lost": 4,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "played": 7,
+              "won": 2,
+              "lost": 5,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Bangladesh",
+              "played": 7,
+              "won": 1,
+              "lost": 6,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            },
+            {
+              "team_name": "Ireland",
+              "played": 7,
+              "won": 1,
+              "lost": 6,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Semi-Finals",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Semi-Final 1",
+              "team1": "Sri Lanka",
+              "team2": "New Zealand",
+              "score1": "289/5",
+              "score2": "208",
+              "result": "Sri Lanka won by 81 runs"
+            },
+            {
+              "name": "Semi-Final 2",
+              "team1": "South Africa",
+              "team2": "Australia",
+              "score1": "149",
+              "score2": "153/3",
+              "result": "Australia won by 7 wickets"
+            }
+          ]
+        },
+        {
+          "name": "Final",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "team1": "Australia",
+              "team2": "Sri Lanka",
+              "score1": "281/4",
+              "score2": "215/8",
+              "result": "Australia won by 53 runs (D/L method)",
+              "champion": "Australia"}
+           ]
+        }
+      ]
+    },
+    {
+      "id": "mens-t20-world-cup",
   "name": "ICC Men's T20 World Cup",
   "stages": [
     {
