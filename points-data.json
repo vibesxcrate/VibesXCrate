@@ -1736,7 +1736,78 @@
   {"team_name":"Sunrisers Hyderabad","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.379},
   {"team_name":"Chennai Super Kings","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.203},
   {"team_name":"Mumbai Indians","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.506}
-]}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+]}, 
+{
+  "id": "mens-t20-world-cup",
+  "name": "ICC Men's T20 World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Sri Lanka","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.667,"group":"Group A"},
+        {"team_name":"Netherlands","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.162,"group":"Group A"},
+        {"team_name":"Namibia","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.730,"group":"Group A"},
+        {"team_name":"United Arab Emirates","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.235,"group":"Group A"},
+        {"team_name":"Zimbabwe","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.200,"group":"Group B"},
+        {"team_name":"Ireland","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.105,"group":"Group B"},
+        {"team_name":"Scotland","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.304,"group":"Group B"},
+        {"team_name":"West Indies","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.563,"group":"Group B"}
+      ]
+    },
+    {
+      "name": "Super 12",
+      "teams": [
+        {"team_name":"New Zealand","played":5,"won":3,"lost":1,"no_result":1,"points":7,"nrr":2.113,"group":"Group 1"},
+        {"team_name":"England","played":5,"won":3,"lost":1,"no_result":1,"points":7,"nrr":0.473,"group":"Group 1"},
+        {"team_name":"Australia","played":5,"won":3,"lost":1,"no_result":1,"points":7,"nrr":-0.173,"group":"Group 1"},
+        {"team_name":"Sri Lanka","played":5,"won":2,"lost":3,"no_result":0,"points":4,"nrr":-0.422,"group":"Group 1"},
+        {"team_name":"Ireland","played":5,"won":1,"lost":3,"no_result":1,"points":3,"nrr":-1.615,"group":"Group 1"},
+        {"team_name":"Afghanistan","played":5,"won":0,"lost":2,"no_result":3,"points":2,"nrr":-0.571,"group":"Group 1"},
+        {"team_name":"India","played":5,"won":4,"lost":1,"no_result":0,"points":8,"nrr":1.319,"group":"Group 2"},
+        {"team_name":"Pakistan","played":5,"won":3,"lost":2,"no_result":0,"points":6,"nrr":1.028,"group":"Group 2"},
+        {"team_name":"South Africa","played":5,"won":2,"lost":2,"no_result":1,"points":5,"nrr":0.874,"group":"Group 2"},
+        {"team_name":"Netherlands","played":5,"won":2,"lost":3,"no_result":0,"points":4,"nrr":-0.849,"group":"Group 2"},
+        {"team_name":"Bangladesh","played":5,"won":2,"lost":3,"no_result":0,"points":4,"nrr":-1.176,"group":"Group 2"},
+        {"team_name":"Zimbabwe","played":5,"won":1,"lost":3,"no_result":1,"points":3,"nrr":-1.138,"group":"Group 2"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "date": "9 November 2022",
+          "team1": "New Zealand",
+          "score1": "152/4 (20 overs)",
+          "team2": "Pakistan",
+          "score2": "153/3 (19.1 overs)",
+          "result": "Pakistan won by 7 wickets"
+        },
+        {
+          "name": "Semi-Final 2",
+          "date": "10 November 2022",
+          "team1": "India",
+          "score1": "168/6 (20 overs)",
+          "team2": "England",
+          "score2": "170/0 (16 overs)",
+          "result": "England won by 10 wickets"
+        },
+        {
+          "name": "Final",
+          "date": "13 November 2022",
+          "team1": "Pakistan",
+          "score1": "137/8 (20 overs)",
+          "team2": "England",
+          "score2": "138/5 (19 overs)",
+          "result": "England won by 5 wickets",
+          "champion": "England"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2023, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Gujarat Titans","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.809},
   {"team_name":"Chennai Super Kings","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.652},
