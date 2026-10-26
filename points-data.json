@@ -683,7 +683,219 @@
 },
     {"year": 1993, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
     {"year": 1995, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
-    {"year": 1996, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+   
+{
+  "year": 1996,
+  "tournaments": [
+    {
+      "id": "mens-world-cup",
+      "name": "ICC Men's Cricket World Cup",
+      "stages": [
+        {
+          "name": "Group Stage",
+          "teams": [
+            {
+              "team_name": "Sri Lanka",
+              "group": "Group A",
+              "played": 5,
+              "won": 5,
+              "lost": 0,
+              "no_result": 0,
+              "points": 10,
+              "nrr": null
+            },
+            {
+              "team_name": "Australia",
+              "group": "Group A",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "group": "Group A",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "group": "Group A",
+              "played": 5,
+              "won": 2,
+              "lost": 3,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Zimbabwe",
+              "group": "Group A",
+              "played": 5,
+              "won": 1,
+              "lost": 4,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            },
+            {
+              "team_name": "Kenya",
+              "group": "Group A",
+              "played": 5,
+              "won": 1,
+              "lost": 4,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            },
+            {
+              "team_name": "South Africa",
+              "group": "Group B",
+              "played": 5,
+              "won": 5,
+              "lost": 0,
+              "no_result": 0,
+              "points": 10,
+              "nrr": null
+            },
+            {
+              "team_name": "Pakistan",
+              "group": "Group B",
+              "played": 5,
+              "won": 4,
+              "lost": 1,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "group": "Group B",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "England",
+              "group": "Group B",
+              "played": 5,
+              "won": 2,
+              "lost": 3,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "United Arab Emirates",
+              "group": "Group B",
+              "played": 5,
+              "won": 1,
+              "lost": 4,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            },
+            {
+              "team_name": "Netherlands",
+              "group": "Group B",
+              "played": 5,
+              "won": 0,
+              "lost": 5,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Quarter-Finals",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Quarter-Final 1",
+              "team1": "England",
+              "team2": "Sri Lanka",
+              "score1": "235/8",
+              "score2": "236/5",
+              "result": "Sri Lanka won by 5 wickets"
+            },
+            {
+              "name": "Quarter-Final 2",
+              "team1": "India",
+              "team2": "Pakistan",
+              "score1": "287/8",
+              "score2": "248/9",
+              "result": "India won by 39 runs"
+            },
+            {
+              "name": "Quarter-Final 3",
+              "team1": "West Indies",
+              "team2": "South Africa",
+              "score1": "264/8",
+              "score2": "245",
+              "result": "West Indies won by 19 runs"
+            },
+            {
+              "name": "Quarter-Final 4",
+              "team1": "New Zealand",
+              "team2": "Australia",
+              "score1": "286/9",
+              "score2": "289/4",
+              "result": "Australia won by 6 wickets"
+            }
+          ]
+        },
+        {
+          "name": "Semi-Finals",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Semi-Final 1",
+              "team1": "Sri Lanka",
+              "team2": "India",
+              "score1": "251/8",
+              "score2": "120/8",
+              "result": "Sri Lanka won by default"
+            },
+            {
+              "name": "Semi-Final 2",
+              "team1": "Australia",
+              "team2": "West Indies",
+              "score1": "207/8",
+              "score2": "202",
+              "result": "Australia won by 5 runs"
+            }
+          ]
+        },
+        {
+          "name": "Final",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "team1": "Australia",
+              "team2": "Sri Lanka",
+              "score1": "241/7",
+              "score2": "245/3",
+              "result": "Sri Lanka won by 7 wickets",
+              "champion": "Sri Lanka"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+,
     {"year": 1997, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1998, "tournaments": [{"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 1999, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
