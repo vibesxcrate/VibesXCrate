@@ -1723,9 +1723,8 @@
         }
       ]
     }
-  ]
-}
-,
+     ]
+}]},
     {"year": 2022, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Gujarat Titans","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.316},
   {"team_name":"Rajasthan Royals","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.298},
