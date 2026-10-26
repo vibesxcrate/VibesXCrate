@@ -2914,8 +2914,106 @@
   {"team_name":"Sunrisers Hyderabad","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":-0.239},
   {"team_name":"Delhi Daredevils","played":14,"won":5,"lost":8,"no_result":1,"points":11,"nrr":-0.049},
   {"team_name":"Kings XI Punjab","played":14,"won":3,"lost":11,"no_result":0,"points":6,"nrr":-1.436}
-]}, {"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
-    {"year": 2016, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
+]}, {
+  "id": "mens-world-cup",
+  "name": "ICC Men's Cricket World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"New Zealand","group":"Pool A","played":6,"won":6,"lost":0,"no_result":0,"points":12,"nrr":2.564},
+        {"team_name":"Australia","group":"Pool A","played":6,"won":4,"lost":1,"no_result":1,"points":9,"nrr":2.257},
+        {"team_name":"Sri Lanka","group":"Pool A","played":6,"won":4,"lost":2,"no_result":0,"points":8,"nrr":0.371},
+        {"team_name":"Bangladesh","group":"Pool A","played":6,"won":3,"lost":2,"no_result":1,"points":7,"nrr":0.136},
+        {"team_name":"England","group":"Pool A","played":6,"won":2,"lost":4,"no_result":0,"points":4,"nrr":-0.753},
+        {"team_name":"Afghanistan","group":"Pool A","played":6,"won":1,"lost":5,"no_result":0,"points":2,"nrr":-1.853},
+        {"team_name":"Scotland","group":"Pool A","played":6,"won":0,"lost":6,"no_result":0,"points":0,"nrr":-2.218},
+        {"team_name":"India","group":"Pool B","played":6,"won":6,"lost":0,"no_result":0,"points":12,"nrr":1.827},
+        {"team_name":"South Africa","group":"Pool B","played":6,"won":4,"lost":2,"no_result":0,"points":8,"nrr":1.707},
+        {"team_name":"Pakistan","group":"Pool B","played":6,"won":4,"lost":2,"no_result":0,"points":8,"nrr":-0.085},
+        {"team_name":"West Indies","group":"Pool B","played":6,"won":3,"lost":3,"no_result":0,"points":6,"nrr":-0.053},
+        {"team_name":"Ireland","group":"Pool B","played":6,"won":3,"lost":3,"no_result":0,"points":6,"nrr":-0.933},
+        {"team_name":"Zimbabwe","group":"Pool B","played":6,"won":1,"lost":5,"no_result":0,"points":2,"nrr":-0.527},
+        {"team_name":"United Arab Emirates","group":"Pool B","played":6,"won":0,"lost":6,"no_result":0,"points":0,"nrr":-2.032}
+      ]
+    },
+    {
+      "name": "Quarter-Finals",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Quarter-Final 1",
+          "team1": "South Africa",
+          "team2": "Sri Lanka",
+          "score1": "134/1",
+          "score2": "133",
+          "result": "South Africa won by 9 wickets"
+        },
+        {
+          "name": "Quarter-Final 2",
+          "team1": "India",
+          "team2": "Bangladesh",
+          "score1": "302/6",
+          "score2": "193",
+          "result": "India won by 109 runs"
+        },
+        {
+          "name": "Quarter-Final 3",
+          "team1": "Australia",
+          "team2": "Pakistan",
+          "score1": "216/4",
+          "score2": "213",
+          "result": "Australia won by 6 wickets"
+        },
+        {
+          "name": "Quarter-Final 4",
+          "team1": "New Zealand",
+          "team2": "West Indies",
+          "score1": "393/6",
+          "score2": "250",
+          "result": "New Zealand won by 143 runs"
+        }
+      ]
+    },
+    {
+      "name": "Semi-Finals",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "team1": "New Zealand",
+          "team2": "South Africa",
+          "score1": "299/6",
+          "score2": "281/5",
+          "result": "New Zealand won by 4 wickets (D/L method)"
+        },
+        {
+          "name": "Semi-Final 2",
+          "team1": "Australia",
+          "team2": "India",
+          "score1": "328/7",
+          "score2": "233",
+          "result": "Australia won by 95 runs"
+        }
+      ]
+    },
+    {
+      "name": "Final",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Final",
+          "team1": "Australia",
+          "team2": "New Zealand",
+          "score1": "186/3",
+          "score2": "183",
+          "result": "Australia won by 7 wickets",
+          "champion": "Australia"}
+            ]
+    }
+  ]
+}]},
+{"year": 2016, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Gujarat Lions","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":-0.374},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":0.932},
   {"team_name":"Sunrisers Hyderabad","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":0.245},
