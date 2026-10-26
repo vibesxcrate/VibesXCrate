@@ -1133,7 +1133,259 @@
 },
     {"year": 2000, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2002, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}]},
-    {"year": 2003, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+   
+{
+  "year": 2003,
+  "tournaments": [
+    {
+      "id": "mens-world-cup",
+      "name": "ICC Men's Cricket World Cup",
+      "stages": [
+        {
+          "name": "Group Stage",
+          "teams": [
+            {
+              "team_name": "Australia",
+              "group": "Group A",
+              "played": 6,
+              "won": 6,
+              "lost": 0,
+              "no_result": 0,
+              "points": 24,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "group": "Group A",
+              "played": 6,
+              "won": 5,
+              "lost": 1,
+              "no_result": 0,
+              "points": 20,
+              "nrr": null
+            },
+            {
+              "team_name": "Zimbabwe",
+              "group": "Group A",
+              "played": 6,
+              "won": 3,
+              "lost": 2,
+              "no_result": 1,
+              "points": 14,
+              "nrr": null
+            },
+            {
+              "team_name": "England",
+              "group": "Group A",
+              "played": 6,
+              "won": 3,
+              "lost": 3,
+              "no_result": 0,
+              "points": 12,
+              "nrr": null
+            },
+            {
+              "team_name": "Pakistan",
+              "group": "Group A",
+              "played": 6,
+              "won": 2,
+              "lost": 3,
+              "no_result": 1,
+              "points": 10,
+              "nrr": null
+            },
+            {
+              "team_name": "Netherlands",
+              "group": "Group A",
+              "played": 6,
+              "won": 1,
+              "lost": 5,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Namibia",
+              "group": "Group A",
+              "played": 6,
+              "won": 0,
+              "lost": 6,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "group": "Group B",
+              "played": 6,
+              "won": 4,
+              "lost": 1,
+              "no_result": 1,
+              "points": 18,
+              "nrr": null
+            },
+            {
+              "team_name": "Kenya",
+              "group": "Group B",
+              "played": 6,
+              "won": 4,
+              "lost": 2,
+              "no_result": 0,
+              "points": 16,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "group": "Group B",
+              "played": 6,
+              "won": 4,
+              "lost": 2,
+              "no_result": 0,
+              "points": 16,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "group": "Group B",
+              "played": 6,
+              "won": 3,
+              "lost": 2,
+              "no_result": 1,
+              "points": 14,
+              "nrr": null
+            },
+            {
+              "team_name": "South Africa",
+              "group": "Group B",
+              "played": 6,
+              "won": 3,
+              "lost": 2,
+              "no_result": 1,
+              "points": 14,
+              "nrr": null
+            },
+            {
+              "team_name": "Canada",
+              "group": "Group B",
+              "played": 6,
+              "won": 1,
+              "lost": 5,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Bangladesh",
+              "group": "Group B",
+              "played": 6,
+              "won": 0,
+              "lost": 5,
+              "no_result": 1,
+              "points": 2,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Super Six",
+          "teams": [
+            {
+              "team_name": "Australia",
+              "played": 5,
+              "won": 5,
+              "lost": 0,
+              "no_result": 0,
+              "points": 24,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "played": 5,
+              "won": 4,
+              "lost": 1,
+              "no_result": 0,
+              "points": 20,
+              "nrr": null
+            },
+            {
+              "team_name": "Kenya",
+              "played": 5,
+              "won": 3,
+              "lost": 2,
+              "no_result": 0,
+              "points": 14,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "played": 5,
+              "won": 2,
+              "lost": 3,
+              "no_result": 0,
+              "points": 11.5,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "played": 5,
+              "won": 1,
+              "lost": 4,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "Zimbabwe",
+              "played": 5,
+              "won": 0,
+              "lost": 5,
+              "no_result": 0,
+              "points": 3.5,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Semi-Finals",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Semi-Final 1",
+              "team1": "Australia",
+              "team2": "Sri Lanka",
+              "score1": "212/7",
+              "score2": "123/7",
+              "result": "Australia won by 48 runs (D/L method)"
+            },
+            {
+              "name": "Semi-Final 2",
+              "team1": "India",
+              "team2": "Kenya",
+              "score1": "270/4",
+              "score2": "179",
+              "result": "India won by 91 runs"
+            }
+          ]
+        },
+        {
+          "name": "Final",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "team1": "Australia",
+              "team2": "India",
+              "score1": "359/2",
+              "score2": "234",
+              "result": "Australia won by 125 runs",
+              "champion": "Australia"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
     {"year": 2004, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2005, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}]},
     {"year": 2006, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
