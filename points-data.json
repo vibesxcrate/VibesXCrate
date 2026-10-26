@@ -942,7 +942,238 @@
   {"team_name":"Sunrisers Hyderabad","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.399},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":5,"lost":9,"no_result":0,"points":10,"nrr":-0.428},
   {"team_name":"Delhi Daredevils","played":14,"won":2,"lost":12,"no_result":0,"points":4,"nrr":-1.182}
-]}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+]}, 
+{
+  "id": "mens-t20-world-cup",
+  "name": "ICC Men's T20 World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 1.466,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Nepal",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.933,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Afghanistan",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.981,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Hong Kong",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -1.455,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Netherlands",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 1.109,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Zimbabwe",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.957,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Ireland",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.701,
+          "group": "Group B"
+        },
+        {
+          "team_name": "United Arab Emirates",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.541,
+          "group": "Group B"
+        }
+      ]
+    },
+    {
+      "name": "Super 10",
+      "teams": [
+        {
+          "team_name": "Sri Lanka",
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 2.233,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "South Africa",
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.075,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "New Zealand",
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.678,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "England",
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.776,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "Netherlands",
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.866,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "India",
+          "played": 4,
+          "won": 4,
+          "lost": 0,
+          "no_result": 0,
+          "points": 8,
+          "nrr": 1.280,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "West Indies",
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 1.971,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.384,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "Australia",
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.857,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 4,
+          "won": 0,
+          "lost": 4,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.072,
+          "group": "Group 2"
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "date": "3 April 2014",
+          "team1": "Sri Lanka",
+          "score1": "160/6 (20 overs)",
+          "team2": "West Indies",
+          "score2": "80/4 (13.5 overs)",
+          "result": "Sri Lanka won by 27 runs (D/L method)"
+        },
+        {
+          "name": "Semi-Final 2",
+          "date": "4 April 2014",
+          "team1": "South Africa",
+          "score1": "172/4 (20 overs)",
+          "team2": "India",
+          "score2": "176/4 (19.1 overs)",
+          "result": "India won by 6 wickets"
+        },
+        {
+          "name": "Final",
+          "date": "6 April 2014",
+          "team1": "India",
+          "score1": "130/4 (20 overs)",
+          "team2": "Sri Lanka",
+          "score2": "134/4 (17.5 overs)",
+          "result": "Sri Lanka won by 6 wickets",
+          "champion": "Sri Lanka"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2015, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Chennai Super Kings","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.709},
   {"team_name":"Mumbai Indians","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":-0.043},
