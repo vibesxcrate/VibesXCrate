@@ -9,34 +9,57 @@
   },
   "years": [
     {"year": 1973, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
-    {"year": 1974, "tournaments": []},
-    {"year": 1975, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
-    {"year": 1976, "tournaments": []},
-    {"year": 1977, "tournaments": []},
+   {
+  "year": 1975,
+  "tournaments": [
+    {
+      "id": "mens-world-cup",
+      "name": "ICC Men's Cricket World Cup",
+      "stages": [
+        {
+          "name": "Group Stage",
+          "groups": [
+            {
+              "name": "Group A",
+              "teams": []
+            },
+            {
+              "name": "Group B",
+              "teams": []
+            }
+          ]
+        },
+        {
+          "name": "Semi-Finals",
+          "teams": [],
+          "matches": []
+        },
+        {
+          "name": "Final",
+          "teams": [],
+          "matches": []
+        }
+      ]
+    }
+  ]
+},
     {"year": 1978, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
     {"year": 1979, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
-    {"year": 1980, "tournaments": []},
-    {"year": 1981, "tournaments": []},
     {"year": 1982, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
     {"year": 1983, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
     {"year": 1984, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
-    {"year": 1985, "tournaments": []},
     {"year": 1986, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1987, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
     {"year": 1988, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 1989, "tournaments": []},
     {"year": 1990, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
-    {"year": 1991, "tournaments": []},
     {"year": 1992, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
     {"year": 1993, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
-    {"year": 1994, "tournaments": []},
     {"year": 1995, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1996, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
     {"year": 1997, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1998, "tournaments": [{"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 1999, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
     {"year": 2000, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2001, "tournaments": []},
     {"year": 2002, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}]},
     {"year": 2003, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
     {"year": 2004, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
