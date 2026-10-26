@@ -274,7 +274,140 @@
   ]
 },
     {"year": 1982, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
-    {"year": 1983, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    
+{
+  "year": 1983,
+  "tournaments": [
+    {
+      "id": "mens-world-cup",
+      "name": "ICC Men's Cricket World Cup",
+      "stages": [
+        {
+          "name": "Group Stage",
+          "teams": [
+            {
+              "team_name": "England",
+              "group": "Group A",
+              "played": 6,
+              "won": 5,
+              "lost": 1,
+              "no_result": 0,
+              "points": 20,
+              "nrr": null
+            },
+            {
+              "team_name": "Pakistan",
+              "group": "Group A",
+              "played": 6,
+              "won": 3,
+              "lost": 3,
+              "no_result": 0,
+              "points": 12,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "group": "Group A",
+              "played": 6,
+              "won": 3,
+              "lost": 3,
+              "no_result": 0,
+              "points": 12,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "group": "Group A",
+              "played": 6,
+              "won": 1,
+              "lost": 5,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "group": "Group B",
+              "played": 6,
+              "won": 5,
+              "lost": 1,
+              "no_result": 0,
+              "points": 20,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "group": "Group B",
+              "played": 6,
+              "won": 4,
+              "lost": 2,
+              "no_result": 0,
+              "points": 16,
+              "nrr": null
+            },
+            {
+              "team_name": "Australia",
+              "group": "Group B",
+              "played": 6,
+              "won": 2,
+              "lost": 4,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "Zimbabwe",
+              "group": "Group B",
+              "played": 6,
+              "won": 1,
+              "lost": 5,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Semi-Finals",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Semi-Final 1",
+              "team1": "England",
+              "team2": "India",
+              "score1": "213",
+              "score2": "217/4",
+              "result": "India won by 6 wickets"
+            },
+            {
+              "name": "Semi-Final 2",
+              "team1": "Pakistan",
+              "team2": "West Indies",
+              "score1": "184/8",
+              "score2": "188/2",
+              "result": "West Indies won by 8 wickets"
+            }
+          ]
+        },
+        {
+          "name": "Final",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "team1": "India",
+              "team2": "West Indies",
+              "score1": "183",
+              "score2": "140",
+              "result": "India won by 43 runs",
+              "champion": "India"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
     {"year": 1984, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1986, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     {"year": 1987, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
