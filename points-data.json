@@ -396,7 +396,258 @@
   {"team_name":"Kolkata Knight Riders","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":-0.341},
   {"team_name":"Rajasthan Royals","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.514},
   {"team_name":"Kings XI Punjab","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.478}
-]}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+]},
+{
+  "id": "mens-t20-world-cup",
+  "name": "ICC Men's T20 World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "Australia",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 1.525,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.325,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.2,
+          "group": "Group A"
+        },
+        {
+          "team_name": "New Zealand",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.428,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 0.355,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Zimbabwe",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.595,
+          "group": "Group B"
+        },
+        {
+          "team_name": "India",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 1.495,
+          "group": "Group C"
+        },
+        {
+          "team_name": "South Africa",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 1.125,
+          "group": "Group C"
+        },
+        {
+          "team_name": "Afghanistan",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.446,
+          "group": "Group C"
+        },
+        {
+          "team_name": "West Indies",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 2.78,
+          "group": "Group D"
+        },
+        {
+          "team_name": "England",
+          "played": 2,
+          "won": 0,
+          "lost": 1,
+          "no_result": 1,
+          "points": 1,
+          "nrr": -0.452,
+          "group": "Group D"
+        },
+        {
+          "team_name": "Ireland",
+          "played": 2,
+          "won": 0,
+          "lost": 1,
+          "no_result": 1,
+          "points": 1,
+          "nrr": -3.5,
+          "group": "Group D"
+        }
+      ]
+    },
+    {
+      "name": "Super 8",
+      "teams": [
+        {
+          "team_name": "England",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.962,
+          "group": "Group E"
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 0.041,
+          "group": "Group E"
+        },
+        {
+          "team_name": "New Zealand",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.373,
+          "group": "Group E"
+        },
+        {
+          "team_name": "South Africa",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.617,
+          "group": "Group E"
+        },
+        {
+          "team_name": "Australia",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 2.733,
+          "group": "Group F"
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.333,
+          "group": "Group F"
+        },
+        {
+          "team_name": "West Indies",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -1.281,
+          "group": "Group F"
+        },
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.117,
+          "group": "Group F"
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "date": "13 May 2010",
+          "team1": "Sri Lanka",
+          "score1": "128/6 (20 overs)",
+          "team2": "England",
+          "score2": "132/3 (16 overs)",
+          "result": "England won by 7 wickets"
+        },
+        {
+          "name": "Semi-Final 2",
+          "date": "14 May 2010",
+          "team1": "Pakistan",
+          "score1": "191/6 (20 overs)",
+          "team2": "Australia",
+          "score2": "197/7 (19.5 overs)",
+          "result": "Australia won by 3 wickets"
+        },
+        {
+          "name": "Final",
+          "date": "16 May 2010",
+          "team1": "Australia",
+          "score1": "147/6 (20 overs)",
+          "team2": "England",
+          "score2": "148/3 (17 overs)",
+          "result": "England won by 7 wickets",
+          "champion": "England"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2011, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Royal Challengers Bangalore","played":14,"won":9,"lost":4,"no_result":1,"points":19,"nrr":0.326},
   {"team_name":"Chennai Super Kings","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.443},
