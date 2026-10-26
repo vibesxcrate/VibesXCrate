@@ -670,7 +670,258 @@
   {"team_name":"Rajasthan Royals","played":16,"won":7,"lost":9,"no_result":0,"points":14,"nrr":0.201},
   {"team_name":"Deccan Chargers","played":16,"won":4,"lost":11,"no_result":1,"points":9,"nrr":-0.509},
   {"team_name":"Pune Warriors India","played":16,"won":4,"lost":12,"no_result":0,"points":8,"nrr":-0.551}
-]}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+]},
+{
+  "id": "mens-t20-world-cup",
+  "name": "ICC Men's T20 World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "India",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 2.825,
+          "group": "Group A"
+        },
+        {
+          "team_name": "England",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 0.650,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Afghanistan",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -3.475,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Australia",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 2.184,
+          "group": "Group B"
+        },
+        {
+          "team_name": "West Indies",
+          "played": 2,
+          "won": 0,
+          "lost": 1,
+          "no_result": 1,
+          "points": 1,
+          "nrr": -1.855,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Ireland",
+          "played": 2,
+          "won": 0,
+          "lost": 1,
+          "no_result": 1,
+          "points": 1,
+          "nrr": -2.092,
+          "group": "Group B"
+        },
+        {
+          "team_name": "South Africa",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 3.598,
+          "group": "Group C"
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 1.852,
+          "group": "Group C"
+        },
+        {
+          "team_name": "Zimbabwe",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -3.624,
+          "group": "Group C"
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.706,
+          "group": "Group D"
+        },
+        {
+          "team_name": "New Zealand",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 1.150,
+          "group": "Group D"
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.868,
+          "group": "Group D"
+        }
+      ]
+    },
+    {
+      "name": "Super 8",
+      "teams": [
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.998,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "West Indies",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.375,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "England",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.397,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "New Zealand",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -0.169,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "Australia",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.464,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.273,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.274,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "South Africa",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -0.421,
+          "group": "Group 2"
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "date": "4 October 2012",
+          "team1": "Sri Lanka",
+          "score1": "139/4 (20 overs)",
+          "team2": "Pakistan",
+          "score2": "123/7 (20 overs)",
+          "result": "Sri Lanka won by 16 runs"
+        },
+        {
+          "name": "Semi-Final 2",
+          "date": "5 October 2012",
+          "team1": "West Indies",
+          "score1": "205/4 (20 overs)",
+          "team2": "Australia",
+          "score2": "131 all out (16.4 overs)",
+          "result": "West Indies won by 74 runs"
+        },
+        {
+          "name": "Final",
+          "date": "7 October 2012",
+          "team1": "West Indies",
+          "score1": "137/6 (20 overs)",
+          "team2": "Sri Lanka",
+          "score2": "101 all out (18.4 overs)",
+          "result": "West Indies won by 36 runs",
+          "champion": "West Indies"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2013, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Chennai Super Kings","played":16,"won":11,"lost":5,"no_result":0,"points":22,"nrr":0.530},
   {"team_name":"Mumbai Indians","played":16,"won":11,"lost":5,"no_result":0,"points":22,"nrr":0.441},
