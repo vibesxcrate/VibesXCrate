@@ -139,7 +139,140 @@
   ]
 },
     {"year": 1978, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
-    {"year": 1979, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
+    
+{
+  "year": 1979,
+  "tournaments": [
+    {
+      "id": "mens-world-cup",
+      "name": "ICC Men's Cricket World Cup",
+      "stages": [
+        {
+          "name": "Group Stage",
+          "teams": [
+            {
+              "team_name": "England",
+              "group": "Group A",
+              "played": 3,
+              "won": 3,
+              "lost": 0,
+              "no_result": 0,
+              "points": 12,
+              "nrr": null
+            },
+            {
+              "team_name": "Pakistan",
+              "group": "Group A",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "Australia",
+              "group": "Group A",
+              "played": 3,
+              "won": 1,
+              "lost": 2,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Canada",
+              "group": "Group A",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "group": "Group B",
+              "played": 3,
+              "won": 2,
+              "lost": 0,
+              "no_result": 1,
+              "points": 10,
+              "nrr": null
+            },
+            {
+              "team_name": "New Zealand",
+              "group": "Group B",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "group": "Group B",
+              "played": 3,
+              "won": 1,
+              "lost": 1,
+              "no_result": 1,
+              "points": 6,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "group": "Group B",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            }
+          ]
+        },
+        {
+          "name": "Semi-Finals",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Semi-Final 1",
+              "team1": "England",
+              "team2": "New Zealand",
+              "score1": "221/8",
+              "score2": "212/9",
+              "result": "England won by 9 runs"
+            },
+            {
+              "name": "Semi-Final 2",
+              "team1": "Pakistan",
+              "team2": "West Indies",
+              "score1": "250",
+              "score2": "293/6",
+              "result": "West Indies won by 43 runs"
+            }
+          ]
+        },
+        {
+          "name": "Final",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "team1": "England",
+              "team2": "West Indies",
+              "score1": "194",
+              "score2": "286/9",
+              "result": "West Indies won by 92 runs",
+              "champion": "West Indies"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
     {"year": 1982, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
     {"year": 1983, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
     {"year": 1984, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
