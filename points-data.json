@@ -10,6 +10,8 @@
   "years": [
     {"year": 1973, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
    {
+ 
+{
   "year": 1975,
   "tournaments": [
     {
@@ -18,26 +20,121 @@
       "stages": [
         {
           "name": "Group Stage",
-          "groups": [
+          "teams": [
             {
-              "name": "Group A",
-              "teams": []
+              "team_name": "England",
+              "group": "Group A",
+              "played": 3,
+              "won": 3,
+              "lost": 0,
+              "no_result": 0,
+              "points": 12,
+              "nrr": null
             },
             {
-              "name": "Group B",
-              "teams": []
+              "team_name": "New Zealand",
+              "group": "Group A",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "India",
+              "group": "Group A",
+              "played": 3,
+              "won": 1,
+              "lost": 2,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "East Africa",
+              "group": "Group A",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            },
+            {
+              "team_name": "West Indies",
+              "group": "Group B",
+              "played": 3,
+              "won": 3,
+              "lost": 0,
+              "no_result": 0,
+              "points": 12,
+              "nrr": null
+            },
+            {
+              "team_name": "Australia",
+              "group": "Group B",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 8,
+              "nrr": null
+            },
+            {
+              "team_name": "Pakistan",
+              "group": "Group B",
+              "played": 3,
+              "won": 1,
+              "lost": 2,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "group": "Group B",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
             }
           ]
         },
         {
           "name": "Semi-Finals",
           "teams": [],
-          "matches": []
+          "matches": [
+            {
+              "name": "Semi-Final 1",
+              "team1": "England",
+              "team2": "Australia",
+              "result": "Australia won by 4 wickets"
+            },
+            {
+              "name": "Semi-Final 2",
+              "team1": "New Zealand",
+              "team2": "West Indies",
+              "result": "West Indies won by 5 wickets"
+            }
+          ]
         },
         {
           "name": "Final",
           "teams": [],
-          "matches": []
+          "matches": [
+            {
+              "name": "Final",
+              "team1": "Australia",
+              "team2": "West Indies",
+              "score1": "274",
+              "score2": "291/8",
+              "result": "West Indies won by 17 runs",
+              "champion": "West Indies"
+            }
+          ]
         }
       ]
     }
