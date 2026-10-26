@@ -1193,7 +1193,238 @@
   {"team_name":"Delhi Daredevils","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":-0.155},
   {"team_name":"Rising Pune Supergiants","played":14,"won":5,"lost":9,"no_result":0,"points":10,"nrr":0.015},
   {"team_name":"Kings XI Punjab","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.646}
-]}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+]}, 
+{
+  "id": "mens-t20-world-cup",
+  "name": "ICC Men's T20 World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 2,
+          "lost": 0,
+          "no_result": 1,
+          "points": 5,
+          "nrr": 1.938,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Netherlands",
+          "played": 3,
+          "won": 1,
+          "lost": 1,
+          "no_result": 1,
+          "points": 3,
+          "nrr": 0.154,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Oman",
+          "played": 3,
+          "won": 1,
+          "lost": 1,
+          "no_result": 1,
+          "points": 3,
+          "nrr": -0.154,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Ireland",
+          "played": 3,
+          "won": 0,
+          "lost": 2,
+          "no_result": 1,
+          "points": 1,
+          "nrr": -0.685,
+          "group": "Group A"
+        },
+        {
+          "team_name": "Afghanistan",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 1.540,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Zimbabwe",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.567,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Scotland",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.132,
+          "group": "Group B"
+        },
+        {
+          "team_name": "Hong Kong",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.017,
+          "group": "Group B"
+        }
+      ]
+    },
+    {
+      "name": "Super 10",
+      "teams": [
+        {
+          "team_name": "West Indies",
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.359,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "England",
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.145,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "South Africa",
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.651,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.461,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "Afghanistan",
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.715,
+          "group": "Group 1"
+        },
+        {
+          "team_name": "New Zealand",
+          "played": 4,
+          "won": 4,
+          "lost": 0,
+          "no_result": 0,
+          "points": 8,
+          "nrr": 1.900,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "India",
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": -0.305,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "Australia",
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.233,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.093,
+          "group": "Group 2"
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 4,
+          "won": 0,
+          "lost": 4,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.805,
+          "group": "Group 2"
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "date": "30 March 2016",
+          "team1": "New Zealand",
+          "score1": "153/8 (20 overs)",
+          "team2": "England",
+          "score2": "159/3 (17.1 overs)",
+          "result": "England won by 7 wickets"
+        },
+        {
+          "name": "Semi-Final 2",
+          "date": "31 March 2016",
+          "team1": "India",
+          "score1": "192/2 (20 overs)",
+          "team2": "West Indies",
+          "score2": "196/3 (19.4 overs)",
+          "result": "West Indies won by 7 wickets"
+        },
+        {
+          "name": "Final",
+          "date": "3 April 2016",
+          "team1": "England",
+          "score1": "155/9 (20 overs)",
+          "team2": "West Indies",
+          "score2": "161/6 (19.4 overs)",
+          "result": "West Indies won by 4 wickets",
+          "champion": "West Indies"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2017, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "IPL", "teams": [
   {"team_name":"Mumbai Indians","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.784},
   {"team_name":"Rising Pune Supergiant","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.176},
