@@ -1925,7 +1925,7 @@
   ]
 }]},
 
-    {"year": 2008, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2008, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Rajasthan Royals","played":14,"won":11,"lost":3,"no_result":0,"points":22,"nrr":0.632},
   {"team_name":"Kings XI Punjab","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.509},
   {"team_name":"Chennai Super Kings","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":-0.192},
@@ -1935,7 +1935,7 @@
   {"team_name":"Royal Challengers Bangalore","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-1.160},
   {"team_name":"Deccan Chargers","played":14,"won":2,"lost":12,"no_result":0,"points":4,"nrr":-0.467}
 ]}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2009, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2009, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Delhi Daredevils","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.311},
   {"team_name":"Chennai Super Kings","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.951},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":-0.191},
@@ -2018,7 +2018,7 @@
     }
   ]
 }, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}]},
-    {"year": 2010, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2010, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Mumbai Indians","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":1.084},
   {"team_name":"Deccan Chargers","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":-0.297},
   {"team_name":"Chennai Super Kings","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":0.274},
@@ -2279,7 +2279,107 @@
   ]
 }
 , {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2011, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2011, "tournaments": [{
+  "id": "mens-world-cup",
+  "name": "ICC Men's Cricket World Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Pakistan","group":"Group A","played":6,"won":5,"lost":1,"no_result":0,"points":10,"nrr":0.758},
+        {"team_name":"Sri Lanka","group":"Group A","played":6,"won":4,"lost":1,"no_result":1,"points":9,"nrr":2.582},
+        {"team_name":"Australia","group":"Group A","played":6,"won":4,"lost":1,"no_result":1,"points":9,"nrr":1.123},
+        {"team_name":"New Zealand","group":"Group A","played":6,"won":4,"lost":2,"no_result":0,"points":8,"nrr":1.135},
+        {"team_name":"Zimbabwe","group":"Group A","played":6,"won":2,"lost":4,"no_result":0,"points":4,"nrr":0.030},
+        {"team_name":"Canada","group":"Group A","played":6,"won":1,"lost":5,"no_result":0,"points":2,"nrr":-1.987},
+        {"team_name":"Kenya","group":"Group A","played":6,"won":0,"lost":6,"no_result":0,"points":0,"nrr":-3.042},
+
+        {"team_name":"South Africa","group":"Group B","played":6,"won":5,"lost":1,"no_result":0,"points":10,"nrr":2.026},
+        {"team_name":"India","group":"Group B","played":6,"won":4,"lost":1,"no_result":0,"points":9,"nrr":0.900},
+        {"team_name":"England","group":"Group B","played":6,"won":3,"lost":2,"no_result":0,"points":7,"nrr":0.072},
+        {"team_name":"West Indies","group":"Group B","played":6,"won":3,"lost":3,"no_result":0,"points":6,"nrr":1.066},
+        {"team_name":"Bangladesh","group":"Group B","played":6,"won":3,"lost":3,"no_result":0,"points":6,"nrr":-1.361},
+        {"team_name":"Ireland","group":"Group B","played":6,"won":2,"lost":4,"no_result":0,"points":4,"nrr":-0.696},
+        {"team_name":"Netherlands","group":"Group B","played":6,"won":0,"lost":6,"no_result":0,"points":0,"nrr":-2.045}
+      ]
+    },
+    {
+      "name": "Quarter-Finals",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Quarter-Final 1",
+          "team1": "West Indies",
+          "team2": "Pakistan",
+          "score1": "112",
+          "score2": "113/0",
+          "result": "Pakistan won by 10 wickets"
+        },
+        {
+          "name": "Quarter-Final 2",
+          "team1": "Australia",
+          "team2": "India",
+          "score1": "260/6",
+          "score2": "261/5",
+          "result": "India won by 5 wickets"
+        },
+        {
+          "name": "Quarter-Final 3",
+          "team1": "South Africa",
+          "team2": "New Zealand",
+          "score1": "172",
+          "score2": "221/8",
+          "result": "New Zealand won by 49 runs"
+        },
+        {
+          "name": "Quarter-Final 4",
+          "team1": "England",
+          "team2": "Sri Lanka",
+          "score1": "229/6",
+          "score2": "231/0",
+          "result": "Sri Lanka won by 10 wickets"
+        }
+      ]
+    },
+    {
+      "name": "Semi-Finals",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "team1": "New Zealand",
+          "team2": "Sri Lanka",
+          "score1": "217",
+          "score2": "220/5",
+          "result": "Sri Lanka won by 5 wickets"
+        },
+        {
+          "name": "Semi-Final 2",
+          "team1": "India",
+          "team2": "Pakistan",
+          "score1": "260/9",
+          "score2": "231",
+          "result": "India won by 29 runs"
+        }
+      ]
+    },
+    {
+      "name": "Final",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Final",
+          "team1": "Sri Lanka",
+          "team2": "India",
+          "score1": "274/6",
+          "score2": "277/4",
+          "result": "India won by 6 wickets",
+          "champion": "India"
+        }
+      ]
+    }
+  ]
+}, {"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Royal Challengers Bangalore","played":14,"won":9,"lost":4,"no_result":1,"points":19,"nrr":0.326},
   {"team_name":"Chennai Super Kings","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.443},
   {"team_name":"Mumbai Indians","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.040},
@@ -2291,7 +2391,7 @@
   {"team_name":"Pune Warriors India","played":14,"won":4,"lost":9,"no_result":1,"points":9,"nrr":-0.134},
   {"team_name":"Delhi Daredevils","played":14,"won":4,"lost":9,"no_result":1,"points":9,"nrr":-0.448}
 ]}]},
-    {"year": 2012, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2012, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Delhi Daredevils","played":16,"won":11,"lost":5,"no_result":0,"points":22,"nrr":0.617},
   {"team_name":"Kolkata Knight Riders","played":16,"won":10,"lost":5,"no_result":1,"points":21,"nrr":0.561},
   {"team_name":"Mumbai Indians","played":16,"won":10,"lost":6,"no_result":0,"points":20,"nrr":-0.100},
@@ -2553,7 +2653,7 @@
   ]
 }
 , {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2013, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2013, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Chennai Super Kings","played":16,"won":11,"lost":5,"no_result":0,"points":22,"nrr":0.530},
   {"team_name":"Mumbai Indians","played":16,"won":11,"lost":5,"no_result":0,"points":22,"nrr":0.441},
   {"team_name":"Rajasthan Royals","played":16,"won":10,"lost":6,"no_result":0,"points":20,"nrr":0.322},
@@ -2564,7 +2664,7 @@
   {"team_name":"Pune Warriors India","played":16,"won":4,"lost":12,"no_result":0,"points":8,"nrr":-1.006},
   {"team_name":"Delhi Daredevils","played":16,"won":3,"lost":13,"no_result":0,"points":6,"nrr":-0.848}
 ]}]},
-    {"year": 2014, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2014, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Kings XI Punjab","played":14,"won":11,"lost":3,"no_result":0,"points":22,"nrr":0.968},
   {"team_name":"Kolkata Knight Riders","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.418},
   {"team_name":"Chennai Super Kings","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.385},
@@ -2805,7 +2905,7 @@
   ]
 }
 , {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2015, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2015, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Chennai Super Kings","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.709},
   {"team_name":"Mumbai Indians","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":-0.043},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":7,"lost":5,"no_result":2,"points":16,"nrr":1.037},
@@ -2815,7 +2915,7 @@
   {"team_name":"Delhi Daredevils","played":14,"won":5,"lost":8,"no_result":1,"points":11,"nrr":-0.049},
   {"team_name":"Kings XI Punjab","played":14,"won":3,"lost":11,"no_result":0,"points":6,"nrr":-1.436}
 ]}, {"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}]},
-    {"year": 2016, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2016, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Gujarat Lions","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":-0.374},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":0.932},
   {"team_name":"Sunrisers Hyderabad","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":0.245},
@@ -3056,7 +3156,7 @@
   ]
 }
 , {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2017, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2017, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Mumbai Indians","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.784},
   {"team_name":"Rising Pune Supergiant","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.176},
   {"team_name":"Sunrisers Hyderabad","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.599},
@@ -3066,7 +3166,7 @@
   {"team_name":"Gujarat Lions","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.412},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":3,"lost":10,"no_result":1,"points":7,"nrr":-1.299}
 ]}]},
-    {"year": 2018, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2018, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Sunrisers Hyderabad","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.284},
   {"team_name":"Chennai Super Kings","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.253},
   {"team_name":"Kolkata Knight Riders","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":-0.070},
@@ -3076,7 +3176,7 @@
   {"team_name":"Kings XI Punjab","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.502},
   {"team_name":"Delhi Daredevils","played":14,"won":5,"lost":9,"no_result":0,"points":10,"nrr":-0.222}
 ]}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2019, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2019, "tournaments": [{"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Mumbai Indians","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.421},
   {"team_name":"Chennai Super Kings","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.131},
   {"team_name":"Delhi Capitals","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.044},
@@ -3086,7 +3186,7 @@
   {"team_name":"Rajasthan Royals","played":14,"won":5,"lost":8,"no_result":1,"points":11,"nrr":-0.449},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":5,"lost":8,"no_result":1,"points":11,"nrr":-0.607}
 ]}]},
-    {"year": 2020, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2020, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Mumbai Indians","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":1.107},
   {"team_name":"Delhi Capitals","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":-0.109},
   {"team_name":"Sunrisers Hyderabad","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":0.608},
@@ -3096,7 +3196,7 @@
   {"team_name":"Chennai Super Kings","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.455},
   {"team_name":"Rajasthan Royals","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.569}
 ]}, {"id": "mens-t20-world-cup", "name": "ICC Men's T20 World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2021, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2021, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Delhi Capitals","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.481},
   {"team_name":"Chennai Super Kings","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.455},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":-0.140},
@@ -3356,7 +3456,7 @@
     }
      ]
 }]},
-    {"year": 2022, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2022, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Gujarat Titans","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.316},
   {"team_name":"Rajasthan Royals","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.298},
   {"team_name":"Lucknow Super Giants","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.251},
@@ -3439,7 +3539,7 @@
   ]
 }
 , {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2023, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2023, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Gujarat Titans","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.809},
   {"team_name":"Chennai Super Kings","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.652},
   {"team_name":"Lucknow Super Giants","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.284},
@@ -3459,7 +3559,7 @@
 {"team_name":"Gujarat Giants","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-2.220}
 ]},
 {"id": "mens-world-cup", "name": "ICC Men's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
-    {"year": 2024, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2024, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Kolkata Knight Riders","played":14,"won":9,"lost":3,"no_result":2,"points":20,"nrr":1.428},
   {"team_name":"Sunrisers Hyderabad","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.414},
   {"team_name":"Rajasthan Royals","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.273},
@@ -3564,7 +3664,7 @@
   ]
 },
 {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 2025, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2025, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Punjab Kings","played":14,"won":9,"lost":4,"no_result":1,"points":19,"nrr":0.372},
   {"team_name":"Royal Challengers Bengaluru","played":14,"won":9,"lost":4,"no_result":1,"points":19,"nrr":0.301},
   {"team_name":"Gujarat Titans","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.254},
@@ -3615,7 +3715,7 @@
   ]
 },
 {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
-    {"year": 2026, "tournaments": [{"id": "ipl", "name": "IPL", "teams": [
+    {"year": 2026, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Royal Challengers Bengaluru","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.783},
   {"team_name":"Gujarat Titans","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.695},
   {"team_name":"Sunrisers Hyderabad","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.524},
