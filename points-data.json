@@ -638,9 +638,7 @@
     }
   ]
 },
-    {"year": 1988, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {
-  "year": 1988,
-  "tournaments": [
+    {"year": 1988, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, 
     {
       "id": "asia-cup",
       "name": "Men's Asia Cup",
@@ -686,7 +684,7 @@
             }
           ]
         },
-        {
+                {
           "name": "Knockout",
           "teams": [],
           "matches": [
@@ -703,10 +701,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u19-world-cup",
+      "name": "ICC Men's Under-19 Cricket World Cup",
+      "teams": []
     }
   ]
-}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
-    {"year": 1990, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+},
+{"year": 1990, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
    
 {
   "year": 1992,
