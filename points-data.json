@@ -1803,7 +1803,134 @@
     }
   ]
 },
-    {"year": 2004, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2004, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, 
+{
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "Group A",
+      "teams": [
+        {
+          "team_name": "Pakistan",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 12,
+          "nrr": 2.567
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.400
+        },
+        {
+          "team_name": "Hong Kong",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.979
+        }
+      ]
+    },
+    {
+      "name": "Group B",
+      "teams": [
+        {
+          "team_name": "Sri Lanka",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 11,
+          "nrr": 1.280
+        },
+        {
+          "team_name": "India",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 7,
+          "nrr": 1.040
+        },
+        {
+          "team_name": "United Arab Emirates",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.320
+        }
+      ]
+    },
+    {
+      "name": "Super Four",
+      "teams": [
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 13,
+          "nrr": 1.144
+        },
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 12,
+          "nrr": 0.022
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 10,
+          "nrr": 0.162
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 1,
+          "nrr": -1.190
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "date": "1 August 2004",
+          "team1": "Sri Lanka",
+          "team2": "India",
+          "team1_score": "228/9 (50 overs)",
+          "team2_score": "203/9 (50 overs)",
+          "result": "Sri Lanka won by 25 runs",
+          "champion": "Sri Lanka"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2005, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}]},
     {"year": 2006, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2007, "tournaments": [
