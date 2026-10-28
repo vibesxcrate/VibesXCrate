@@ -709,7 +709,65 @@
     }
   ]
 },
-{"year": 1990, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+{
+  "year": 1990,
+  "tournaments": [
+    {
+      "id": "asia-cup",
+      "name": "Men's Asia Cup",
+      "stages": [
+        {
+          "name": "League Stage",
+          "teams": [
+            {
+              "team_name": "Sri Lanka",
+              "played": 2,
+              "won": 2,
+              "lost": 0,
+              "no_result": 0,
+              "points": 4,
+              "nrr": 4.908
+            },
+            {
+              "team_name": "India",
+              "played": 2,
+              "won": 1,
+              "lost": 1,
+              "no_result": 0,
+              "points": 2,
+              "nrr": 4.222
+            },
+            {
+              "team_name": "Bangladesh",
+              "played": 2,
+              "won": 0,
+              "lost": 2,
+              "no_result": 0,
+              "points": 0,
+              "nrr": 3.663
+            }
+          ]
+        },
+        {
+          "name": "Knockout",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "date": "4 January 1991",
+              "team1": "Sri Lanka",
+              "score1": "204/9 (45 overs)",
+              "team2": "India",
+              "score2": "205/3 (42.1 overs)",
+              "result": "India won by 7 wickets",
+              "champion": "India"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
    
 {
   "year": 1992,
