@@ -1185,7 +1185,32 @@
   ]
 }
 ,
-    {"year": 1997, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+    {"year": 1997, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "League Stage",
+      "teams": []
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Final",
+          "date": "26 July 1997",
+          "team1": "India",
+          "score1": "239/7 (50 overs)",
+          "team2": "Sri Lanka",
+          "score2": "240/2 (36.5 overs)",
+          "result": "Sri Lanka won by 8 wickets",
+          "champion": "Sri Lanka"
+        }
+      ]
+    }
+  ]
+},
     {"year": 1998, "tournaments": [{"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
    
 {
@@ -4323,3 +4348,4 @@
     ]}
   ]
 }
+  ]}
