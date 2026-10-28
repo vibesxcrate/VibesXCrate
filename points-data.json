@@ -1191,7 +1191,44 @@
   "stages": [
     {
       "name": "League Stage",
-      "teams": []
+      "teams": [
+       {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 1.035
+        },  
+       {
+          "team_name": "India",
+          "played": 3,
+          "won": 1,
+          "lost": 1,
+          "no_result": 1,
+          "points": 3,
+          "nrr": 1.405
+        },
+       {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 1,
+          "lost": 1,
+          "no_result": 1,
+          "points": 3,
+          "nrr": 0.940
+        },
+      {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.895
+        }  
+      ]
     },
     {
       "name": "Knockout",
@@ -1207,10 +1244,13 @@
           "result": "Sri Lanka won by 8 wickets",
           "champion": "Sri Lanka"
         }
-      ]
+        ]
     }
   ]
-},
+}
+    ]
+        }
+           ,
     {"year": 1998, "tournaments": [{"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
    
 {
@@ -4348,4 +4388,4 @@
     ]}
   ]
 }
-  ]}
+
