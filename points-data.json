@@ -446,42 +446,45 @@
     }
   ]
 },
-    {
+   {
   "year": 1986,
   "tournaments": [
     {
       "id": "asia-cup",
       "name": "Men's Asia Cup",
-      "teams": [
-        {
-          "team_name": "Pakistan",
-          "played": 2,
-          "won": 2,
-          "lost": 0,
-          "no_result": 0,
-          "points": 8,
-          "nrr": 3.823
-        },
-        {
-          "team_name": "Sri Lanka",
-          "played": 2,
-          "won": 1,
-          "lost": 1,
-          "no_result": 0,
-          "points": 4,
-          "nrr": 3.796
-        },
-        {
-          "team_name": "Bangladesh",
-          "played": 2,
-          "won": 0,
-          "lost": 2,
-          "no_result": 0,
-          "points": 0,
-          "nrr": 2.795
-        }
-      ],
       "stages": [
+        {
+          "name": "League Stage",
+          "teams": [
+            {
+              "team_name": "Pakistan",
+              "played": 2,
+              "won": 2,
+              "lost": 0,
+              "no_result": 0,
+              "points": 4,
+              "nrr": null
+            },
+            {
+              "team_name": "Sri Lanka",
+              "played": 2,
+              "won": 1,
+              "lost": 1,
+              "no_result": 0,
+              "points": 2,
+              "nrr": null
+            },
+            {
+              "team_name": "Bangladesh",
+              "played": 2,
+              "won": 0,
+              "lost": 2,
+              "no_result": 0,
+              "points": 0,
+              "nrr": null
+            }
+          ]
+        },
         {
           "name": "Knockout",
           "teams": [],
@@ -489,9 +492,9 @@
             {
               "name": "Final",
               "team1": "Pakistan",
+              "score1": "191/9",
               "team2": "Sri Lanka",
-              "score1": "191/9 (45 overs)",
-              "score2": "195/5 (42.2 overs)",
+              "score2": "195/5",
               "result": "Sri Lanka won by 5 wickets",
               "champion": "Sri Lanka"
             }
