@@ -638,7 +638,74 @@
     }
   ]
 },
-    {"year": 1988, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 1988, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {
+  "year": 1988,
+  "tournaments": [
+    {
+      "id": "asia-cup",
+      "name": "Men's Asia Cup",
+      "stages": [
+        {
+          "name": "League Stage",
+          "teams": [
+            {
+              "team_name": "Sri Lanka",
+              "played": 3,
+              "won": 3,
+              "lost": 0,
+              "no_result": 0,
+              "points": 12,
+              "nrr": 5.110
+            },
+            {
+              "team_name": "India",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 8,
+              "nrr": 4.491
+            },
+            {
+              "team_name": "Pakistan",
+              "played": 3,
+              "won": 1,
+              "lost": 2,
+              "no_result": 0,
+              "points": 4,
+              "nrr": 4.721
+            },
+            {
+              "team_name": "Bangladesh",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": 2.430
+            }
+          ]
+        },
+        {
+          "name": "Knockout",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "date": "4 November 1988",
+              "team1": "Sri Lanka",
+              "score1": "176 (43.2 overs)",
+              "team2": "India",
+              "score2": "180/4 (37.1 overs)",
+              "result": "India won by 6 wickets",
+              "champion": "India"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 1990, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
    
 {
