@@ -1485,7 +1485,70 @@
     }
   ]
 },
-    {"year": 2000, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+    {"year": 2000, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC KnockOut Trophy", "teams": []}, 
+{
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 1.920
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 1.077
+        },
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.416
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.800
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "date": "2000-06-07",
+          "team1": "Pakistan",
+          "team2": "Sri Lanka",
+          "team1_score": "277/4 (50 overs)",
+          "team2_score": "238 all out (45.2 overs)",
+          "result": "Pakistan won by 39 runs",
+          "winner": "Pakistan"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2002, "tournaments": [{"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}]},
    
 {
