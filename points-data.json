@@ -1536,13 +1536,13 @@
       "teams": [],
       "matches": [
         {
-          "date": "2000-06-07",
+          "date": "7 June 2000",
           "team1": "Pakistan",
           "team2": "Sri Lanka",
           "team1_score": "277/4 (50 overs)",
           "team2_score": "238 all out (45.2 overs)",
           "result": "Pakistan won by 39 runs",
-          "winner": "Pakistan"
+          "champion": "Pakistan"
         }
       ]
     }
