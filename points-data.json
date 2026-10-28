@@ -904,7 +904,74 @@
   ]
 },
     {"year": 1993, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}]},
-    {"year": 1995, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+    {
+  "year": 1995,
+  "tournaments": [
+    {
+      "id": "asia-cup",
+      "name": "Men's Asia Cup",
+      "stages": [
+        {
+          "name": "League Stage",
+          "teams": [
+            {
+              "team_name": "India",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 4,
+              "nrr": 4.856
+            },
+            {
+              "team_name": "Sri Lanka",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 4,
+              "nrr": 4.701
+            },
+            {
+              "team_name": "Pakistan",
+              "played": 3,
+              "won": 2,
+              "lost": 1,
+              "no_result": 0,
+              "points": 4,
+              "nrr": 4.596
+            },
+            {
+              "team_name": "Bangladesh",
+              "played": 3,
+              "won": 0,
+              "lost": 3,
+              "no_result": 0,
+              "points": 0,
+              "nrr": 2.933
+            }
+          ]
+        },
+        {
+          "name": "Knockout",
+          "teams": [],
+          "matches": [
+            {
+              "name": "Final",
+              "date": "14 April 1995",
+              "team1": "Sri Lanka",
+              "score1": "230/7 (50 overs)",
+              "team2": "India",
+              "score2": "233/2 (41.5 overs)",
+              "result": "India won by 8 wickets",
+              "champion": "India"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
    
 {
   "year": 1996,
