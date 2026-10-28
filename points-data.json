@@ -408,7 +408,44 @@
     }
   ]
 },
-    {"year": 1984, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
+   {
+  "year": 1984,
+  "tournaments": [
+    {
+      "id": "asia-cup",
+      "name": "Men's Asia Cup",
+      "teams": [
+        {
+          "team_name": "India",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 8,
+          "nrr": 4.212
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 3.059
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": 3.489
+        }
+      ]
+    }
+  ]
+},
     {"year": 1986, "tournaments": [{"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}]},
     
 {
