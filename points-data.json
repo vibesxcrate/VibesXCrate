@@ -4213,7 +4213,136 @@
   {"team_name":"Royal Challengers Bangalore","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":0.129},
   {"team_name":"Kings XI Punjab","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.502},
   {"team_name":"Delhi Daredevils","played":14,"won":5,"lost":9,"no_result":0,"points":10,"nrr":-0.222}
-]}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+]}, 
+{
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "India",
+          "group": "Group A",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 1.474
+        },
+        {
+          "team_name": "Pakistan",
+          "group": "Group A",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 0.284
+        },
+        {
+          "team_name": "Hong Kong",
+          "group": "Group A",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.748
+        },
+        {
+          "team_name": "Afghanistan",
+          "group": "Group B",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 2.270
+        },
+        {
+          "team_name": "Bangladesh",
+          "group": "Group B",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 0.010
+        },
+        {
+          "team_name": "Sri Lanka",
+          "group": "Group B",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.280
+        }
+      ]
+    },
+    {
+      "name": "Super Four",
+      "teams": [
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 5,
+          "nrr": 0.863
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.156
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.599
+        },
+        {
+          "team_name": "Afghanistan",
+          "played": 3,
+          "won": 0,
+          "lost": 2,
+          "no_result": 1,
+          "points": 1,
+          "nrr": -0.044
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Final",
+          "date": "28 September 2018",
+          "team1": "India",
+          "team1_score": "223/7 (50 overs)",
+          "team2": "Bangladesh",
+          "team2_score": "222 all out (48.3 overs)",
+          "result": "India won by 3 wickets",
+          "champion": "India"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2019, "tournaments": [
 {
   "id": "mens-world-cup",
