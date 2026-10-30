@@ -2479,7 +2479,133 @@
   {"team_name":"Kolkata Knight Riders","played":14,"won":6,"lost":7,"no_result":1,"points":13,"nrr":0.147},
   {"team_name":"Royal Challengers Bangalore","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-1.160},
   {"team_name":"Deccan Chargers","played":14,"won":2,"lost":12,"no_result":0,"points":4,"nrr":-0.467}
-]}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+]}, {
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "Sri Lanka",
+          "group": "Group A",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 2.730
+        },
+        {
+          "team_name": "Bangladesh",
+          "group": "Group A",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.350
+        },
+        {
+          "team_name": "United Arab Emirates",
+          "group": "Group A",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.380
+        },
+        {
+          "team_name": "India",
+          "group": "Group B",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 3.154
+        },
+        {
+          "team_name": "Pakistan",
+          "group": "Group B",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 1.161
+        },
+        {
+          "team_name": "Hong Kong",
+          "group": "Group B",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -4.110
+        }
+      ]
+    },
+    {
+      "name": "Super Four",
+      "teams": [
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 1.363
+        },
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.250
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.924
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.665
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "date": "2008-07-06",
+          "team1": "India",
+          "team2": "Sri Lanka",
+          "team1_score": "173 all out (39.3 overs)",
+          "team2_score": "273 all out (49.5 overs)",
+          "result": "Sri Lanka won by 100 runs",
+          "champion": "Sri Lanka"
+        }
+      ]
+    }
+  ]
+}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2009, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Delhi Daredevils","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.311},
   {"team_name":"Chennai Super Kings","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.951},
