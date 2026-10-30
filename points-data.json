@@ -1764,7 +1764,107 @@
         {
           "id": "champions-trophy",
           "name": "ICC KnockOut Trophy",
-          "teams": []
+          "stages": [
+            {
+              "name": "Pre-Quarter-Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Pre-Quarter-Final",
+                  "team1": "Zimbabwe",
+                  "score1": "258/7",
+                  "team2": "New Zealand",
+                  "score2": "260/5",
+                  "result": "New Zealand won by 5 wickets",
+                  "date": "24 October 1998"
+                }
+              ]
+            },
+            {
+              "name": "Quarter-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Quarter-Final 1",
+                  "team1": "England",
+                  "score1": "281/7",
+                  "team2": "South Africa",
+                  "score2": "283/4",
+                  "result": "South Africa won by 6 wickets",
+                  "date": "25 October 1998"
+                },
+                {
+                  "name": "Quarter-Final 2",
+                  "team1": "New Zealand",
+                  "score1": "188",
+                  "team2": "Sri Lanka",
+                  "score2": "191/5",
+                  "result": "Sri Lanka won by 5 wickets",
+                  "date": "26 October 1998"
+                },
+                {
+                  "name": "Quarter-Final 3",
+                  "team1": "Australia",
+                  "score1": "263",
+                  "team2": "India",
+                  "score2": "307/8",
+                  "result": "India won by 44 runs",
+                  "date": "28 October 1998"
+                },
+                {
+                  "name": "Quarter-Final 4",
+                  "team1": "Pakistan",
+                  "score1": "259/9",
+                  "team2": "West Indies",
+                  "score2": "289/9",
+                  "result": "West Indies won by 30 runs",
+                  "date": "29 October 1998"
+                }
+              ]
+            },
+            {
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "South Africa",
+                  "score1": "240/7",
+                  "team2": "Sri Lanka",
+                  "score2": "132",
+                  "result": "South Africa won by 92 runs (D/L method)",
+                  "date": "30 October 1998"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "India",
+                  "score1": "242/6",
+                  "team2": "West Indies",
+                  "score2": "245/4",
+                  "result": "West Indies won by 6 wickets",
+                  "date": "31 October 1998"
+                }
+              ]
+            },
+            {
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final",
+                  "team1": "South Africa",
+                  "score1": "248/6",
+                  "team2": "West Indies",
+                  "score2": "245",
+                  "result": "South Africa won by 4 wickets",
+                  "date": "1 November 1998",
+                  "champion": "South Africa"
+                }
+              ]
+            }
+          ],
+          "champion": "South Africa",
+          "notes": "The 1998 edition was also known as the Wills International Cup. It used a knockout format; there was no league points table."
         },
         {
           "id": "u19-world-cup",
@@ -2120,7 +2220,125 @@
         {
           "id": "champions-trophy",
           "name": "ICC KnockOut Trophy",
-          "teams": []
+          "stages": [
+            {
+              "name": "Pre-Quarter-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Pre-Quarter-Final 1",
+                  "team1": "Kenya",
+                  "score1": "208/9",
+                  "team2": "India",
+                  "score2": "209/2",
+                  "result": "India won by 8 wickets",
+                  "date": "3 October 2000"
+                },
+                {
+                  "name": "Pre-Quarter-Final 2",
+                  "team1": "Sri Lanka",
+                  "score1": "287/6",
+                  "team2": "West Indies",
+                  "score2": "179",
+                  "result": "Sri Lanka won by 108 runs",
+                  "date": "4 October 2000"
+                },
+                {
+                  "name": "Pre-Quarter-Final 3",
+                  "team1": "Bangladesh",
+                  "score1": "232/8",
+                  "team2": "England",
+                  "score2": "236/2",
+                  "result": "England won by 8 wickets",
+                  "date": "5 October 2000"
+                }
+              ]
+            },
+            {
+              "name": "Quarter-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Quarter-Final 1",
+                  "team1": "India",
+                  "score1": "265/9",
+                  "team2": "Australia",
+                  "score2": "245",
+                  "result": "India won by 20 runs",
+                  "date": "7 October 2000"
+                },
+                {
+                  "name": "Quarter-Final 2",
+                  "team1": "Sri Lanka",
+                  "score1": "194",
+                  "team2": "Pakistan",
+                  "score2": "195/1",
+                  "result": "Pakistan won by 9 wickets",
+                  "date": "8 October 2000"
+                },
+                {
+                  "name": "Quarter-Final 3",
+                  "team1": "New Zealand",
+                  "score1": "265/7",
+                  "team2": "Zimbabwe",
+                  "score2": "201",
+                  "result": "New Zealand won by 64 runs",
+                  "date": "9 October 2000"
+                },
+                {
+                  "name": "Quarter-Final 4",
+                  "team1": "England",
+                  "score1": "182",
+                  "team2": "South Africa",
+                  "score2": "184/2",
+                  "result": "South Africa won by 8 wickets",
+                  "date": "10 October 2000"
+                }
+              ]
+            },
+            {
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "Pakistan",
+                  "score1": "252",
+                  "team2": "New Zealand",
+                  "score2": "255/6",
+                  "result": "New Zealand won by 4 wickets",
+                  "date": "11 October 2000"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "India",
+                  "score1": "295/6",
+                  "team2": "South Africa",
+                  "score2": "200",
+                  "result": "India won by 95 runs",
+                  "date": "13 October 2000"
+                }
+              ]
+            },
+            {
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final",
+                  "team1": "India",
+                  "score1": "264/6",
+                  "team2": "New Zealand",
+                  "score2": "265/6",
+                  "result": "New Zealand won by 4 wickets",
+                  "date": "15 October 2000",
+                  "champion": "New Zealand"
+                }
+              ]
+            }
+          ],
+          "champion": "New Zealand",
+          "notes": "The 2000 edition was played as a knockout tournament. Pre-quarter-finals and quarter-finals replaced a league group stage, so no points table applies."
         },
         {
           "id": "asia-cup",
@@ -2197,7 +2415,183 @@
         {
           "id": "champions-trophy",
           "name": "ICC Champions Trophy",
-          "teams": []
+          "stages": [
+            {
+              "name": "Group Stage",
+              "teams": [
+                {
+                  "team_name": "Australia",
+                  "played": 2,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 8,
+                  "nrr": 3.461,
+                  "group": "Pool 1"
+                },
+                {
+                  "team_name": "New Zealand",
+                  "played": 2,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.03,
+                  "group": "Pool 1"
+                },
+                {
+                  "team_name": "Bangladesh",
+                  "played": 2,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -3.275,
+                  "group": "Pool 1"
+                },
+                {
+                  "team_name": "India",
+                  "played": 2,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 8,
+                  "nrr": 0.816,
+                  "group": "Pool 2"
+                },
+                {
+                  "team_name": "England",
+                  "played": 2,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.401,
+                  "group": "Pool 2"
+                },
+                {
+                  "team_name": "Zimbabwe",
+                  "played": 2,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -1.125,
+                  "group": "Pool 2"
+                },
+                {
+                  "team_name": "South Africa",
+                  "played": 2,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 8,
+                  "nrr": 1.856,
+                  "group": "Pool 3"
+                },
+                {
+                  "team_name": "West Indies",
+                  "played": 2,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.202,
+                  "group": "Pool 3"
+                },
+                {
+                  "team_name": "Kenya",
+                  "played": 2,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -2.05,
+                  "group": "Pool 3"
+                },
+                {
+                  "team_name": "Sri Lanka",
+                  "played": 2,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 8,
+                  "nrr": 2.861,
+                  "group": "Pool 4"
+                },
+                {
+                  "team_name": "Pakistan",
+                  "played": 2,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 1.245,
+                  "group": "Pool 4"
+                },
+                {
+                  "team_name": "Netherlands",
+                  "played": 2,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -4.323,
+                  "group": "Pool 4"
+                }
+              ]
+            },
+            {
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "India",
+                  "score1": "261/9",
+                  "team2": "South Africa",
+                  "score2": "251/6",
+                  "result": "India won by 10 runs",
+                  "date": "25 September 2002"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "Sri Lanka",
+                  "score1": "163/3",
+                  "team2": "Australia",
+                  "score2": "162",
+                  "result": "Sri Lanka won by 7 wickets",
+                  "date": "27 September 2002"
+                }
+              ]
+            },
+            {
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final (scheduled day)",
+                  "team1": "Sri Lanka",
+                  "score1": "244/5",
+                  "team2": "India",
+                  "score2": "14/0",
+                  "result": "No result – match abandoned due to rain",
+                  "date": "29 September 2002"
+                },
+                {
+                  "name": "Final (reserve day)",
+                  "team1": "Sri Lanka",
+                  "score1": "222/7",
+                  "team2": "India",
+                  "score2": "38/1",
+                  "result": "No result – match abandoned due to rain; teams shared the trophy",
+                  "date": "30 September 2002"
+                }
+              ]
+            }
+          ],
+          "champion": "India and Sri Lanka",
+          "notes": "India and Sri Lanka were declared joint winners after both the scheduled final and reserve-day replay were abandoned due to rain. The pool-stage points system awarded 4 points per win."
         }
       ]
     },
@@ -2459,7 +2853,174 @@
         {
           "id": "champions-trophy",
           "name": "ICC Champions Trophy",
-          "teams": []
+          "stages": [
+            {
+              "name": "Group Stage",
+              "teams": [
+                {
+                  "team_name": "Australia",
+                  "played": 2,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 3.237,
+                  "group": "Pool A"
+                },
+                {
+                  "team_name": "New Zealand",
+                  "played": 2,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": 1.603,
+                  "group": "Pool A"
+                },
+                {
+                  "team_name": "United States of America",
+                  "played": 2,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -5.121,
+                  "group": "Pool A"
+                },
+                {
+                  "team_name": "West Indies",
+                  "played": 2,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 1.471,
+                  "group": "Pool B"
+                },
+                {
+                  "team_name": "South Africa",
+                  "played": 2,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": 1.552,
+                  "group": "Pool B"
+                },
+                {
+                  "team_name": "Bangladesh",
+                  "played": 2,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -3.111,
+                  "group": "Pool B"
+                },
+                {
+                  "team_name": "Pakistan",
+                  "played": 2,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 1.413,
+                  "group": "Pool C"
+                },
+                {
+                  "team_name": "India",
+                  "played": 2,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": 0.944,
+                  "group": "Pool C"
+                },
+                {
+                  "team_name": "Kenya",
+                  "played": 2,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -2.747,
+                  "group": "Pool C"
+                },
+                {
+                  "team_name": "England",
+                  "played": 2,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 2.716,
+                  "group": "Pool D"
+                },
+                {
+                  "team_name": "Sri Lanka",
+                  "played": 2,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": -0.252,
+                  "group": "Pool D"
+                },
+                {
+                  "team_name": "Zimbabwe",
+                  "played": 2,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -1.885,
+                  "group": "Pool D"
+                }
+              ]
+            },
+            {
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "Australia",
+                  "score1": "259/9",
+                  "team2": "England",
+                  "score2": "262/4",
+                  "result": "England won by 6 wickets",
+                  "date": "21 September 2004"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "Pakistan",
+                  "score1": "131",
+                  "team2": "West Indies",
+                  "score2": "132/3",
+                  "result": "West Indies won by 7 wickets",
+                  "date": "22 September 2004"
+                }
+              ]
+            },
+            {
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final",
+                  "team1": "England",
+                  "score1": "217",
+                  "team2": "West Indies",
+                  "score2": "218/8",
+                  "result": "West Indies won by 2 wickets",
+                  "date": "25 September 2004",
+                  "champion": "West Indies"
+                }
+              ]
+            }
+          ],
+          "champion": "West Indies"
         },
         {
           "id": "asia-cup",
@@ -2714,7 +3275,175 @@
         {
           "id": "champions-trophy",
           "name": "ICC Champions Trophy",
-          "teams": []
+          "stages": [
+            {
+              "name": "Qualifying Group",
+              "teams": [
+                {
+                  "team_name": "Sri Lanka",
+                  "played": 3,
+                  "won": 3,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 6,
+                  "nrr": 2.672
+                },
+                {
+                  "team_name": "West Indies",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.404
+                },
+                {
+                  "team_name": "Bangladesh",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": 0.019
+                },
+                {
+                  "team_name": "Zimbabwe",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 3,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -2.927
+                }
+              ]
+            },
+            {
+              "name": "Group Stage",
+              "teams": [
+                {
+                  "team_name": "Australia",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.529,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "West Indies",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.009,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "India",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": 0.482,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "England",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": -1.044,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "South Africa",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.767,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "New Zealand",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.572,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "Sri Lanka",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": -0.195,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "Pakistan",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": -1.107,
+                  "group": "Group B"
+                }
+              ]
+            },
+            {
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "Australia",
+                  "score1": "240/9",
+                  "team2": "New Zealand",
+                  "score2": "206",
+                  "result": "Australia won by 34 runs",
+                  "date": "1 November 2006"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "South Africa",
+                  "score1": "258/8",
+                  "team2": "West Indies",
+                  "score2": "262/4",
+                  "result": "West Indies won by 6 wickets",
+                  "date": "2 November 2006"
+                }
+              ]
+            },
+            {
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final",
+                  "team1": "West Indies",
+                  "score1": "138",
+                  "team2": "Australia",
+                  "score2": "116/2",
+                  "result": "Australia won by 8 wickets (D/L method)",
+                  "date": "5 November 2006",
+                  "champion": "Australia"
+                }
+              ]
+            }
+          ],
+          "champion": "Australia"
         },
         {
           "id": "womens-asia-cup",
@@ -3731,7 +4460,134 @@
         {
           "id": "champions-trophy",
           "name": "ICC Champions Trophy",
-          "teams": []
+          "stages": [
+            {
+              "name": "Group Stage",
+              "teams": [
+                {
+                  "team_name": "Australia",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 1,
+                  "points": 5,
+                  "nrr": 0.51,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "Pakistan",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.999,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "India",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 1,
+                  "points": 3,
+                  "nrr": -1.08,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "West Indies",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 3,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -1.501,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "New Zealand",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.782,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "England",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.512,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "Sri Lanka",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": -0.085,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "South Africa",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": -0.177,
+                  "group": "Group B"
+                }
+              ]
+            },
+            {
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "England",
+                  "score1": "257",
+                  "team2": "Australia",
+                  "score2": "258/1",
+                  "result": "Australia won by 9 wickets",
+                  "date": "2 October 2009"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "Pakistan",
+                  "score1": "233/9",
+                  "team2": "New Zealand",
+                  "score2": "234/5",
+                  "result": "New Zealand won by 5 wickets",
+                  "date": "3 October 2009"
+                }
+              ]
+            },
+            {
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final",
+                  "team1": "New Zealand",
+                  "score1": "200/9",
+                  "team2": "Australia",
+                  "score2": "206/4",
+                  "result": "Australia won by 6 wickets",
+                  "date": "5 October 2009",
+                  "champion": "Australia"
+                }
+              ]
+            }
+          ],
+          "champion": "Australia"
         },
         {
           "id": "mens-t20-world-cup",
@@ -5325,7 +6181,136 @@
         {
           "id": "champions-trophy",
           "name": "ICC Champions Trophy",
-          "teams": []
+          "stages": [
+            {
+              "name": "Group Stage",
+              "teams": [
+                {
+                  "team_name": "England",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.308,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "Sri Lanka",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": -0.197,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "New Zealand",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 1,
+                  "points": 3,
+                  "nrr": 0.777,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "Australia",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 1,
+                  "points": 1,
+                  "nrr": -0.68,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "India",
+                  "played": 3,
+                  "won": 3,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 6,
+                  "nrr": 0.938,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "South Africa",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 3,
+                  "nrr": 0.325,
+                  "group": "Group B",
+                  "tied": 1
+                },
+                {
+                  "team_name": "West Indies",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 3,
+                  "nrr": -0.075,
+                  "group": "Group B",
+                  "tied": 1
+                },
+                {
+                  "team_name": "Pakistan",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 3,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -1.035,
+                  "group": "Group B"
+                }
+              ]
+            },
+            {
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "England",
+                  "score1": "175",
+                  "team2": "South Africa",
+                  "score2": "179/3",
+                  "result": "England won by 7 wickets",
+                  "date": "19 June 2013"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "Sri Lanka",
+                  "score1": "181/8",
+                  "team2": "India",
+                  "score2": "182/2",
+                  "result": "India won by 8 wickets",
+                  "date": "20 June 2013"
+                }
+              ]
+            },
+            {
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final",
+                  "team1": "India",
+                  "score1": "129/7",
+                  "team2": "England",
+                  "score2": "124/8",
+                  "result": "India won by 5 runs",
+                  "date": "23 June 2013",
+                  "champion": "India"
+                }
+              ]
+            }
+          ],
+          "champion": "India"
         },
         {
           "id": "ipl",
@@ -6635,7 +7620,134 @@
         {
           "id": "champions-trophy",
           "name": "ICC Champions Trophy",
-          "teams": []
+          "stages": [
+            {
+              "name": "Group Stage",
+              "teams": [
+                {
+                  "team_name": "England",
+                  "played": 3,
+                  "won": 3,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 6,
+                  "nrr": 1.045,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "Bangladesh",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 1,
+                  "points": 3,
+                  "nrr": 0.0,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "Australia",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 1,
+                  "no_result": 2,
+                  "points": 2,
+                  "nrr": -0.992,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "New Zealand",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 1,
+                  "points": 1,
+                  "nrr": -1.058,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "India",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 1.37,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "Pakistan",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": -0.645,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "South Africa",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": 0.167,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "Sri Lanka",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 2,
+                  "no_result": 0,
+                  "points": 2,
+                  "nrr": -0.833,
+                  "group": "Group B"
+                }
+              ]
+            },
+            {
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "England",
+                  "score1": "211",
+                  "team2": "Pakistan",
+                  "score2": "215/2",
+                  "result": "Pakistan won by 8 wickets",
+                  "date": "14 June 2017"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "Bangladesh",
+                  "score1": "264/7",
+                  "team2": "India",
+                  "score2": "265/1",
+                  "result": "India won by 9 wickets",
+                  "date": "15 June 2017"
+                }
+              ]
+            },
+            {
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final",
+                  "team1": "Pakistan",
+                  "score1": "338/4",
+                  "team2": "India",
+                  "score2": "158",
+                  "result": "Pakistan won by 180 runs",
+                  "date": "18 June 2017",
+                  "champion": "Pakistan"
+                }
+              ]
+            }
+          ],
+          "champion": "Pakistan"
         },
         {
           "id": "ipl",
@@ -9281,80 +10393,134 @@
         {
           "id": "champions-trophy",
           "name": "ICC Champions Trophy",
-          "teams": [
+          "stages": [
             {
-              "team_name": "India",
-              "played": 3,
-              "won": 3,
-              "lost": 0,
-              "no_result": 0,
-              "points": 6,
-              "nrr": 0.715
+              "name": "Group Stage",
+              "teams": [
+                {
+                  "team_name": "India",
+                  "played": 3,
+                  "won": 3,
+                  "lost": 0,
+                  "no_result": 0,
+                  "points": 6,
+                  "nrr": 0.715,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "New Zealand",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 1,
+                  "no_result": 0,
+                  "points": 4,
+                  "nrr": 0.267,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "Bangladesh",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 1,
+                  "points": 1,
+                  "nrr": -0.443,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "Pakistan",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 2,
+                  "no_result": 1,
+                  "points": 1,
+                  "nrr": -1.087,
+                  "group": "Group A"
+                },
+                {
+                  "team_name": "South Africa",
+                  "played": 3,
+                  "won": 2,
+                  "lost": 0,
+                  "no_result": 1,
+                  "points": 5,
+                  "nrr": 2.395,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "Australia",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 0,
+                  "no_result": 2,
+                  "points": 4,
+                  "nrr": 0.475,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "Afghanistan",
+                  "played": 3,
+                  "won": 1,
+                  "lost": 1,
+                  "no_result": 1,
+                  "points": 3,
+                  "nrr": -0.99,
+                  "group": "Group B"
+                },
+                {
+                  "team_name": "England",
+                  "played": 3,
+                  "won": 0,
+                  "lost": 3,
+                  "no_result": 0,
+                  "points": 0,
+                  "nrr": -1.159,
+                  "group": "Group B"
+                }
+              ]
             },
             {
-              "team_name": "New Zealand",
-              "played": 3,
-              "won": 2,
-              "lost": 1,
-              "no_result": 0,
-              "points": 4,
-              "nrr": 0.267
+              "name": "Semi-Finals",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Semi-Final 1",
+                  "team1": "Australia",
+                  "score1": "264",
+                  "team2": "India",
+                  "score2": "267/6",
+                  "result": "India won by 4 wickets",
+                  "date": "4 March 2025"
+                },
+                {
+                  "name": "Semi-Final 2",
+                  "team1": "New Zealand",
+                  "score1": "362/6",
+                  "team2": "South Africa",
+                  "score2": "312/9",
+                  "result": "New Zealand won by 50 runs",
+                  "date": "5 March 2025"
+                }
+              ]
             },
             {
-              "team_name": "Bangladesh",
-              "played": 3,
-              "won": 0,
-              "lost": 2,
-              "no_result": 1,
-              "points": 1,
-              "nrr": -0.443
-            },
-            {
-              "team_name": "Pakistan",
-              "played": 3,
-              "won": 0,
-              "lost": 2,
-              "no_result": 1,
-              "points": 1,
-              "nrr": -1.087
-            },
-            {
-              "team_name": "South Africa",
-              "played": 3,
-              "won": 2,
-              "lost": 0,
-              "no_result": 1,
-              "points": 5,
-              "nrr": 2.395
-            },
-            {
-              "team_name": "Australia",
-              "played": 3,
-              "won": 1,
-              "lost": 0,
-              "no_result": 2,
-              "points": 4,
-              "nrr": 0.475
-            },
-            {
-              "team_name": "Afghanistan",
-              "played": 3,
-              "won": 1,
-              "lost": 1,
-              "no_result": 1,
-              "points": 3,
-              "nrr": -0.99
-            },
-            {
-              "team_name": "England",
-              "played": 3,
-              "won": 0,
-              "lost": 3,
-              "no_result": 0,
-              "points": 0,
-              "nrr": -1.159
+              "name": "Final",
+              "teams": [],
+              "matches": [
+                {
+                  "name": "Final",
+                  "team1": "New Zealand",
+                  "score1": "251/7",
+                  "team2": "India",
+                  "score2": "254/6",
+                  "result": "India won by 4 wickets",
+                  "date": "9 March 2025",
+                  "champion": "India"
+                }
+              ]
             }
-          ]
+          ],
+          "champion": "India"
         },
         {
           "id": "womens-world-cup",
