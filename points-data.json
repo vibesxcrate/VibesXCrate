@@ -5254,7 +5254,156 @@
     {"team_name": "Bangladesh", "played": 7, "won": 1, "lost": 5, "no_result": 1, "points": 3, "nrr": -0.578},
     {"team_name": "Pakistan", "played": 7, "won": 0, "lost": 4, "no_result": 3, "points": 3, "nrr": -2.651}
   ]
-},
+}, 
+{
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "India",
+          "group": "Group A",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 3.547
+        },
+        {
+          "team_name": "Pakistan",
+          "group": "Group A",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 1.790
+        },
+        {
+          "team_name": "United Arab Emirates",
+          "group": "Group A",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -1.984
+        },
+        {
+          "team_name": "Oman",
+          "group": "Group A",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.600
+        },
+        {
+          "team_name": "Sri Lanka",
+          "group": "Group B",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 1.278
+        },
+        {
+          "team_name": "Bangladesh",
+          "group": "Group B",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.270
+        },
+        {
+          "team_name": "Afghanistan",
+          "group": "Group B",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 1.241
+        },
+        {
+          "team_name": "Hong Kong",
+          "group": "Group B",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.151
+        }
+      ]
+    },
+    {
+      "name": "Super Four",
+      "teams": [
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.913
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 0.329
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.831
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -0.418
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Final",
+          "date": "28 September 2025",
+          "team1": "India",
+          "team1_score": "150/5 (19.4 overs)",
+          "team2": "Pakistan",
+          "team2_score": "146 all out (19.1 overs)",
+          "result": "India won by 5 wickets",
+          "champion": "India"
+        }
+      ]
+    }
+  ]
+}
+, 
 {"id": "u19-womens-t20-world-cup", "name": "ICC Women's Under-19 T20 World Cup", "teams": []}]},
     {"year": 2026, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Royal Challengers Bengaluru","played":14,"won":9,"lost":5,"no_result":0,"points":18,"nrr":0.783},
