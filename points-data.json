@@ -2594,7 +2594,7 @@
       "teams": [],
       "matches": [
         {
-          "date": "2008-07-06",
+          "date": "6 July 2008",
           "team1": "India",
           "team2": "Sri Lanka",
           "team1_score": "173 all out (39.3 overs)",
@@ -2949,7 +2949,69 @@
     }
   ]
 }
-, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+, {
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 14,
+          "nrr": 1.424
+        },
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 9,
+          "nrr": 0.275
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 5,
+          "nrr": 0.788
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.627
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Final",
+          "date": "24 June 2010",
+          "team1": "India",
+          "team1_score": "268/6 (50 overs)",
+          "team2": "Sri Lanka",
+          "team2_score": "187 all out (44.4 overs)",
+          "result": "India won by 81 runs",
+          "champion": "India"
+        }
+      ]
+    }
+  ]
+}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2011, "tournaments": [{
   "id": "mens-world-cup",
   "name": "ICC Men's Cricket World Cup",
