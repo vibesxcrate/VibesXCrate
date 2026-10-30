@@ -4763,7 +4763,136 @@
     }
   ]
 }
-, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "asia-cup", "name": "Men's Asia Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
+, {"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, 
+{
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "India",
+          "group": "Group A",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 1.096
+        },
+        {
+          "team_name": "Pakistan",
+          "group": "Group A",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 3.811
+        },
+        {
+          "team_name": "Hong Kong",
+          "group": "Group A",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -4.875
+        },
+        {
+          "team_name": "Afghanistan",
+          "group": "Group B",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "no_result": 0,
+          "points": 4,
+          "nrr": 2.467
+        },
+        {
+          "team_name": "Sri Lanka",
+          "group": "Group B",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -2.233
+        },
+        {
+          "team_name": "Bangladesh",
+          "group": "Group B",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -0.576
+        }
+      ]
+    },
+    {
+      "name": "Super Four",
+      "teams": [
+        {
+          "team_name": "Sri Lanka",
+          "played": 3,
+          "won": 3,
+          "lost": 0,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.701
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.279
+        },
+        {
+          "team_name": "India",
+          "played": 3,
+          "won": 1,
+          "lost": 2,
+          "no_result": 0,
+          "points": 2,
+          "nrr": 1.607
+        },
+        {
+          "team_name": "Afghanistan",
+          "played": 3,
+          "won": 0,
+          "lost": 3,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -2.006
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Final",
+          "date": "11 September 2022",
+          "team1": "Sri Lanka",
+          "team1_score": "170/6 (20 overs)",
+          "team2": "Pakistan",
+          "team2_score": "147 all out (20 overs)",
+          "result": "Sri Lanka won by 23 runs",
+          "champion": "Sri Lanka"
+        }
+      ]
+    }
+  ]
+}
+, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2023, "tournaments": [{"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Gujarat Titans","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.809},
   {"team_name":"Chennai Super Kings","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.652},
