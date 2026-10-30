@@ -4120,6 +4120,79 @@
     }
   ]
 }
+, 
+{
+  "id": "asia-cup",
+  "name": "Men's Asia Cup",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {
+          "team_name": "India",
+          "played": 4,
+          "won": 4,
+          "lost": 0,
+          "no_result": 0,
+          "points": 8,
+          "nrr": 2.020
+        },
+        {
+          "team_name": "Bangladesh",
+          "played": 4,
+          "won": 3,
+          "lost": 1,
+          "no_result": 0,
+          "points": 6,
+          "nrr": 0.458
+        },
+        {
+          "team_name": "Pakistan",
+          "played": 4,
+          "won": 2,
+          "lost": 2,
+          "no_result": 0,
+          "points": 4,
+          "nrr": -0.296
+        },
+        {
+          "team_name": "Sri Lanka",
+          "played": 4,
+          "won": 1,
+          "lost": 3,
+          "no_result": 0,
+          "points": 2,
+          "nrr": -0.293
+        },
+        {
+          "team_name": "United Arab Emirates",
+          "played": 4,
+          "won": 0,
+          "lost": 4,
+          "no_result": 0,
+          "points": 0,
+          "nrr": -1.813
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [],
+      "matches": [
+        {
+          "name": "Final",
+          "date": "6 March 2016",
+          "team1": "Bangladesh",
+          "team1_score": "120/5 (15 overs)",
+          "team2": "India",
+          "team2_score": "122/2 (13.5 overs)",
+          "result": "India won by 8 wickets",
+          "champion": "India"
+        }
+      ]
+    }
+  ]
+}
 , {"id": "womens-t20-world-cup", "name": "ICC Women's T20 World Cup", "teams": []}, {"id": "womens-asia-cup", "name": "Women's Asia Cup", "teams": []}, {"id": "u19-world-cup", "name": "ICC Men's Under-19 Cricket World Cup", "teams": []}]},
     {"year": 2017, "tournaments": [{"id": "womens-world-cup", "name": "ICC Women's Cricket World Cup", "teams": []}, {"id": "champions-trophy", "name": "ICC Champions Trophy", "teams": []}, {"id": "ipl", "name": "Indian Premier League", "teams": [
   {"team_name":"Mumbai Indians","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.784},
