@@ -7255,6 +7255,19 @@
           ]
         },
 
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2016",
+  "teams": [
+    {"team_name":"Peshawar Zalmi","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":0.573},
+    {"team_name":"Quetta Gladiators","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":0.216},
+    {"team_name":"Islamabad United","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":-0.282},
+    {"team_name":"Karachi Kings","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-0.036},
+    {"team_name":"Lahore Qalandars","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-0.536}
+  ]
+},
+
 {
   "id": "bbl",
   "name": "Big Bash League",
@@ -7850,6 +7863,18 @@
     {"team_name":"Sydney Thunder","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.600}
   ]
 },
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2017",
+  "teams": [
+    {"team_name":"Peshawar Zalmi","played":8,"won":4,"lost":3,"no_result":1,"points":9,"nrr":0.309},
+    {"team_name":"Quetta Gladiators","played":8,"won":4,"lost":3,"no_result":1,"points":9,"nrr":0.166},
+    {"team_name":"Karachi Kings","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":-0.098},
+    {"team_name":"Islamabad United","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":-0.139},
+    {"team_name":"Lahore Qalandars","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.223}
+  ]
+},
         
         {
           "id": "ipl",
@@ -8012,6 +8037,20 @@
             }
           ]
         },
+
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2018",
+  "teams": [
+    {"team_name":"Islamabad United","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.296},
+    {"team_name":"Karachi Kings","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":0.028},
+    {"team_name":"Peshawar Zalmi","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.464},
+    {"team_name":"Quetta Gladiators","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.312},
+    {"team_name":"Multan Sultans","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.191},
+    {"team_name":"Lahore Qalandars","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.931}
+  ]
+},
 
 {
   "id": "bbl",
@@ -8331,6 +8370,20 @@
     {"team_name":"Perth Scorchers","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.502}
   ]
 },
+
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2019",
+  "teams": [
+    {"team_name":"Peshawar Zalmi","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.828},
+    {"team_name":"Quetta Gladiators","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.376},
+    {"team_name":"Islamabad United","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.127},
+    {"team_name":"Karachi Kings","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.673},
+    {"team_name":"Multan Sultans","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":0.173},
+    {"team_name":"Lahore Qalandars","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.837}
+  ]
+},
         
         {
           "id": "ipl",
@@ -8494,6 +8547,20 @@
           ]
         },
 
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2020",
+  "teams": [
+    {"team_name":"Multan Sultans","played":10,"won":6,"lost":2,"no_result":2,"points":14,"nrr":1.031},
+    {"team_name":"Karachi Kings","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":-0.190},
+    {"team_name":"Lahore Qalandars","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.072},
+    {"team_name":"Peshawar Zalmi","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.055},
+    {"team_name":"Quetta Gladiators","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.722},
+    {"team_name":"Islamabad United","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":0.185}
+  ]
+},
+
 {
   "id": "bbl",
   "name": "Big Bash League",
@@ -8622,6 +8689,19 @@
     {"team_name":"Hobart Hurricanes","played":14,"won":7,"lost":7,"no_result":0,"points":28,"nrr":-0.187},
     {"team_name":"Melbourne Stars","played":14,"won":5,"lost":8,"no_result":1,"points":24,"nrr":0.140},
     {"team_name":"Melbourne Renegades","played":14,"won":4,"lost":10,"no_result":0,"points":16,"nrr":-1.727}
+  ]
+},
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2021",
+  "teams": [
+    {"team_name":"Islamabad United","played":10,"won":8,"lost":2,"no_result":0,"points":16,"nrr":0.859},
+    {"team_name":"Multan Sultans","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":1.050},
+    {"team_name":"Peshawar Zalmi","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.586},
+    {"team_name":"Karachi Kings","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.115},
+    {"team_name":"Lahore Qalandars","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.589},
+    {"team_name":"Quetta Gladiators","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.786}
   ]
 },
         
@@ -8976,6 +9056,20 @@
             }
           ]
         },
+
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2022",
+  "teams": [
+    {"team_name":"Multan Sultans","played":10,"won":9,"lost":1,"no_result":0,"points":18,"nrr":1.253},
+    {"team_name":"Lahore Qalandars","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.765},
+    {"team_name":"Peshawar Zalmi","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":-0.340},
+    {"team_name":"Islamabad United","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.069},
+    {"team_name":"Quetta Gladiators","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.708},
+    {"team_name":"Karachi Kings","played":10,"won":1,"lost":9,"no_result":0,"points":2,"nrr":-0.891}
+  ]
+},
 
 {
   "id": "bbl",
@@ -9597,6 +9691,20 @@
           ]
         },
 
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2023",
+  "teams": [
+    {"team_name":"Lahore Qalandars","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.915},
+    {"team_name":"Multan Sultans","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.500},
+    {"team_name":"Islamabad United","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":-0.693},
+    {"team_name":"Peshawar Zalmi","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.470},
+    {"team_name":"Karachi Kings","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":0.756},
+    {"team_name":"Quetta Gladiators","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-1.066}
+  ]
+},
+
 {
   "id": "bbl",
   "name": "Big Bash League",
@@ -10047,6 +10155,20 @@
           ]
         },
 
+{
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2024",
+  "teams": [
+    {"team_name":"Multan Sultans","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":1.150},
+    {"team_name":"Peshawar Zalmi","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":0.147},
+    {"team_name":"Islamabad United","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":0.224},
+    {"team_name":"Quetta Gladiators","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":-0.921},
+    {"team_name":"Karachi Kings","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.192},
+    {"team_name":"Lahore Qalandars","played":10,"won":1,"lost":8,"no_result":1,"points":3,"nrr":-0.554}
+  ]
+},
+        
 {
   "id": "bbl",
   "name": "Big Bash League",
@@ -10560,6 +10682,20 @@
             }
           ]
         },
+
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2025",
+  "teams": [
+    {"team_name":"Quetta Gladiators","played":10,"won":7,"lost":2,"no_result":1,"points":15,"nrr":1.393},
+    {"team_name":"Islamabad United","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.372},
+    {"team_name":"Karachi Kings","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.049},
+    {"team_name":"Lahore Qalandars","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":1.036},
+    {"team_name":"Peshawar Zalmi","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.293},
+    {"team_name":"Multan Sultans","played":10,"won":1,"lost":9,"no_result":0,"points":2,"nrr":-2.449}
+  ]
+},
 
 {
   "id": "bbl",
@@ -11137,6 +11273,21 @@
     {"team_name":"Adelaide Strikers","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.231},
     {"team_name":"Melbourne Renegades","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-1.202},
     {"team_name":"Sydney Thunder","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.212}
+  ]
+},
+        {
+  "id": "psl",
+  "name": "Pakistan Super League",
+  "season": "2026",
+  "teams": [
+    {"team_name":"Peshawar Zalmi","played":10,"won":8,"lost":1,"no_result":1,"points":17,"nrr":2.324},
+    {"team_name":"Islamabad United","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":1.667},
+    {"team_name":"Multan Sultans","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.326},
+    {"team_name":"Hyderabad Kingsmen","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.361},
+    {"team_name":"Lahore Qalandars","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.482},
+    {"team_name":"Karachi Kings","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.869},
+    {"team_name":"Quetta Gladiators","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.410},
+    {"team_name":"Rawalpindiz","played":10,"won":1,"lost":9,"no_result":0,"points":2,"nrr":-1.760}
   ]
 },
         
