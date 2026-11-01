@@ -5669,6 +5669,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2011-12",
+  "teams": [
+    {"team_name":"Perth Scorchers","played":7,"won":5,"lost":2,"no_result":0,"points":10,"nrr":0.626},
+    {"team_name":"Hobart Hurricanes","played":7,"won":5,"lost":2,"no_result":0,"points":10,"nrr":0.569},
+    {"team_name":"Sydney Sixers","played":7,"won":5,"lost":2,"no_result":0,"points":10,"nrr":0.262},
+    {"team_name":"Melbourne Stars","played":7,"won":4,"lost":3,"no_result":0,"points":8,"nrr":0.254},
+    {"team_name":"Brisbane Heat","played":7,"won":3,"lost":4,"no_result":0,"points":6,"nrr":0.324},
+    {"team_name":"Adelaide Strikers","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":-0.338},
+    {"team_name":"Melbourne Renegades","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":-0.582},
+    {"team_name":"Sydney Thunder","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":-1.25}
+  ]
+},
+        
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -6312,6 +6329,23 @@
           ],
           "champion": "India"
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2012-13",
+  "teams": [
+    {"team_name":"Melbourne Renegades","played":8,"won":7,"lost":1,"no_result":0,"points":14,"nrr":0.791},
+    {"team_name":"Perth Scorchers","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":1.322},
+    {"team_name":"Melbourne Stars","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":0.246},
+    {"team_name":"Brisbane Heat","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.464},
+    {"team_name":"Adelaide Strikers","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":-0.162},
+    {"team_name":"Hobart Hurricanes","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":-0.569},
+    {"team_name":"Sydney Sixers","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.380},
+    {"team_name":"Sydney Thunder","played":8,"won":0,"lost":8,"no_result":0,"points":0,"nrr":-1.360}
+  ]
+},
+        
         {
           "id": "ipl",
           "name": "Indian Premier League",
@@ -6482,6 +6516,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2013-14",
+  "teams": [
+    {"team_name":"Melbourne Stars","played":8,"won":8,"lost":0,"no_result":0,"points":16,"nrr":2.189},
+    {"team_name":"Sydney Sixers","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":-0.218},
+    {"team_name":"Perth Scorchers","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":-0.064},
+    {"team_name":"Hobart Hurricanes","played":8,"won":3,"lost":4,"no_result":1,"points":7,"nrr":0.321},
+    {"team_name":"Brisbane Heat","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.197},
+    {"team_name":"Melbourne Renegades","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.475},
+    {"team_name":"Adelaide Strikers","played":8,"won":2,"lost":5,"no_result":1,"points":5,"nrr":-0.933},
+    {"team_name":"Sydney Thunder","played":8,"won":1,"lost":7,"no_result":0,"points":2,"nrr":-0.654}
+  ]
+},
+        
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -6877,6 +6928,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2014-15",
+  "teams": [
+    {"team_name":"Adelaide Strikers","played":8,"won":6,"lost":1,"no_result":1,"points":13,"nrr":1.159},
+    {"team_name":"Perth Scorchers","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":0.705},
+    {"team_name":"Melbourne Stars","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":0.336},
+    {"team_name":"Sydney Sixers","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":-0.014},
+    {"team_name":"Hobart Hurricanes","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.280},
+    {"team_name":"Melbourne Renegades","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.331},
+    {"team_name":"Sydney Thunder","played":8,"won":2,"lost":5,"no_result":1,"points":5,"nrr":-0.485},
+    {"team_name":"Brisbane Heat","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-1.116}
+  ]
+},
+        
         {
           "id": "mens-world-cup",
           "name": "ICC Men's Cricket World Cup",
@@ -7186,6 +7254,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2015-16",
+  "teams": [
+    {"team_name":"Adelaide Strikers","played":8,"won":7,"lost":1,"no_result":0,"points":14,"nrr":0.544},
+    {"team_name":"Melbourne Stars","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":0.366},
+    {"team_name":"Perth Scorchers","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":0.181},
+    {"team_name":"Sydney Thunder","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.375},
+    {"team_name":"Melbourne Renegades","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.041},
+    {"team_name":"Brisbane Heat","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.204},
+    {"team_name":"Hobart Hurricanes","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.955},
+    {"team_name":"Sydney Sixers","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-0.330}
+  ]
+},
+        
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -7749,6 +7834,23 @@
           ],
           "champion": "Pakistan"
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2016-17",
+  "teams": [
+    {"team_name":"Perth Scorchers","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":0.618},
+    {"team_name":"Brisbane Heat","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":0.516},
+    {"team_name":"Sydney Sixers","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":-0.848},
+    {"team_name":"Melbourne Stars","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.397},
+    {"team_name":"Melbourne Renegades","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.042},
+    {"team_name":"Adelaide Strikers","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":0.334},
+    {"team_name":"Hobart Hurricanes","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.530},
+    {"team_name":"Sydney Thunder","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.600}
+  ]
+},
+        
         {
           "id": "ipl",
           "name": "Indian Premier League",
@@ -7910,6 +8012,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2017-18",
+  "teams": [
+    {"team_name":"Perth Scorchers","played":10,"won":8,"lost":2,"no_result":0,"points":16,"nrr":0.154},
+    {"team_name":"Adelaide Strikers","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.801},
+    {"team_name":"Melbourne Renegades","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.297},
+    {"team_name":"Hobart Hurricanes","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.291},
+    {"team_name":"Sydney Sixers","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":0.331},
+    {"team_name":"Sydney Thunder","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.039},
+    {"team_name":"Brisbane Heat","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.437},
+    {"team_name":"Melbourne Stars","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-0.926}
+  ]
+},
+        
         {
           "id": "asia-cup",
           "name": "Men's Asia Cup",
@@ -8196,6 +8315,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2018-19",
+  "teams": [
+    {"team_name":"Hobart Hurricanes","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.603},
+    {"team_name":"Melbourne Renegades","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":0.173},
+    {"team_name":"Sydney Sixers","played":14,"won":8,"lost":6,"no_result":0,"points":16,"nrr":0.047},
+    {"team_name":"Melbourne Stars","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":-0.062},
+    {"team_name":"Brisbane Heat","played":14,"won":6,"lost":7,"no_result":1,"points":13,"nrr":0.249},
+    {"team_name":"Sydney Thunder","played":14,"won":6,"lost":7,"no_result":1,"points":13,"nrr":0.000},
+    {"team_name":"Adelaide Strikers","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.473},
+    {"team_name":"Perth Scorchers","played":14,"won":4,"lost":10,"no_result":0,"points":8,"nrr":-0.502}
+  ]
+},
+        
         {
           "id": "ipl",
           "name": "Indian Premier League",
@@ -8357,6 +8493,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2019-20",
+  "teams": [
+    {"team_name":"Melbourne Stars","played":14,"won":10,"lost":4,"no_result":0,"points":20,"nrr":0.526},
+    {"team_name":"Sydney Sixers","played":14,"won":9,"lost":4,"no_result":1,"points":19,"nrr":0.269},
+    {"team_name":"Adelaide Strikers","played":14,"won":8,"lost":5,"no_result":1,"points":17,"nrr":0.564},
+    {"team_name":"Hobart Hurricanes","played":14,"won":6,"lost":7,"no_result":1,"points":13,"nrr":-0.355},
+    {"team_name":"Sydney Thunder","played":14,"won":6,"lost":7,"no_result":1,"points":13,"nrr":-0.446},
+    {"team_name":"Perth Scorchers","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.023},
+    {"team_name":"Brisbane Heat","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.241},
+    {"team_name":"Melbourne Renegades","played":14,"won":3,"lost":11,"no_result":0,"points":6,"nrr":-0.385}
+  ]
+},
+        
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -8455,6 +8608,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2020-21",
+  "teams": [
+    {"team_name":"Sydney Sixers","played":14,"won":9,"lost":5,"no_result":0,"points":36,"nrr":0.257},
+    {"team_name":"Perth Scorchers","played":14,"won":8,"lost":5,"no_result":1,"points":32,"nrr":0.851},
+    {"team_name":"Sydney Thunder","played":14,"won":8,"lost":6,"no_result":0,"points":31,"nrr":0.949},
+    {"team_name":"Brisbane Heat","played":14,"won":7,"lost":7,"no_result":0,"points":29,"nrr":-0.286},
+    {"team_name":"Adelaide Strikers","played":14,"won":7,"lost":7,"no_result":0,"points":28,"nrr":0.105},
+    {"team_name":"Hobart Hurricanes","played":14,"won":7,"lost":7,"no_result":0,"points":28,"nrr":-0.187},
+    {"team_name":"Melbourne Stars","played":14,"won":5,"lost":8,"no_result":1,"points":24,"nrr":0.140},
+    {"team_name":"Melbourne Renegades","played":14,"won":4,"lost":10,"no_result":0,"points":16,"nrr":-1.727}
+  ]
+},
+        
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -8806,6 +8976,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2021-22",
+  "teams": [
+    {"team_name":"Perth Scorchers","played":14,"won":11,"lost":3,"no_result":0,"points":40,"nrr":0.926},
+    {"team_name":"Sydney Sixers","played":14,"won":9,"lost":4,"no_result":1,"points":35,"nrr":1.027},
+    {"team_name":"Sydney Thunder","played":14,"won":9,"lost":5,"no_result":0,"points":35,"nrr":0.725},
+    {"team_name":"Adelaide Strikers","played":14,"won":6,"lost":8,"no_result":0,"points":28,"nrr":0.237},
+    {"team_name":"Hobart Hurricanes","played":14,"won":7,"lost":7,"no_result":0,"points":27,"nrr":-0.332},
+    {"team_name":"Melbourne Stars","played":14,"won":7,"lost":7,"no_result":0,"points":26,"nrr":-0.222},
+    {"team_name":"Brisbane Heat","played":14,"won":3,"lost":11,"no_result":0,"points":16,"nrr":-0.910},
+    {"team_name":"Melbourne Renegades","played":14,"won":3,"lost":10,"no_result":1,"points":16,"nrr":-1.477}
+  ]
+},
+        
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -9409,6 +9596,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2022-23",
+  "teams": [
+    {"team_name":"Perth Scorchers","played":14,"won":11,"lost":3,"no_result":0,"points":22,"nrr":1.205},
+    {"team_name":"Sydney Sixers","played":14,"won":10,"lost":3,"no_result":1,"points":21,"nrr":0.846},
+    {"team_name":"Melbourne Renegades","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":-0.027},
+    {"team_name":"Sydney Thunder","played":14,"won":7,"lost":7,"no_result":0,"points":14,"nrr":-0.716},
+    {"team_name":"Brisbane Heat","played":14,"won":6,"lost":7,"no_result":1,"points":13,"nrr":-0.483},
+    {"team_name":"Hobart Hurricanes","played":14,"won":6,"lost":8,"no_result":0,"points":12,"nrr":-0.340},
+    {"team_name":"Adelaide Strikers","played":14,"won":5,"lost":9,"no_result":0,"points":10,"nrr":-0.151},
+    {"team_name":"Melbourne Stars","played":14,"won":3,"lost":11,"no_result":0,"points":6,"nrr":-0.287}
+  ]
+},
+        
         {
           "id": "wpl",
           "name": "WPL",
@@ -9842,6 +10046,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2023-24",
+  "teams": [
+    {"team_name":"Brisbane Heat","played":10,"won":7,"lost":1,"no_result":2,"points":16,"nrr":0.972},
+    {"team_name":"Sydney Sixers","played":10,"won":6,"lost":2,"no_result":2,"points":14,"nrr":0.339},
+    {"team_name":"Perth Scorchers","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":0.725},
+    {"team_name":"Adelaide Strikers","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":0.331},
+    {"team_name":"Hobart Hurricanes","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.268},
+    {"team_name":"Melbourne Stars","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-1.051},
+    {"team_name":"Melbourne Renegades","played":10,"won":2,"lost":6,"no_result":2,"points":6,"nrr":-0.289},
+    {"team_name":"Sydney Thunder","played":10,"won":1,"lost":7,"no_result":2,"points":4,"nrr":-0.652}
+  ]
+},
+        
         {
           "id": "wpl",
           "name": "WPL",
@@ -10339,6 +10560,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2024-25",
+  "teams": [
+    {"team_name":"Hobart Hurricanes","played":10,"won":7,"lost":2,"no_result":1,"points":15,"nrr":-0.120},
+    {"team_name":"Sydney Sixers","played":10,"won":6,"lost":2,"no_result":2,"points":14,"nrr":0.156},
+    {"team_name":"Sydney Thunder","played":10,"won":5,"lost":3,"no_result":2,"points":12,"nrr":0.340},
+    {"team_name":"Melbourne Stars","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.135},
+    {"team_name":"Perth Scorchers","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":0.219},
+    {"team_name":"Melbourne Renegades","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":0.139},
+    {"team_name":"Brisbane Heat","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":-0.831},
+    {"team_name":"Adelaide Strikers","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.122}
+  ]
+},
+        
         {
           "id": "wpl",
           "name": "WPL",
@@ -10885,6 +11123,23 @@
             }
           ]
         },
+
+{
+  "id": "bbl",
+  "name": "Big Bash League",
+  "season": "2025-26",
+  "teams": [
+    {"team_name":"Perth Scorchers","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":1.363},
+    {"team_name":"Sydney Sixers","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":0.605},
+    {"team_name":"Hobart Hurricanes","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":0.331},
+    {"team_name":"Melbourne Stars","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.759},
+    {"team_name":"Brisbane Heat","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.431},
+    {"team_name":"Adelaide Strikers","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.231},
+    {"team_name":"Melbourne Renegades","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-1.202},
+    {"team_name":"Sydney Thunder","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.212}
+  ]
+},
+        
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
