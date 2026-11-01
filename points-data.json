@@ -5685,6 +5685,19 @@
     {"team_name":"Sydney Thunder","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":-1.25}
   ]
 },
+        {
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2012",
+  "teams": [
+    {"team_name":"Duronto Rajshahi","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.114},
+    {"team_name":"Khulna Royal Bengals","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.606},
+    {"team_name":"Dhaka Gladiators","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.210},
+    {"team_name":"Barisal Burners","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.178},
+    {"team_name":"Chittagong Kings","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.078},
+    {"team_name":"Sylhet Royals","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.234}
+  ]
+},
         
         {
           "id": "mens-t20-world-cup",
@@ -6206,6 +6219,20 @@
     {"team_name":"Trinidad & Tobago Red Steel","played":7,"won":3,"lost":4,"no_result":0,"points":6,"nrr":-0.647},
     {"team_name":"Antigua Hawksbills","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":-0.151},
     {"team_name":"St Lucia Zouks","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":-1.190}
+  ]
+},
+        {
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2013",
+  "teams": [
+    {"team_name":"Dhaka Gladiators","played":12,"won":9,"lost":3,"no_result":0,"points":18,"nrr":0.928},
+    {"team_name":"Sylhet Royals","played":12,"won":9,"lost":3,"no_result":0,"points":18,"nrr":0.081},
+    {"team_name":"Chittagong Kings","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":1.170},
+    {"team_name":"Duronto Rajshahi","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":-0.557},
+    {"team_name":"Rangpur Riders","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":-0.506},
+    {"team_name":"Barisal Burners","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":-0.040},
+    {"team_name":"Khulna Royal Bengals","played":12,"won":3,"lost":9,"no_result":0,"points":6,"nrr":-1.060}
   ]
 },
         
@@ -6985,6 +7012,20 @@
     {"team_name":"Brisbane Heat","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-1.116}
   ]
 },
+
+        {
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2015",
+  "teams": [
+    {"team_name":"Comilla Victorians","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.788},
+    {"team_name":"Rangpur Riders","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.693},
+    {"team_name":"Barisal Bulls","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.063},
+    {"team_name":"Dhaka Dynamites","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.010},
+    {"team_name":"Sylhet Super Stars","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.710},
+    {"team_name":"Chittagong Vikings","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-0.828}
+  ]
+},
         
         {
           "id": "mens-world-cup",
@@ -7335,6 +7376,20 @@
     {"team_name":"Brisbane Heat","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.204},
     {"team_name":"Hobart Hurricanes","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.955},
     {"team_name":"Sydney Sixers","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-0.330}
+  ]
+},
+        {
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2016",
+  "teams": [
+    {"team_name":"Dhaka Dynamites","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":0.912},
+    {"team_name":"Khulna Titans","played":12,"won":7,"lost":5,"no_result":0,"points":14,"nrr":-0.215},
+    {"team_name":"Chittagong Vikings","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":0.233},
+    {"team_name":"Rajshahi Kings","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":0.208},
+    {"team_name":"Rangpur Riders","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":-0.106},
+    {"team_name":"Comilla Victorians","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":-0.345},
+    {"team_name":"Barisal Bulls","played":12,"won":4,"lost":8,"no_result":0,"points":8,"nrr":-0.688}
   ]
 },
         
@@ -7942,7 +7997,20 @@
     {"team_name":"Lahore Qalandars","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.223}
   ]
 },
-        
+        {
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2017",
+  "teams": [
+    {"team_name":"Comilla Victorians","played":12,"won":9,"lost":3,"no_result":0,"points":18,"nrr":0.578},
+    {"team_name":"Dhaka Dynamites","played":12,"won":7,"lost":4,"no_result":1,"points":15,"nrr":1.631},
+    {"team_name":"Khulna Titans","played":12,"won":7,"lost":4,"no_result":1,"points":15,"nrr":0.075},
+    {"team_name":"Rangpur Riders","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":-0.267},
+    {"team_name":"Sylhet Sixers","played":12,"won":4,"lost":7,"no_result":1,"points":9,"nrr":-0.429},
+    {"team_name":"Rajshahi Kings","played":12,"won":4,"lost":8,"no_result":0,"points":8,"nrr":-1.098},
+    {"team_name":"Chittagong Vikings","played":12,"won":3,"lost":8,"no_result":1,"points":7,"nrr":-0.473}
+  ]
+},
         {
           "id": "ipl",
           "name": "Indian Premier League",
@@ -8477,6 +8545,20 @@
     {"team_name":"Lahore Qalandars","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.837}
   ]
 },
+        {
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2019",
+  "teams": [
+    {"team_name":"Rangpur Riders","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":1.018},
+    {"team_name":"Comilla Victorians","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":0.066},
+    {"team_name":"Chittagong Vikings","played":12,"won":7,"lost":5,"no_result":0,"points":14,"nrr":-0.293},
+    {"team_name":"Dhaka Dynamites","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":0.974},
+    {"team_name":"Rajshahi Kings","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":-0.518},
+    {"team_name":"Sylhet Sixers","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":0.066},
+    {"team_name":"Khulna Titans","played":12,"won":2,"lost":10,"no_result":0,"points":4,"nrr":-1.259}
+  ]
+},
         
         {
           "id": "ipl",
@@ -8665,6 +8747,20 @@
     {"team_name":"Peshawar Zalmi","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.055},
     {"team_name":"Quetta Gladiators","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.722},
     {"team_name":"Islamabad United","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":0.185}
+  ]
+},
+        {
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2020",
+  "teams": [
+    {"team_name":"Khulna Tigers","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":0.912},
+    {"team_name":"Rajshahi Royals","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":0.420},
+    {"team_name":"Chattogram Challengers","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":0.129},
+    {"team_name":"Dhaka Platoon","played":12,"won":7,"lost":5,"no_result":0,"points":14,"nrr":0.572},
+    {"team_name":"Cumilla Warriors","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":-0.335},
+    {"team_name":"Rangpur Rangers","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":-0.826},
+    {"team_name":"Sylhet Thunder","played":12,"won":1,"lost":11,"no_result":0,"points":2,"nrr":-0.822}
   ]
 },
 
@@ -9205,7 +9301,19 @@
     {"team_name":"Karachi Kings","played":10,"won":1,"lost":9,"no_result":0,"points":2,"nrr":-0.891}
   ]
 },
-
+{
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2022",
+  "teams": [
+    {"team_name":"Fortune Barishal","played":10,"won":7,"lost":2,"no_result":1,"points":15,"nrr":0.244},
+    {"team_name":"Comilla Victorians","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":0.680},
+    {"team_name":"Chattogram Challengers","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.109},
+    {"team_name":"Khulna Tigers","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.127},
+    {"team_name":"Minister Group Dhaka","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.003},
+    {"team_name":"Sylhet Sunrisers","played":10,"won":1,"lost":8,"no_result":1,"points":3,"nrr":-0.696}
+  ]
+},
 {
   "id": "bbl",
   "name": "Big Bash League",
@@ -9853,7 +9961,20 @@
     {"team_name":"St Kitts & Nevis Patriots","played":10,"won":1,"lost":7,"no_result":2,"points":4,"nrr":-2.020}
   ]
 },
-
+{
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2023",
+  "teams": [
+    {"team_name":"Sylhet Strikers","played":12,"won":9,"lost":3,"no_result":0,"points":18,"nrr":0.737},
+    {"team_name":"Comilla Victorians","played":12,"won":9,"lost":3,"no_result":0,"points":18,"nrr":0.723},
+    {"team_name":"Rangpur Riders","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":0.165},
+    {"team_name":"Fortune Barishal","played":12,"won":7,"lost":5,"no_result":0,"points":14,"nrr":0.542},
+    {"team_name":"Khulna Tigers","played":12,"won":3,"lost":9,"no_result":0,"points":6,"nrr":-0.534},
+    {"team_name":"Dhaka Dominators","played":12,"won":3,"lost":9,"no_result":0,"points":6,"nrr":-0.776},
+    {"team_name":"Chattogram Challengers","played":12,"won":3,"lost":9,"no_result":0,"points":6,"nrr":-0.872}
+  ]
+},
         {
   "id": "psl",
   "name": "Pakistan Super League",
@@ -10331,7 +10452,20 @@
     {"team_name": "MI Cape Town", "played": 10, "won": 3, "lost": 7, "no_result": 0, "points": 13, "nrr": 0.114}
   ]
 },
-
+{
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2024",
+  "teams": [
+    {"team_name":"Rangpur Riders","played":12,"won":9,"lost":3,"no_result":0,"points":18,"nrr":1.438},
+    {"team_name":"Comilla Victorians","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":1.149},
+    {"team_name":"Fortune Barishal","played":12,"won":7,"lost":5,"no_result":0,"points":14,"nrr":0.414},
+    {"team_name":"Chattogram Challengers","played":12,"won":7,"lost":5,"no_result":0,"points":14,"nrr":-0.410},
+    {"team_name":"Khulna Tigers","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":-0.447},
+    {"team_name":"Sylhet Strikers","played":12,"won":5,"lost":7,"no_result":0,"points":10,"nrr":-0.748},
+    {"team_name":"Durdanto Dhaka","played":12,"won":1,"lost":11,"no_result":0,"points":2,"nrr":-1.420}
+  ]
+},
         {
   "id": "cpl",
   "name": "Caribbean Premier League",
@@ -10901,7 +11035,20 @@
     {"team_name":"Barbados Royals","played":10,"won":2,"lost":7,"no_result":1,"points":5,"nrr":-0.379}
   ]
 },
-
+{
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2025",
+  "teams": [
+    {"team_name":"Fortune Barishal","played":12,"won":9,"lost":3,"no_result":0,"points":18,"nrr":1.302},
+    {"team_name":"Chittagong Kings","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":1.395},
+    {"team_name":"Rangpur Riders","played":12,"won":8,"lost":4,"no_result":0,"points":16,"nrr":0.596},
+    {"team_name":"Khulna Tigers","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":0.184},
+    {"team_name":"Durbar Rajshahi","played":12,"won":6,"lost":6,"no_result":0,"points":12,"nrr":-1.030},
+    {"team_name":"Dhaka Capitals","played":12,"won":3,"lost":9,"no_result":0,"points":6,"nrr":-0.779},
+    {"team_name":"Sylhet Strikers","played":12,"won":2,"lost":10,"no_result":0,"points":4,"nrr":-1.340}
+  ]
+},
         {
   "id": "psl",
   "name": "Pakistan Super League",
@@ -11538,7 +11685,19 @@
     {"team_name":"Rawalpindiz","played":10,"won":1,"lost":9,"no_result":0,"points":2,"nrr":-1.760}
   ]
 },
-        
+      {
+  "id": "bpl",
+  "name": "Bangladesh Premier League",
+  "season": "2026",
+  "teams": [
+    {"team_name":"Rajshahi Warriors","played":10,"won":8,"lost":2,"no_result":0,"points":16,"nrr":0.335},
+    {"team_name":"Chattogram Royals","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.497},
+    {"team_name":"Rangpur Riders","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.220},
+    {"team_name":"Sylhet Titans","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.373},
+    {"team_name":"Dhaka Capitals","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.381},
+    {"team_name":"Noakhali Express","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.038}
+  ]
+},  
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
