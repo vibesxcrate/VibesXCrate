@@ -9827,6 +9827,20 @@
         },
 
         {
+  "id": "sa20",
+  "name": "SA20",
+  "season": "2023",
+  "teams": [
+    {"team_name": "Pretoria Capitals", "played": 10, "won": 7, "lost": 3, "no_result": 0, "points": 32, "nrr": 0.927},
+    {"team_name": "Joburg Super Kings", "played": 10, "won": 6, "lost": 3, "no_result": 1, "points": 27, "nrr": -0.111},
+    {"team_name": "Sunrisers Eastern Cape", "played": 10, "won": 4, "lost": 5, "no_result": 1, "points": 19, "nrr": 0.316},
+    {"team_name": "Paarl Royals", "played": 10, "won": 4, "lost": 5, "no_result": 1, "points": 19, "nrr": -0.293},
+    {"team_name": "Durban's Super Giants", "played": 10, "won": 4, "lost": 5, "no_result": 1, "points": 19, "nrr": -0.319},
+    {"team_name": "MI Cape Town", "played": 10, "won": 3, "lost": 7, "no_result": 0, "points": 13, "nrr": -0.500}
+  ]
+},
+
+        {
   "id": "cpl",
   "name": "Caribbean Premier League",
   "season": "2023",
@@ -10303,6 +10317,20 @@
             }
           ]
         },
+
+        {
+  "id": "sa20",
+  "name": "SA20",
+  "season": "2024",
+  "teams": [
+    {"team_name": "Sunrisers Eastern Cape", "played": 10, "won": 7, "lost": 2, "no_result": 1, "points": 33, "nrr": 1.255},
+    {"team_name": "Durban's Super Giants", "played": 10, "won": 7, "lost": 3, "no_result": 0, "points": 32, "nrr": 1.402},
+    {"team_name": "Paarl Royals", "played": 10, "won": 5, "lost": 5, "no_result": 0, "points": 22, "nrr": -0.544},
+    {"team_name": "Joburg Super Kings", "played": 10, "won": 3, "lost": 5, "no_result": 2, "points": 17, "nrr": -1.640},
+    {"team_name": "Pretoria Capitals", "played": 10, "won": 3, "lost": 6, "no_result": 1, "points": 14, "nrr": -1.085},
+    {"team_name": "MI Cape Town", "played": 10, "won": 3, "lost": 7, "no_result": 0, "points": 13, "nrr": 0.114}
+  ]
+},
 
         {
   "id": "cpl",
@@ -10845,6 +10873,20 @@
             }
           ]
         },
+
+        {
+  "id": "sa20",
+  "name": "SA20",
+  "season": "2025",
+  "teams": [
+    {"team_name": "MI Cape Town", "played": 10, "won": 7, "lost": 2, "no_result": 1, "points": 35, "nrr": 2.446},
+    {"team_name": "Paarl Royals", "played": 10, "won": 7, "lost": 3, "no_result": 0, "points": 28, "nrr": -0.125},
+    {"team_name": "Sunrisers Eastern Cape", "played": 10, "won": 5, "lost": 5, "no_result": 0, "points": 24, "nrr": -0.206},
+    {"team_name": "Joburg Super Kings", "played": 10, "won": 4, "lost": 5, "no_result": 1, "points": 19, "nrr": -0.208},
+    {"team_name": "Pretoria Capitals", "played": 10, "won": 2, "lost": 6, "no_result": 2, "points": 14, "nrr": -0.585},
+    {"team_name": "Durban's Super Giants", "played": 10, "won": 2, "lost": 6, "no_result": 2, "points": 12, "nrr": -1.256}
+  ]
+},
 
         {
   "id": "cpl",
@@ -11436,6 +11478,20 @@
             }
           ]
         },
+
+        {
+  "id": "sa20",
+  "name": "SA20",
+  "season": "2026",
+  "teams": [
+    {"team_name": "Sunrisers Eastern Cape", "played": 10, "won": 5, "lost": 3, "no_result": 2, "points": 28, "nrr": 1.762},
+    {"team_name": "Pretoria Capitals", "played": 10, "won": 5, "lost": 4, "no_result": 1, "points": 24, "nrr": 0.218},
+    {"team_name": "Paarl Royals", "played": 10, "won": 5, "lost": 4, "no_result": 1, "points": 24, "nrr": -0.922},
+    {"team_name": "Joburg Super Kings", "played": 10, "won": 4, "lost": 4, "no_result": 2, "points": 22, "nrr": 0.045},
+    {"team_name": "Durban's Super Giants", "played": 10, "won": 3, "lost": 4, "no_result": 3, "points": 19, "nrr": -0.068},
+    {"team_name": "MI Cape Town", "played": 10, "won": 3, "lost": 6, "no_result": 1, "points": 14, "nrr": -1.013}
+  ]
+},
 
         {
   "id": "cpl",
