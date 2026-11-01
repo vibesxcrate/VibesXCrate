@@ -6195,6 +6195,20 @@
           ],
           "champion": "Australia"
         },
+{
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2013",
+  "teams": [
+    {"team_name":"Guyana Amazon Warriors","played":7,"won":5,"lost":2,"no_result":0,"points":10,"nrr":0.628},
+    {"team_name":"Jamaica Tallawahs","played":7,"won":5,"lost":2,"no_result":0,"points":10,"nrr":0.162},
+    {"team_name":"Barbados Tridents","played":7,"won":4,"lost":3,"no_result":0,"points":8,"nrr":1.069},
+    {"team_name":"Trinidad & Tobago Red Steel","played":7,"won":3,"lost":4,"no_result":0,"points":6,"nrr":-0.647},
+    {"team_name":"Antigua Hawksbills","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":-0.151},
+    {"team_name":"St Lucia Zouks","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":-1.190}
+  ]
+},
+        
         {
           "id": "champions-trophy",
           "name": "ICC Champions Trophy",
@@ -6516,6 +6530,20 @@
             }
           ]
         },
+
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2014",
+  "teams": [
+    {"team_name":"Barbados Tridents","played":9,"won":6,"lost":3,"no_result":0,"points":12,"nrr":0.860},
+    {"team_name":"Guyana Amazon Warriors","played":9,"won":6,"lost":3,"no_result":0,"points":12,"nrr":0.414},
+    {"team_name":"Trinidad & Tobago Red Steel","played":9,"won":6,"lost":3,"no_result":0,"points":12,"nrr":0.317},
+    {"team_name":"Jamaica Tallawahs","played":9,"won":6,"lost":3,"no_result":0,"points":12,"nrr":-0.124},
+    {"team_name":"St Lucia Zouks","played":9,"won":2,"lost":7,"no_result":0,"points":4,"nrr":-0.790},
+    {"team_name":"Antigua Hawksbills","played":9,"won":1,"lost":8,"no_result":0,"points":2,"nrr":-0.820}
+  ]
+},
 
 {
   "id": "bbl",
@@ -6928,6 +6956,19 @@
             }
           ]
         },
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2015",
+  "teams": [
+    {"team_name":"Barbados Tridents","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.182},
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":0.589},
+    {"team_name":"Trinidad & Tobago Red Steel","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":-0.077},
+    {"team_name":"Jamaica Tallawahs","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.424},
+    {"team_name":"St Lucia Zouks","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.679},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":0.228}
+  ]
+},
 
 {
   "id": "bbl",
@@ -7254,6 +7295,19 @@
             }
           ]
         },
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2016",
+  "teams": [
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.120},
+    {"team_name":"Jamaica Tallawahs","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":0.704},
+    {"team_name":"St Lucia Zouks","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.336},
+    {"team_name":"Trinbago Knight Riders","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.065},
+    {"team_name":"Barbados Tridents","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":-0.267},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-0.772}
+  ]
+},
 
         {
   "id": "psl",
@@ -7847,6 +7901,19 @@
           ],
           "champion": "Pakistan"
         },
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2017",
+  "teams": [
+    {"team_name":"Trinbago Knight Riders","played":10,"won":8,"lost":2,"no_result":0,"points":16,"nrr":1.168},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":1.022},
+    {"team_name":"Jamaica Tallawahs","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":-0.416},
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.834},
+    {"team_name":"Barbados Tridents","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.943},
+    {"team_name":"St Lucia Stars","played":10,"won":0,"lost":9,"no_result":1,"points":1,"nrr":-1.644}
+  ]
+},
 
 {
   "id": "bbl",
@@ -8037,6 +8104,19 @@
             }
           ]
         },
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2018",
+  "teams": [
+    {"team_name":"Trinbago Knight Riders","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.823},
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.298},
+    {"team_name":"Jamaica Tallawahs","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.222},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":0.250},
+    {"team_name":"St Lucia Stars","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":-1.098},
+    {"team_name":"Barbados Tridents","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-0.711}
+  ]
+},
 
         {
   "id": "psl",
@@ -8354,6 +8434,19 @@
             }
           ]
         },
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2019",
+  "teams": [
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":10,"lost":0,"no_result":0,"points":20,"nrr":1.724},
+    {"team_name":"Barbados Tridents","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.518},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.155},
+    {"team_name":"Trinbago Knight Riders","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.026},
+    {"team_name":"St Lucia Zouks","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":-0.740},
+    {"team_name":"Jamaica Tallawahs","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.478}
+  ]
+},
 
 {
   "id": "bbl",
@@ -8548,6 +8641,20 @@
         },
 
         {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2020",
+  "teams": [
+    {"team_name":"Trinbago Knight Riders","played":10,"won":10,"lost":0,"no_result":0,"points":20,"nrr":1.294},
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.600},
+    {"team_name":"St Lucia Zouks","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":-0.021},
+    {"team_name":"Jamaica Tallawahs","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":-0.245},
+    {"team_name":"Barbados Tridents","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.253},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":1,"lost":8,"no_result":1,"points":3,"nrr":-1.498}
+  ]
+},
+
+        {
   "id": "psl",
   "name": "Pakistan Super League",
   "season": "2020",
@@ -8676,6 +8783,20 @@
           ]
         },
 
+{
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2021",
+  "teams": [
+    {"team_name":"Trinbago Knight Riders","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.700},
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.109},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":-0.328},
+    {"team_name":"St Lucia Kings","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.159},
+    {"team_name":"Jamaica Tallawahs","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":0.124},
+    {"team_name":"Barbados Royals","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.520}
+  ]
+},
+        
 {
   "id": "bbl",
   "name": "Big Bash League",
@@ -9057,6 +9178,20 @@
           ]
         },
 
+{
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2022",
+  "teams": [
+    {"team_name":"Barbados Royals","played":9,"won":8,"lost":1,"no_result":0,"points":16,"nrr":1.554},
+    {"team_name":"Guyana Amazon Warriors","played":9,"won":4,"lost":4,"no_result":1,"points":9,"nrr":0.029},
+    {"team_name":"St Lucia Kings","played":9,"won":4,"lost":5,"no_result":0,"points":8,"nrr":0.314},
+    {"team_name":"Jamaica Tallawahs","played":9,"won":4,"lost":5,"no_result":0,"points":8,"nrr":0.279},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":3,"lost":5,"no_result":2,"points":8,"nrr":-1.184},
+    {"team_name":"Trinbago Knight Riders","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":-0.893}
+  ]
+},
+        
         {
   "id": "psl",
   "name": "Pakistan Super League",
@@ -9692,6 +9827,20 @@
         },
 
         {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2023",
+  "teams": [
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":8,"lost":1,"no_result":1,"points":17,"nrr":1.725},
+    {"team_name":"Trinbago Knight Riders","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":0.903},
+    {"team_name":"St Lucia Kings","played":10,"won":4,"lost":4,"no_result":2,"points":10,"nrr":0.471},
+    {"team_name":"Jamaica Tallawahs","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":0.788},
+    {"team_name":"Barbados Royals","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":-2.050},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":1,"lost":7,"no_result":2,"points":4,"nrr":-2.020}
+  ]
+},
+
+        {
   "id": "psl",
   "name": "Pakistan Super League",
   "season": "2023",
@@ -10154,6 +10303,20 @@
             }
           ]
         },
+
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2024",
+  "teams": [
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.799},
+    {"team_name":"St Lucia Kings","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.673},
+    {"team_name":"Trinbago Knight Riders","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.455},
+    {"team_name":"Barbados Royals","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.084},
+    {"team_name":"Antigua & Barbuda Falcons","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.592},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":1,"lost":9,"no_result":0,"points":2,"nrr":-1.479}
+  ]
+},
 
 {
   "id": "psl",
@@ -10682,6 +10845,20 @@
             }
           ]
         },
+
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2025",
+  "teams": [
+    {"team_name":"St Lucia Kings","played":10,"won":5,"lost":3,"no_result":2,"points":12,"nrr":0.746},
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.629},
+    {"team_name":"Trinbago Knight Riders","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.018},
+    {"team_name":"Antigua & Barbuda Falcons","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":-0.757},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.110},
+    {"team_name":"Barbados Royals","played":10,"won":2,"lost":7,"no_result":1,"points":5,"nrr":-0.379}
+  ]
+},
 
         {
   "id": "psl",
@@ -11259,6 +11436,21 @@
             }
           ]
         },
+
+        {
+  "id": "cpl",
+  "name": "Caribbean Premier League",
+  "season": "2026",
+  "teams": [
+    {"team_name":"Guyana Amazon Warriors","played":10,"won":8,"lost":2,"no_result":0,"points":16,"nrr":0.615},
+    {"team_name":"Antigua & Barbuda Falcons","played":10,"won":6,"lost":3,"no_result":1,"points":13,"nrr":0.174},
+    {"team_name":"Barbados Tridents","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":-0.125},
+    {"team_name":"Jamaica Kingsmen","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.085},
+    {"team_name":"St Lucia Kings","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.887},
+    {"team_name":"St Kitts & Nevis Patriots","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":0.252},
+    {"team_name":"Trinbago Knight Riders","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.010}
+  ]
+},
 
 {
   "id": "bbl",
