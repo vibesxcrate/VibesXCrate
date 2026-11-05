@@ -10004,6 +10004,20 @@
     {"team_name":"Melbourne Stars","played":14,"won":3,"lost":11,"no_result":0,"points":6,"nrr":-0.287}
   ]
 },
+
+{
+  "id": "ilt20",
+  "name": "International League T20",
+  "season": "2023",
+  "teams": [
+    {"team_name":"Gulf Giants","played":10,"won":7,"lost":1,"no_result":2,"points":16,"nrr":1.258},
+    {"team_name":"Desert Vipers","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.399},
+    {"team_name":"MI Emirates","played":10,"won":5,"lost":4,"no_result":1,"points":11,"nrr":1.059},
+    {"team_name":"Dubai Capitals","played":10,"won":4,"lost":5,"no_result":1,"points":9,"nrr":-0.386},
+    {"team_name":"Sharjah Warriors","played":10,"won":3,"lost":6,"no_result":1,"points":7,"nrr":-0.522},
+    {"team_name":"Abu Dhabi Knight Riders","played":10,"won":1,"lost":8,"no_result":1,"points":3,"nrr":-1.784}
+  ]
+},
         
         {
           "id": "wpl",
@@ -10507,6 +10521,19 @@
     {"team_name":"Melbourne Stars","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-1.051},
     {"team_name":"Melbourne Renegades","played":10,"won":2,"lost":6,"no_result":2,"points":6,"nrr":-0.289},
     {"team_name":"Sydney Thunder","played":10,"won":1,"lost":7,"no_result":2,"points":4,"nrr":-0.652}
+  ]
+},
+        {
+  "id": "ilt20",
+  "name": "International League T20",
+  "season": "2024",
+  "teams": [
+    {"team_name":"MI Emirates","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":1.469},
+    {"team_name":"Gulf Giants","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.386},
+    {"team_name":"Abu Dhabi Knight Riders","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.084},
+    {"team_name":"Dubai Capitals","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.203},
+    {"team_name":"Desert Vipers","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.010},
+    {"team_name":"Sharjah Warriors","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-1.608}
   ]
 },
         
@@ -11262,6 +11289,21 @@
           ],
           "champion": "India"
         },
+
+{
+  "id": "ilt20",
+  "name": "International League T20",
+  "season": "2025",
+  "teams": [
+    {"team_name":"Desert Vipers","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.141},
+    {"team_name":"Dubai Capitals","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":-0.234},
+    {"team_name":"MI Emirates","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.805},
+    {"team_name":"Sharjah Warriorz","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.349},
+    {"team_name":"Gulf Giants","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.230},
+    {"team_name":"Abu Dhabi Knight Riders","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.229}
+  ]
+},
+        
         {
           "id": "womens-world-cup",
           "name": "ICC Women's Cricket World Cup",
@@ -11685,6 +11727,20 @@
     {"team_name":"Rawalpindiz","played":10,"won":1,"lost":9,"no_result":0,"points":2,"nrr":-1.760}
   ]
 },
+{
+  "id": "ilt20",
+  "name": "International League T20",
+  "season": "2026",
+  "teams": [
+    {"team_name":"Desert Vipers","played":10,"won":8,"lost":2,"no_result":0,"points":16,"nrr":0.438},
+    {"team_name":"MI Emirates","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":0.676},
+    {"team_name":"Dubai Capitals","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":0.578},
+    {"team_name":"Abu Dhabi Knight Riders","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-0.559},
+    {"team_name":"Gulf Giants","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.310},
+    {"team_name":"Sharjah Warriorz","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.815}
+  ]
+},
+        
       {
   "id": "bpl",
   "name": "Bangladesh Premier League",
