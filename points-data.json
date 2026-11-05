@@ -8779,7 +8779,18 @@
     {"team_name":"Melbourne Renegades","played":14,"won":3,"lost":11,"no_result":0,"points":6,"nrr":-0.385}
   ]
 },
-        
+      {
+  "id": "lpl",
+  "name": "Lanka Premier League",
+  "season": "2020",
+  "teams": [
+    {"team_name":"Colombo Kings","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":0.448},
+    {"team_name":"Dambulla Viiking","played":8,"won":5,"lost":2,"no_result":1,"points":11,"nrr":-0.087},
+    {"team_name":"Jaffna Stallions","played":8,"won":4,"lost":3,"no_result":1,"points":9,"nrr":0.788},
+    {"team_name":"Galle Gladiators","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-0.203},
+    {"team_name":"Kandy Tuskers","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-0.890}
+  ]
+},  
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -8921,7 +8932,18 @@
     {"team_name":"Quetta Gladiators","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.786}
   ]
 },
-        
+  {
+  "id": "lpl",
+  "name": "Lanka Premier League",
+  "season": "2021",
+  "teams": [
+    {"team_name":"Jaffna Kings","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":2.210},
+    {"team_name":"Galle Gladiators","played":8,"won":4,"lost":3,"no_result":1,"points":9,"nrr":0.143},
+    {"team_name":"Colombo Stars","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":-0.571},
+    {"team_name":"Dambulla Giants","played":8,"won":3,"lost":4,"no_result":1,"points":7,"nrr":-1.003},
+    {"team_name":"Kandy Warriors","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-0.668}
+  ]
+},      
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -9329,7 +9351,18 @@
     {"team_name":"Melbourne Renegades","played":14,"won":3,"lost":10,"no_result":1,"points":16,"nrr":-1.477}
   ]
 },
-        
+    {
+  "id": "lpl",
+  "name": "Lanka Premier League",
+  "season": "2022",
+  "teams": [
+    {"team_name":"Kandy Falcons","played":8,"won":7,"lost":1,"no_result":0,"points":14,"nrr":1.884},
+    {"team_name":"Jaffna Kings","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":1.010},
+    {"team_name":"Colombo Stars","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.847},
+    {"team_name":"Galle Gladiators","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-0.936},
+    {"team_name":"Dambulla Aura","played":8,"won":2,"lost":6,"no_result":0,"points":4,"nrr":-1.198}
+  ]
+},    
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
@@ -10032,6 +10065,18 @@
   ]
 },
         {
+  "id": "lpl",
+  "name": "Lanka Premier League",
+  "season": "2023",
+  "teams": [
+    {"team_name":"Dambulla Aura","played":8,"won":6,"lost":2,"no_result":0,"points":12,"nrr":0.793},
+    {"team_name":"Galle Titans","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.353},
+    {"team_name":"B-Love Kandy","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.185},
+    {"team_name":"Jaffna Kings","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.179},
+    {"team_name":"Colombo Strikers","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-1.215}
+  ]
+},
+        {
           "id": "wpl",
           "name": "WPL",
           "teams": [
@@ -10560,7 +10605,18 @@
     {"team_name":"Sharjah Warriors","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":-1.608}
   ]
 },
-        
+     {
+  "id": "lpl",
+  "name": "Lanka Premier League",
+  "season": "2024",
+  "teams": [
+    {"team_name":"Galle Marvels","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":-0.059},
+    {"team_name":"Jaffna Kings","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":-0.392},
+    {"team_name":"Colombo Strikers","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.583},
+    {"team_name":"Kandy Falcons","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":0.033},
+    {"team_name":"Dambulla Sixers","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.269}
+  ]
+},   
         {
           "id": "wpl",
           "name": "WPL",
@@ -11802,6 +11858,18 @@
     {"team_name":"Noakhali Express","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.038}
   ]
 },  
+       {
+  "id": "lpl",
+  "name": "Lanka Premier League",
+  "season": "2026",
+  "teams": [
+    {"team_name":"Jaffna Kings","played":8,"won":5,"lost":2,"no_result":1,"points":11,"nrr":0.385},
+    {"team_name":"Galle Gallants","played":8,"won":5,"lost":3,"no_result":0,"points":10,"nrr":0.604},
+    {"team_name":"Colombo Kaps","played":8,"won":4,"lost":4,"no_result":0,"points":8,"nrr":0.108},
+    {"team_name":"Kandy Royals","played":8,"won":3,"lost":5,"no_result":0,"points":6,"nrr":-0.567},
+    {"team_name":"Dambulla Sixers","played":8,"won":2,"lost":5,"no_result":1,"points":5,"nrr":-0.565}
+  ]
+},
         {
           "id": "mens-t20-world-cup",
           "name": "ICC Men's T20 World Cup",
