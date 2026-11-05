@@ -10018,7 +10018,19 @@
     {"team_name":"Abu Dhabi Knight Riders","played":10,"won":1,"lost":8,"no_result":1,"points":3,"nrr":-1.784}
   ]
 },
-        
+        {
+  "id": "mlc",
+  "name": "Major League Cricket",
+  "season": "2023",
+  "teams": [
+    {"team_name":"Seattle Orcas","played":5,"won":4,"lost":1,"no_result":0,"points":8,"nrr":0.725},
+    {"team_name":"Texas Super Kings","played":5,"won":3,"lost":2,"no_result":0,"points":6,"nrr":0.570},
+    {"team_name":"Washington Freedom","played":5,"won":3,"lost":2,"no_result":0,"points":6,"nrr":0.097},
+    {"team_name":"MI New York","played":5,"won":2,"lost":3,"no_result":0,"points":4,"nrr":1.004},
+    {"team_name":"San Francisco Unicorns","played":5,"won":2,"lost":3,"no_result":0,"points":4,"nrr":-0.303},
+    {"team_name":"Los Angeles Knight Riders","played":5,"won":1,"lost":4,"no_result":0,"points":2,"nrr":-2.028}
+  ]
+},
         {
           "id": "wpl",
           "name": "WPL",
@@ -10507,7 +10519,19 @@
     {"team_name":"Lahore Qalandars","played":10,"won":1,"lost":8,"no_result":1,"points":3,"nrr":-0.554}
   ]
 },
-        
+     {
+  "id": "mlc",
+  "name": "Major League Cricket",
+  "season": "2024",
+  "teams": [
+    {"team_name":"Washington Freedom","played":7,"won":5,"lost":1,"no_result":1,"points":11,"nrr":1.891},
+    {"team_name":"San Francisco Unicorns","played":7,"won":5,"lost":1,"no_result":1,"points":11,"nrr":0.588},
+    {"team_name":"Texas Super Kings","played":7,"won":3,"lost":2,"no_result":2,"points":8,"nrr":0.604},
+    {"team_name":"MI New York","played":7,"won":2,"lost":4,"no_result":1,"points":5,"nrr":-0.451},
+    {"team_name":"Los Angeles Knight Riders","played":7,"won":2,"lost":4,"no_result":1,"points":5,"nrr":-0.710},
+    {"team_name":"Seattle Orcas","played":7,"won":1,"lost":6,"no_result":0,"points":2,"nrr":-1.312}
+  ]
+},   
 {
   "id": "bbl",
   "name": "Big Bash League",
@@ -11105,7 +11129,19 @@
     {"team_name":"Adelaide Strikers","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.122}
   ]
 },
-        
+        {
+  "id": "mlc",
+  "name": "Major League Cricket",
+  "season": "2025",
+  "teams": [
+    {"team_name":"Washington Freedom","played":10,"won":8,"lost":2,"no_result":0,"points":16,"nrr":0.954},
+    {"team_name":"Texas Super Kings","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":1.603},
+    {"team_name":"San Francisco Unicorns","played":10,"won":7,"lost":3,"no_result":0,"points":14,"nrr":1.330},
+    {"team_name":"MI New York","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.518},
+    {"team_name":"Seattle Orcas","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-1.842},
+    {"team_name":"Los Angeles Knight Riders","played":10,"won":2,"lost":8,"no_result":0,"points":4,"nrr":-1.320}
+  ]
+},
         {
           "id": "wpl",
           "name": "WPL",
@@ -11740,7 +11776,19 @@
     {"team_name":"Sharjah Warriorz","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.815}
   ]
 },
-        
+     {
+  "id": "mlc",
+  "name": "Major League Cricket",
+  "season": "2026",
+  "teams": [
+    {"team_name":"San Francisco Unicorns","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.487},
+    {"team_name":"Los Angeles Knight Riders","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":0.245},
+    {"team_name":"Washington Freedom","played":10,"won":6,"lost":4,"no_result":0,"points":12,"nrr":-0.399},
+    {"team_name":"MI New York","played":10,"won":5,"lost":5,"no_result":0,"points":10,"nrr":-0.165},
+    {"team_name":"Seattle Orcas","played":10,"won":4,"lost":6,"no_result":0,"points":8,"nrr":0.034},
+    {"team_name":"Texas Super Kings","played":10,"won":3,"lost":7,"no_result":0,"points":6,"nrr":-0.151}
+  ]
+},   
       {
   "id": "bpl",
   "name": "Bangladesh Premier League",
