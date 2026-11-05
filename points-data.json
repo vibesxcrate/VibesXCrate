@@ -971,13 +971,45 @@
             }
           ]
         },
-        {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+       
+{
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "1988",
+  "stages": [
+    {
+      "name": "League Stage",
+      "teams": [
+        {"team_name":"Australia","played":7,"won":6,"lost":1,"no_result":0,"points":12,"nrr":null,"run_rate":4.577},
+        {"team_name":"West Indies","played":7,"won":5,"lost":2,"no_result":0,"points":10,"nrr":null,"run_rate":3.711},
+        {"team_name":"Pakistan","played":7,"won":5,"lost":2,"no_result":0,"points":10,"nrr":null,"run_rate":3.371},
+        {"team_name":"England","played":7,"won":4,"lost":3,"no_result":0,"points":8,"nrr":null,"run_rate":3.194},
+        {"team_name":"Sri Lanka","played":7,"won":3,"lost":4,"no_result":0,"points":6,"nrr":null,"run_rate":3.475},
+        {"team_name":"India","played":7,"won":3,"lost":4,"no_result":0,"points":6,"nrr":null,"run_rate":2.951},
+        {"team_name":"New Zealand","played":7,"won":2,"lost":5,"no_result":0,"points":4,"nrr":null,"run_rate":3.526},
+        {"team_name":"ICC Associates XI","played":7,"won":0,"lost":7,"no_result":0,"points":0,"nrr":null,"run_rate":2.969}
       ]
     },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"Australia"},
+        {"team_name":"Pakistan"}
+      ],
+      "matches": [
+        {
+          "name":"Final",
+          "team1":"Australia",
+          "team2":"Pakistan",
+          "winner":"Australia",
+          "result":"Australia won by 5 wickets"
+        }
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 1990,
       "tournaments": [
@@ -1867,12 +1899,91 @@
           "notes": "The 1998 edition was also known as the Wills International Cup. It used a knockout format; there was no league points table."
         },
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "1998",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Pakistan","group":"Bradman Pool","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.896},
+        {"team_name":"Sri Lanka","group":"Bradman Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.795},
+        {"team_name":"Denmark","group":"Bradman Pool","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-2.901},
+        {"team_name":"Ireland","group":"Bradman Pool","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.058},
+
+        {"team_name":"Australia","group":"Cowdrey Pool","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.887},
+        {"team_name":"Zimbabwe","group":"Cowdrey Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.488},
+        {"team_name":"West Indies","group":"Cowdrey Pool","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.618},
+        {"team_name":"Papua New Guinea","group":"Cowdrey Pool","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-4.569},
+
+        {"team_name":"South Africa","group":"Gavaskar Pool","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.729},
+        {"team_name":"India","group":"Gavaskar Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.775},
+        {"team_name":"Kenya","group":"Gavaskar Pool","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.320},
+        {"team_name":"Scotland","group":"Gavaskar Pool","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.413},
+
+        {"team_name":"New Zealand","group":"Sobers Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.905},
+        {"team_name":"England","group":"Sobers Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.526},
+        {"team_name":"Bangladesh","group":"Sobers Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.159},
+        {"team_name":"Namibia","group":"Sobers Pool","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.910}
+      ]
+    },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"England","group":"D'Oliveira Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.475},
+        {"team_name":"Australia","group":"D'Oliveira Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.174},
+        {"team_name":"India","group":"D'Oliveira Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.056},
+        {"team_name":"Pakistan","group":"D'Oliveira Pool","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-0.645},
+
+        {"team_name":"New Zealand","group":"Pollock Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.243},
+        {"team_name":"South Africa","group":"Pollock Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.488},
+        {"team_name":"Sri Lanka","group":"Pollock Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.040},
+        {"team_name":"Zimbabwe","group":"Pollock Pool","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.760}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Bangladesh","group":"Magiet Pool","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.594},
+        {"team_name":"Kenya","group":"Magiet Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.156},
+        {"team_name":"Ireland","group":"Magiet Pool","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.255},
+        {"team_name":"Papua New Guinea","group":"Magiet Pool","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.027},
+
+        {"team_name":"West Indies","group":"Procter Pool","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.930},
+        {"team_name":"Scotland","group":"Procter Pool","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.424},
+        {"team_name":"Denmark","group":"Procter Pool","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.406},
+        {"team_name":"Namibia","group":"Procter Pool","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.733}
+      ],
+      "matches": [
+        {
+          "name": "Plate Final",
+          "team1": "West Indies",
+          "team2": "Bangladesh",
+          "winner": "Bangladesh",
+          "result": "Bangladesh won by 6 wickets"
         }
       ]
     },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"England","played":1,"won":1,"lost":0,"no_result":0,"points":2,"nrr":null},
+        {"team_name":"New Zealand","played":1,"won":0,"lost":1,"no_result":0,"points":0,"nrr":null}
+      ],
+      "matches": [
+        {
+          "name": "Super League Final",
+          "team1": "New Zealand",
+          "team2": "England",
+          "winner": "England",
+          "result": "England won by 7 wickets"
+        }
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 1999,
       "tournaments": [
@@ -2402,13 +2513,122 @@
             }
           ]
         },
+       {
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2000",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"West Indies","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.128},
+        {"team_name":"England","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.073},
+        {"team_name":"Zimbabwe","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.125},
+        {"team_name":"Americas","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.597},
+
+        {"team_name":"India","group":"Group B","played":3,"won":2,"lost":0,"no_result":1,"points":5,"nrr":1.500},
+        {"team_name":"New Zealand","group":"Group B","played":3,"won":1,"lost":1,"no_result":1,"points":3,"nrr":-0.560},
+        {"team_name":"Bangladesh","group":"Group B","played":3,"won":1,"lost":1,"no_result":1,"points":3,"nrr":-2.440},
+        {"team_name":"Netherlands","group":"Group B","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":null},
+
+        {"team_name":"Pakistan","group":"Group C","played":3,"won":1,"lost":0,"no_result":2,"points":4,"nrr":2.912},
+        {"team_name":"Nepal","group":"Group C","played":3,"won":1,"lost":0,"no_result":2,"points":4,"nrr":0.304},
+        {"team_name":"South Africa","group":"Group C","played":3,"won":0,"lost":0,"no_result":3,"points":3,"nrr":null},
+        {"team_name":"Kenya","group":"Group C","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":-1.158},
+
+        {"team_name":"Sri Lanka","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.155},
+        {"team_name":"Australia","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":2.203},
+        {"team_name":"Ireland","group":"Group D","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":-1.403},
+        {"team_name":"Namibia","group":"Group D","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":-2.781}
+      ]
+    },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"Pakistan","group":"Group 1","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":0.879},
+        {"team_name":"Australia","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.307},
+        {"team_name":"West Indies","group":"Group 1","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.134},
+        {"team_name":"New Zealand","group":"Group 1","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.270},
+
+        {"team_name":"India","group":"Group 2","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.137},
+        {"team_name":"Sri Lanka","group":"Group 2","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.441},
+        {"team_name":"England","group":"Group 2","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.520},
+        {"team_name":"Nepal","group":"Group 2","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.190}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Bangladesh","group":"Group 1","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.565},
+        {"team_name":"Zimbabwe","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.142},
+        {"team_name":"Kenya","group":"Group 1","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.984},
+        {"team_name":"Namibia","group":"Group 1","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.640},
+
+        {"team_name":"South Africa","group":"Group 2","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.376},
+        {"team_name":"Ireland","group":"Group 2","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.062},
+        {"team_name":"Netherlands","group":"Group 2","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.161},
+        {"team_name":"Americas","group":"Group 2","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.620}
+      ],
+      "matches": [
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
+          "name": "Plate Semi-Final 1",
+          "team1": "Bangladesh",
+          "team2": "Ireland",
+          "winner": "Bangladesh",
+          "result": "Bangladesh won by 67 runs"
+        },
+        {
+          "name": "Plate Semi-Final 2",
+          "team1": "Zimbabwe",
+          "team2": "South Africa",
+          "winner": "South Africa",
+          "result": "South Africa won by 8 wickets"
+        },
+        {
+          "name": "Plate Final",
+          "team1": "South Africa",
+          "team2": "Bangladesh",
+          "winner": "South Africa",
+          "result": "South Africa won by 80 runs"
         }
       ]
     },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"Sri Lanka"},
+        {"team_name":"Pakistan"},
+        {"team_name":"India"},
+        {"team_name":"Australia"}
+      ],
+      "matches": [
+        {
+          "name": "Semi-Final 1",
+          "team1": "Sri Lanka",
+          "team2": "Pakistan",
+          "winner": "Sri Lanka",
+          "result": "Sri Lanka won by 10 runs"
+        },
+        {
+          "name": "Semi-Final 2",
+          "team1": "India",
+          "team2": "Australia",
+          "winner": "India",
+          "result": "India won by 170 runs"
+        },
+        {
+          "name": "Final",
+          "team1": "Sri Lanka",
+          "team2": "India",
+          "winner": "India",
+          "result": "India won by 6 wickets"
+        }
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2002,
       "tournaments": [
@@ -2592,9 +2812,123 @@
           ],
           "champion": "India and Sri Lanka",
           "notes": "India and Sri Lanka were declared joint winners after both the scheduled final and reserve-day replay were abandoned due to rain. The pool-stage points system awarded 4 points per win."
+        },
+        {
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2002",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"India","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":10,"nrr":1.770},
+        {"team_name":"South Africa","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":10,"nrr":1.421},
+        {"team_name":"Bangladesh","group":"Group A","played":3,"won":1,"lost":1,"no_result":1,"points":7,"nrr":-0.341},
+        {"team_name":"Canada","group":"Group A","played":3,"won":0,"lost":2,"no_result":1,"points":2,"nrr":-3.187},
+
+        {"team_name":"New Zealand","group":"Group B","played":3,"won":2,"lost":0,"no_result":1,"points":12,"nrr":3.090},
+        {"team_name":"Sri Lanka","group":"Group B","played":3,"won":1,"lost":1,"no_result":1,"points":7,"nrr":0.454},
+        {"team_name":"Zimbabwe","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":5,"nrr":-0.780},
+        {"team_name":"Namibia","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":4,"nrr":-1.163},
+
+        {"team_name":"Pakistan","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":9,"nrr":0.820},
+        {"team_name":"England","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":9,"nrr":0.804},
+        {"team_name":"Nepal","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":9,"nrr":0.387},
+        {"team_name":"Papua New Guinea","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.531},
+
+        {"team_name":"Australia","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":15,"nrr":4.673},
+        {"team_name":"West Indies","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":10,"nrr":2.812},
+        {"team_name":"Scotland","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":4,"nrr":-4.224},
+        {"team_name":"Kenya","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-5.204}
+      ]
+    },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"India","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":10,"nrr":1.053},
+        {"team_name":"West Indies","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":9,"nrr":0.007},
+        {"team_name":"Pakistan","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":8,"nrr":0.062},
+        {"team_name":"Sri Lanka","group":"Group 1","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-0.903},
+
+        {"team_name":"Australia","group":"Group 2","played":3,"won":3,"lost":0,"no_result":0,"points":14,"nrr":1.277},
+        {"team_name":"South Africa","group":"Group 2","played":3,"won":2,"lost":1,"no_result":0,"points":8,"nrr":0.155},
+        {"team_name":"New Zealand","group":"Group 2","played":3,"won":1,"lost":2,"no_result":0,"points":4,"nrr":-0.474},
+        {"team_name":"England","group":"Group 2","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-0.893}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Zimbabwe","group":"Group 1","played":3,"won":3,"lost":0,"no_result":0,"points":15,"nrr":3.098},
+        {"team_name":"Bangladesh","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":10,"nrr":0.232},
+        {"team_name":"Kenya","group":"Group 1","played":3,"won":1,"lost":2,"no_result":0,"points":4,"nrr":-1.652},
+        {"team_name":"Papua New Guinea","group":"Group 1","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.545},
+
+        {"team_name":"Nepal","group":"Group 2","played":3,"won":3,"lost":0,"no_result":0,"points":14,"nrr":1.067},
+        {"team_name":"Namibia","group":"Group 2","played":3,"won":2,"lost":1,"no_result":0,"points":9,"nrr":1.071},
+        {"team_name":"Scotland","group":"Group 2","played":3,"won":1,"lost":2,"no_result":0,"points":5,"nrr":-0.140},
+        {"team_name":"Canada","group":"Group 2","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.198}
+      ],
+      "matches": [
+        {
+          "name": "Plate Semi-Final 1",
+          "team1": "Namibia",
+          "team2": "Zimbabwe",
+          "winner": "Zimbabwe",
+          "result": "Zimbabwe won by 35 runs"
+        },
+        {
+          "name": "Plate Semi-Final 2",
+          "team1": "Bangladesh",
+          "team2": "Nepal",
+          "winner": "Nepal",
+          "result": "Nepal won by 23 runs"
+        },
+        {
+          "name": "Plate Final",
+          "team1": "Nepal",
+          "team2": "Zimbabwe",
+          "winner": "Zimbabwe",
+          "result": "Zimbabwe won by 137 runs"
         }
       ]
     },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"India","played":1,"won":0,"lost":1,"no_result":0,"points":0,"nrr":null},
+        {"team_name":"South Africa","played":2,"won":1,"lost":1,"no_result":0,"points":2,"nrr":null},
+        {"team_name":"Australia","played":2,"won":2,"lost":0,"no_result":0,"points":4,"nrr":null},
+        {"team_name":"West Indies","played":1,"won":0,"lost":1,"no_result":0,"points":0,"nrr":null}
+      ],
+      "matches": [
+        {
+          "name": "Super League Semi-Final 1",
+          "team1": "India",
+          "team2": "South Africa",
+          "winner": "South Africa",
+          "result": "South Africa won by 112 runs"
+        },
+        {
+          "name": "Super League Semi-Final 2",
+          "team1": "Australia",
+          "team2": "West Indies",
+          "winner": "Australia",
+          "result": "Australia won by 93 runs"
+        },
+        {
+          "name": "Super League Final",
+          "team1": "Australia",
+          "team2": "South Africa",
+          "winner": "Australia",
+          "result": "Australia won by 7 wickets"
+        }
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2003,
       "tournaments": [
@@ -3155,12 +3489,121 @@
           "teams": []
         },
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2004",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Sri Lanka","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.268},
+        {"team_name":"Zimbabwe","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.039},
+        {"team_name":"Australia","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.306},
+        {"team_name":"Canada","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.500},
+
+        {"team_name":"England","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.581},
+        {"team_name":"South Africa","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.607},
+        {"team_name":"Nepal","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.110},
+        {"team_name":"Uganda","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.164},
+
+        {"team_name":"India","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.133},
+        {"team_name":"New Zealand","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.175},
+        {"team_name":"Bangladesh","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.166},
+        {"team_name":"Scotland","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-5.441},
+
+        {"team_name":"Pakistan","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.168},
+        {"team_name":"West Indies","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.033},
+        {"team_name":"Ireland","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.326},
+        {"team_name":"Papua New Guinea","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.819}
+      ]
+    },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"India","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.993},
+        {"team_name":"West Indies","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.287},
+        {"team_name":"Sri Lanka","group":"Group 1","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.307},
+        {"team_name":"South Africa","group":"Group 1","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.400},
+
+        {"team_name":"England","group":"Group 2","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":0.719},
+        {"team_name":"Pakistan","group":"Group 2","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.077},
+        {"team_name":"Zimbabwe","group":"Group 2","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.005},
+        {"team_name":"New Zealand","group":"Group 2","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.872}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Australia","group":"Group 1","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.820},
+        {"team_name":"Scotland","group":"Group 1","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.550},
+        {"team_name":"Nepal","group":"Group 1","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.139},
+        {"team_name":"Papua New Guinea","group":"Group 1","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.942},
+
+        {"team_name":"Bangladesh","group":"Group 2","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.897},
+        {"team_name":"Ireland","group":"Group 2","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.369},
+        {"team_name":"Uganda","group":"Group 2","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.810},
+        {"team_name":"Canada","group":"Group 2","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.655}
+      ],
+      "matches": [
+        {
+          "name": "Plate Semi-Final 1",
+          "team1": "Australia",
+          "team2": "Ireland",
+          "winner": "Australia",
+          "result": "Australia won by 49 runs"
+        },
+        {
+          "name": "Plate Semi-Final 2",
+          "team1": "Bangladesh",
+          "team2": "Scotland",
+          "winner": "Bangladesh",
+          "result": "Bangladesh won by 91 runs"
+        },
+        {
+          "name": "Plate Final",
+          "team1": "Bangladesh",
+          "team2": "Australia",
+          "winner": "Bangladesh",
+          "result": "Bangladesh won by 8 runs"
         }
       ]
     },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"India","played":1,"won":0,"lost":1,"no_result":0,"points":0,"nrr":null},
+        {"team_name":"Pakistan","played":2,"won":2,"lost":0,"no_result":0,"points":4,"nrr":null},
+        {"team_name":"England","played":1,"won":0,"lost":1,"no_result":0,"points":0,"nrr":null},
+        {"team_name":"West Indies","played":2,"won":1,"lost":1,"no_result":0,"points":2,"nrr":null}
+      ],
+      "matches": [
+        {
+          "name": "Super League Semi-Final 1",
+          "team1": "India",
+          "team2": "Pakistan",
+          "winner": "Pakistan",
+          "result": "Pakistan won by 5 wickets"
+        },
+        {
+          "name": "Super League Semi-Final 2",
+          "team1": "England",
+          "team2": "West Indies",
+          "winner": "West Indies",
+          "result": "West Indies won by 94 runs"
+        },
+        {
+          "name": "Super League Final",
+          "team1": "Pakistan",
+          "team2": "West Indies",
+          "winner": "Pakistan",
+          "result": "Pakistan won by 25 runs"
+        }
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2005,
       "tournaments": [
@@ -3451,12 +3894,99 @@
           "teams": []
         },
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2006",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Bangladesh","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.048},
+        {"team_name":"Pakistan","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":2.108},
+        {"team_name":"New Zealand","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.631},
+        {"team_name":"Uganda","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.253},
+
+        {"team_name":"Australia","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.253},
+        {"team_name":"West Indies","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.768},
+        {"team_name":"South Africa","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.327},
+        {"team_name":"USA","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.676},
+
+        {"team_name":"India","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.037},
+        {"team_name":"Sri Lanka","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.170},
+        {"team_name":"Namibia","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.315},
+        {"team_name":"Scotland","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.819},
+
+        {"team_name":"Zimbabwe","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":0.937},
+        {"team_name":"England","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.454},
+        {"team_name":"Nepal","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.127},
+        {"team_name":"Ireland","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.264}
       ]
     },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"Bangladesh"},
+        {"team_name":"England"},
+        {"team_name":"India"},
+        {"team_name":"West Indies"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Pakistan"},
+        {"team_name":"Sri Lanka"},
+        {"team_name":"Australia"}
+      ],
+      "matches": [
+        {"name":"Quarter-Final 1","team1":"Bangladesh","team2":"England","winner":"England","result":"England won by 5 wickets"},
+        {"name":"Quarter-Final 2","team1":"India","team2":"West Indies","winner":"India","result":"India won by 126 runs"},
+        {"name":"Quarter-Final 3","team1":"Zimbabwe","team2":"Pakistan","winner":"Pakistan","result":"Pakistan won by 5 wickets"},
+        {"name":"Quarter-Final 4","team1":"Sri Lanka","team2":"Australia","winner":"Australia","result":"Australia won by 9 wickets"},
+        {"name":"5th-8th Semi-Final 1","team1":"West Indies","team2":"Bangladesh","winner":"Bangladesh","result":"Bangladesh won by 4 wickets"},
+        {"name":"5th-8th Semi-Final 2","team1":"Zimbabwe","team2":"Sri Lanka","winner":"Sri Lanka","result":"Sri Lanka won by 8 wickets"},
+        {"name":"5th-6th Place Match","team1":"Bangladesh","team2":"Sri Lanka","winner":"Bangladesh","result":"Bangladesh won by 98 runs"}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"New Zealand"},
+        {"team_name":"Ireland"},
+        {"team_name":"South Africa"},
+        {"team_name":"Scotland"},
+        {"team_name":"Namibia"},
+        {"team_name":"USA"},
+        {"team_name":"Nepal"},
+        {"team_name":"Uganda"}
+      ],
+      "matches": [
+        {"name":"Quarter-Final 1","team1":"Ireland","team2":"New Zealand","winner":"New Zealand","result":"New Zealand won by 3 wickets"},
+        {"name":"Quarter-Final 2","team1":"South Africa","team2":"Scotland","winner":"South Africa","result":"South Africa won by 185 runs"},
+        {"name":"Quarter-Final 3","team1":"Namibia","team2":"USA","winner":"USA","result":"USA won by 2 wickets"},
+        {"name":"Quarter-Final 4","team1":"Nepal","team2":"Uganda","winner":"Nepal","result":"Nepal won by 70 runs"},
+        {"name":"9th-12th Semi-Final 1","team1":"New Zealand","team2":"USA","winner":"New Zealand","result":"New Zealand won by 170 runs"},
+        {"name":"9th-12th Semi-Final 2","team1":"Nepal","team2":"South Africa","winner":"Nepal","result":"Nepal won by 2 runs"},
+        {"name":"Plate Final","team1":"New Zealand","team2":"Nepal","winner":"Nepal","result":"Nepal won by 1 wicket"},
+        {"name":"13th-16th Semi-Final 1","team1":"Namibia","team2":"Ireland","winner":"Ireland","result":"Ireland won by 6 wickets"},
+        {"name":"13th-16th Semi-Final 2","team1":"Uganda","team2":"Scotland","winner":"Uganda","result":"Uganda won by 69 runs"},
+        {"name":"13th-14th Place Match","team1":"Uganda","team2":"Ireland","winner":"Ireland","result":"Ireland won by 6 wickets"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"India"},
+        {"team_name":"England"},
+        {"team_name":"Pakistan"},
+        {"team_name":"Australia"}
+      ],
+      "matches": [
+        {"name":"Semi-Final 1","team1":"India","team2":"England","winner":"India","result":"India won by 234 runs"},
+        {"name":"Semi-Final 2","team1":"Pakistan","team2":"Australia","winner":"Pakistan","result":"Pakistan won by 163 runs"},
+        {"name":"Final","team1":"Pakistan","team2":"India","winner":"Pakistan","result":"Pakistan won by 38 runs"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2007,
       "tournaments": [
@@ -4205,13 +4735,178 @@
             }
           ]
         },
+      {
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2008",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Pakistan","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.765},
+        {"team_name":"New Zealand","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.407},
+        {"team_name":"Malaysia","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.403},
+        {"team_name":"Zimbabwe","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.700},
+
+        {"team_name":"India","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.922},
+        {"team_name":"South Africa","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.066},
+        {"team_name":"West Indies","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.653},
+        {"team_name":"Papua New Guinea","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.959},
+
+        {"team_name":"Sri Lanka","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.912},
+        {"team_name":"Australia","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.342},
+        {"team_name":"Nepal","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.027},
+        {"team_name":"Namibia","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.100},
+
+        {"team_name":"Bangladesh","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.078},
+        {"team_name":"England","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.861},
+        {"team_name":"Bermuda","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-2.285},
+        {"team_name":"Ireland","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.264}
+      ]
+    },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"Pakistan"},
+        {"team_name":"India"},
+        {"team_name":"Sri Lanka"},
+        {"team_name":"Bangladesh"},
+        {"team_name":"New Zealand"},
+        {"team_name":"South Africa"},
+        {"team_name":"Australia"},
+        {"team_name":"England"}
+      ],
+      "matches": [
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
+          "name":"Quarter-Final 1",
+          "team1":"England",
+          "team2":"India",
+          "winner":"India",
+          "result":"India won by 7 wickets"
+        },
+        {
+          "name":"Quarter-Final 2",
+          "team1":"South Africa",
+          "team2":"Bangladesh",
+          "winner":"South Africa",
+          "result":"South Africa won by 201 runs"
+        },
+        {
+          "name":"Quarter-Final 3",
+          "team1":"New Zealand",
+          "team2":"Sri Lanka",
+          "winner":"New Zealand",
+          "result":"New Zealand won by 79 runs"
+        },
+        {
+          "name":"Quarter-Final 4",
+          "team1":"Australia",
+          "team2":"Pakistan",
+          "winner":"Pakistan",
+          "result":"Pakistan won by 6 wickets"
         }
       ]
     },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Malaysia"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Nepal"},
+        {"team_name":"Namibia"},
+        {"team_name":"Bermuda"},
+        {"team_name":"Ireland"},
+        {"team_name":"West Indies"},
+        {"team_name":"Papua New Guinea"}
+      ],
+      "matches": [
+        {
+          "name":"Plate Quarter-Final 1",
+          "team1":"Malaysia",
+          "team2":"Namibia",
+          "winner":"Namibia",
+          "result":"Namibia won by 9 wickets"
+        },
+        {
+          "name":"Plate Quarter-Final 2",
+          "team1":"Nepal",
+          "team2":"Zimbabwe",
+          "winner":"Nepal",
+          "result":"Nepal won by 99 runs"
+        },
+        {
+          "name":"Plate Quarter-Final 3",
+          "team1":"Ireland",
+          "team2":"West Indies",
+          "winner":"West Indies",
+          "result":"West Indies won by 7 wickets"
+        },
+        {
+          "name":"Plate Quarter-Final 4",
+          "team1":"Bermuda",
+          "team2":"Papua New Guinea",
+          "winner":"Papua New Guinea",
+          "result":"Papua New Guinea won by 7 wickets"
+        },
+        {
+          "name":"Plate Semi-Final 1",
+          "team1":"Nepal",
+          "team2":"Namibia",
+          "winner":"Nepal",
+          "result":"Nepal won by 4 runs"
+        },
+        {
+          "name":"Plate Semi-Final 2",
+          "team1":"Papua New Guinea",
+          "team2":"West Indies",
+          "winner":"West Indies",
+          "result":"West Indies won by 6 wickets"
+        },
+        {
+          "name":"Plate Final",
+          "team1":"Nepal",
+          "team2":"West Indies",
+          "winner":"West Indies",
+          "result":"West Indies won by 7 wickets"
+        }
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"India"},
+        {"team_name":"New Zealand"},
+        {"team_name":"South Africa"},
+        {"team_name":"Pakistan"}
+      ],
+      "matches": [
+        {
+          "name":"Semi-Final 1",
+          "team1":"New Zealand",
+          "team2":"India",
+          "winner":"India",
+          "result":"India won by 3 wickets (D/L method)"
+        },
+        {
+          "name":"Semi-Final 2",
+          "team1":"South Africa",
+          "team2":"Pakistan",
+          "winner":"South Africa",
+          "result":"South Africa won by 98 runs (D/L method)"
+        },
+        {
+          "name":"Final",
+          "team1":"India",
+          "team2":"South Africa",
+          "winner":"India",
+          "result":"India won by 12 runs (D/L method)"
+        }
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2009,
       "tournaments": [
@@ -5245,13 +5940,95 @@
           "name": "ICC Women's T20 World Cup",
           "teams": []
         },
-        {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+       {
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2010",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"England","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.767},
+        {"team_name":"India","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.089},
+        {"team_name":"Afghanistan","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.877},
+        {"team_name":"Hong Kong","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.095},
+
+        {"team_name":"South Africa","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":0.801},
+        {"team_name":"Australia","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":2.093},
+        {"team_name":"Ireland","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.480},
+        {"team_name":"United States","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.448},
+
+        {"team_name":"New Zealand","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.242},
+        {"team_name":"Sri Lanka","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.165},
+        {"team_name":"Canada","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.870},
+        {"team_name":"Zimbabwe","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.302},
+
+        {"team_name":"Pakistan","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.452},
+        {"team_name":"West Indies","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.235},
+        {"team_name":"Bangladesh","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.685},
+        {"team_name":"Papua New Guinea","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.643}
       ]
     },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"England"},
+        {"team_name":"India"},
+        {"team_name":"South Africa"},
+        {"team_name":"Australia"},
+        {"team_name":"New Zealand"},
+        {"team_name":"Sri Lanka"},
+        {"team_name":"Pakistan"},
+        {"team_name":"West Indies"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"West Indies","team2":"England","winner":"West Indies","result":"West Indies won by 18 runs"},
+        {"name":"Quarter-final 2","team1":"India","team2":"Pakistan","winner":"Pakistan","result":"Pakistan won by 2 wickets"},
+        {"name":"Quarter-final 3","team1":"Sri Lanka","team2":"South Africa","winner":"Sri Lanka","result":"Sri Lanka won by 146 runs (D/L method)"},
+        {"name":"Quarter-final 4","team1":"Australia","team2":"New Zealand","winner":"Australia","result":"Australia won by 62 runs"}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Afghanistan"},
+        {"team_name":"Hong Kong"},
+        {"team_name":"Ireland"},
+        {"team_name":"United States"},
+        {"team_name":"Canada"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Bangladesh"},
+        {"team_name":"Papua New Guinea"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"United States","team2":"Canada","winner":"Canada","result":"Match abandoned; Canada progressed"},
+        {"name":"Quarter-final 2","team1":"Zimbabwe","team2":"Ireland","winner":"Ireland","result":"Ireland won by 7 wickets (D/L method)"},
+        {"name":"Quarter-final 3","team1":"Hong Kong","team2":"Bangladesh","winner":"Bangladesh","result":"Bangladesh won by 4 wickets"},
+        {"name":"Quarter-final 4","team1":"Papua New Guinea","team2":"Afghanistan","winner":"Papua New Guinea","result":"Papua New Guinea won by 30 runs"},
+        {"name":"Semi-final 1","team1":"Bangladesh","team2":"Papua New Guinea","winner":"Bangladesh","result":"Bangladesh won by 168 runs"},
+        {"name":"Semi-final 2","team1":"Canada","team2":"Ireland","winner":null,"result":"No result"},
+        {"name":"Plate Final","team1":"Bangladesh","team2":"Ireland","winner":"Bangladesh","result":"Bangladesh won by 195 runs"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"Australia"},
+        {"team_name":"Pakistan"},
+        {"team_name":"West Indies"},
+        {"team_name":"Sri Lanka"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"West Indies","team2":"Pakistan","winner":"Pakistan","result":"Pakistan won by 4 wickets"},
+        {"name":"Semi-final 2","team1":"Sri Lanka","team2":"Australia","winner":"Australia","result":"Australia won by 2 wickets"},
+        {"name":"Final","team1":"Australia","team2":"Pakistan","winner":"Australia","result":"Australia won by 25 runs"},
+        {"name":"Third-place Play-off","team1":"Sri Lanka","team2":"West Indies","winner":"West Indies","result":"West Indies won by 4 wickets"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2011,
       "tournaments": [
@@ -6023,12 +6800,103 @@
           "teams": []
         },
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2012",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Australia","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.208},
+        {"team_name":"England","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.906},
+        {"team_name":"Ireland","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.468},
+        {"team_name":"Nepal","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.353},
+
+        {"team_name":"Pakistan","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.877},
+        {"team_name":"New Zealand","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.215},
+        {"team_name":"Afghanistan","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.713},
+        {"team_name":"Scotland","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-0.782},
+
+        {"team_name":"West Indies","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.750},
+        {"team_name":"India","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.067},
+        {"team_name":"Zimbabwe","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.147},
+        {"team_name":"Papua New Guinea","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.718},
+
+        {"team_name":"South Africa","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.987},
+        {"team_name":"Bangladesh","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":-0.336},
+        {"team_name":"Sri Lanka","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.683},
+        {"team_name":"Namibia","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.234}
       ]
     },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"Australia"},
+        {"team_name":"England"},
+        {"team_name":"Pakistan"},
+        {"team_name":"New Zealand"},
+        {"team_name":"West Indies"},
+        {"team_name":"India"},
+        {"team_name":"South Africa"},
+        {"team_name":"Bangladesh"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"South Africa","team2":"England","winner":"South Africa","result":"South Africa won by 103 runs"},
+        {"name":"Quarter-final 2","team1":"Australia","team2":"Bangladesh","winner":"Australia","result":"Australia won by 5 wickets"},
+        {"name":"Quarter-final 3","team1":"India","team2":"Pakistan","winner":"India","result":"India won by 1 wicket"},
+        {"name":"Quarter-final 4","team1":"New Zealand","team2":"West Indies","winner":"New Zealand","result":"New Zealand won by 3 wickets"},
+        {"name":"5th-8th Semi-final 1","team1":"Bangladesh","team2":"England","winner":"England","result":"England won by 4 wickets"},
+        {"name":"5th-8th Semi-final 2","team1":"West Indies","team2":"Pakistan","winner":"West Indies","result":"West Indies won by 16 runs"},
+        {"name":"5th-6th Place Play-off","team1":"England","team2":"West Indies","winner":"England","result":"England won by 13 runs"},
+        {"name":"7th-8th Place Play-off","team1":"Pakistan","team2":"Bangladesh","winner":"Bangladesh","result":"Bangladesh won by 5 wickets"}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Ireland"},
+        {"team_name":"Nepal"},
+        {"team_name":"Afghanistan"},
+        {"team_name":"Scotland"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Papua New Guinea"},
+        {"team_name":"Sri Lanka"},
+        {"team_name":"Namibia"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"Scotland","team2":"Zimbabwe","winner":"Scotland","result":"Scotland won by 41 runs"},
+        {"name":"Quarter-final 2","team1":"Afghanistan","team2":"Papua New Guinea","winner":"Afghanistan","result":"Afghanistan won by 4 wickets"},
+        {"name":"Quarter-final 3","team1":"Ireland","team2":"Namibia","winner":"Ireland","result":"Ireland won by 4 wickets"},
+        {"name":"Quarter-final 4","team1":"Sri Lanka","team2":"Nepal","winner":"Sri Lanka","result":"Sri Lanka won by 8 wickets"},
+        {"name":"9th-12th Semi-final 1","team1":"Afghanistan","team2":"Scotland","winner":"Afghanistan","result":"Afghanistan won by 126 runs"},
+        {"name":"9th-12th Semi-final 2","team1":"Sri Lanka","team2":"Ireland","winner":"Sri Lanka","result":"Sri Lanka won by 109 runs"},
+        {"name":"9th-10th Place Play-off","team1":"Afghanistan","team2":"Sri Lanka","winner":"Sri Lanka","result":"Sri Lanka won by 7 wickets"},
+        {"name":"11th-12th Place Play-off","team1":"Ireland","team2":"Scotland","winner":"Scotland","result":"Scotland won by 5 wickets"},
+        {"name":"13th-16th Semi-final 1","team1":"Nepal","team2":"Namibia","winner":"Nepal","result":"Nepal won by 39 runs"},
+        {"name":"13th-16th Semi-final 2","team1":"Papua New Guinea","team2":"Zimbabwe","winner":"Papua New Guinea","result":"Papua New Guinea won by 12 runs"},
+        {"name":"13th-14th Place Play-off","team1":"Nepal","team2":"Papua New Guinea","winner":"Nepal","result":"Nepal won by 6 wickets"},
+        {"name":"15th-16th Place Play-off","team1":"Zimbabwe","team2":"Namibia","winner":"Zimbabwe","result":"Zimbabwe won by 70 runs"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"Australia"},
+        {"team_name":"South Africa"},
+        {"team_name":"India"},
+        {"team_name":"New Zealand"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"Australia","team2":"South Africa","winner":"Australia","result":"Australia won by 4 wickets"},
+        {"name":"Semi-final 2","team1":"India","team2":"New Zealand","winner":"India","result":"India won by 9 runs"},
+        {"name":"Final","team1":"Australia","team2":"India","winner":"India","result":"India won by 6 wickets"},
+        {"name":"Third-place Play-off","team1":"New Zealand","team2":"South Africa","winner":"South Africa","result":"South Africa won by 8 wickets"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2013,
       "tournaments": [
@@ -6896,12 +7764,103 @@
           ]
         },
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2014",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"India","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.907},
+        {"team_name":"Pakistan","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.673},
+        {"team_name":"Scotland","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.371},
+        {"team_name":"Papua New Guinea","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.339},
+
+        {"team_name":"Australia","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.927},
+        {"team_name":"Afghanistan","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.881},
+        {"team_name":"Bangladesh","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.097},
+        {"team_name":"Namibia","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.920},
+
+        {"team_name":"South Africa","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":1.297},
+        {"team_name":"West Indies","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.907},
+        {"team_name":"Zimbabwe","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.308},
+        {"team_name":"Canada","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-0.962},
+
+        {"team_name":"Sri Lanka","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":0.607},
+        {"team_name":"England","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":2.157},
+        {"team_name":"New Zealand","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.347},
+        {"team_name":"United Arab Emirates","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.429}
       ]
     },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"India"},
+        {"team_name":"Pakistan"},
+        {"team_name":"Australia"},
+        {"team_name":"Afghanistan"},
+        {"team_name":"South Africa"},
+        {"team_name":"West Indies"},
+        {"team_name":"Sri Lanka"},
+        {"team_name":"England"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"England","team2":"India","winner":"England","result":"England won by 3 wickets"},
+        {"name":"Quarter-final 2","team1":"Pakistan","team2":"Sri Lanka","winner":"Pakistan","result":"Pakistan won by 121 runs"},
+        {"name":"Quarter-final 3","team1":"Afghanistan","team2":"South Africa","winner":"South Africa","result":"South Africa won by 9 wickets"},
+        {"name":"Quarter-final 4","team1":"Australia","team2":"West Indies","winner":"Australia","result":"Australia won by 5 wickets"},
+        {"name":"5th-8th Semi-final 1","team1":"India","team2":"Sri Lanka","winner":"India","result":"India won by 76 runs"},
+        {"name":"5th-8th Semi-final 2","team1":"West Indies","team2":"Afghanistan","winner":"West Indies","result":"West Indies won by 9 runs"},
+        {"name":"5th-6th Place Play-off","team1":"India","team2":"West Indies","winner":"India","result":"India won by 46 runs"},
+        {"name":"7th-8th Place Play-off","team1":"Afghanistan","team2":"Sri Lanka","winner":"Afghanistan","result":"Afghanistan won by 5 wickets"}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Scotland"},
+        {"team_name":"Papua New Guinea"},
+        {"team_name":"Bangladesh"},
+        {"team_name":"Namibia"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Canada"},
+        {"team_name":"New Zealand"},
+        {"team_name":"United Arab Emirates"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"Canada","team2":"Bangladesh","winner":"Bangladesh","result":"Bangladesh won by 9 wickets"},
+        {"name":"Quarter-final 2","team1":"Namibia","team2":"Zimbabwe","winner":"Zimbabwe","result":"Zimbabwe won by 6 wickets"},
+        {"name":"Quarter-final 3","team1":"Papua New Guinea","team2":"New Zealand","winner":"New Zealand","result":"New Zealand won by 6 wickets"},
+        {"name":"Quarter-final 4","team1":"United Arab Emirates","team2":"Scotland","winner":"United Arab Emirates","result":"UAE won by 7 wickets"},
+        {"name":"9th-12th Semi-final 1","team1":"Bangladesh","team2":"Zimbabwe","winner":"Bangladesh","result":"Bangladesh won by 72 runs"},
+        {"name":"9th-12th Semi-final 2","team1":"United Arab Emirates","team2":"New Zealand","winner":"New Zealand","result":"New Zealand won by 5 wickets"},
+        {"name":"9th-10th Place Play-off","team1":"Bangladesh","team2":"New Zealand","winner":"Bangladesh","result":"Bangladesh won by 77 runs"},
+        {"name":"11th-12th Place Play-off","team1":"Zimbabwe","team2":"United Arab Emirates","winner":"Zimbabwe","result":"Zimbabwe won by 94 runs"},
+        {"name":"13th-16th Semi-final 1","team1":"Canada","team2":"Namibia","winner":"Namibia","result":"Namibia won by 23 runs"},
+        {"name":"13th-16th Semi-final 2","team1":"Papua New Guinea","team2":"Scotland","winner":"Scotland","result":"Scotland won by 77 runs"},
+        {"name":"13th-14th Place Play-off","team1":"Namibia","team2":"Scotland","winner":"Scotland","result":"Scotland won by 5 runs"},
+        {"name":"15th-16th Place Play-off","team1":"Canada","team2":"Papua New Guinea","winner":"Canada","result":"Canada won by 11 runs"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"England"},
+        {"team_name":"Pakistan"},
+        {"team_name":"South Africa"},
+        {"team_name":"Australia"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"England","team2":"Pakistan","winner":"Pakistan","result":"Pakistan won by 3 wickets"},
+        {"name":"Semi-final 2","team1":"Australia","team2":"South Africa","winner":"South Africa","result":"South Africa won by 80 runs"},
+        {"name":"Final","team1":"Pakistan","team2":"South Africa","winner":"South Africa","result":"South Africa won by 6 wickets"},
+        {"name":"Third-place Play-off","team1":"England","team2":"Australia","winner":"England","result":"England won by 1 wicket"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2015,
       "tournaments": [
@@ -7706,12 +8665,107 @@
           "teams": []
         },
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2016",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Bangladesh","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.151},
+        {"team_name":"Namibia","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.035},
+        {"team_name":"South Africa","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.027},
+        {"team_name":"Scotland","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.356},
+
+        {"team_name":"Pakistan","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":0.972},
+        {"team_name":"Sri Lanka","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.373},
+        {"team_name":"Afghanistan","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.067},
+        {"team_name":"Canada","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.640},
+
+        {"team_name":"England","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.260},
+        {"team_name":"West Indies","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.353},
+        {"team_name":"Zimbabwe","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.037},
+        {"team_name":"Fiji","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-5.150},
+
+        {"team_name":"India","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.581},
+        {"team_name":"Nepal","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.032},
+        {"team_name":"New Zealand","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.746},
+        {"team_name":"Ireland","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.753}
       ]
     },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"Bangladesh"},
+        {"team_name":"Namibia"},
+        {"team_name":"Pakistan"},
+        {"team_name":"Sri Lanka"},
+        {"team_name":"England"},
+        {"team_name":"West Indies"},
+        {"team_name":"India"},
+        {"team_name":"Nepal"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"Bangladesh","team2":"Nepal","winner":"Bangladesh","result":"Bangladesh won by 6 wickets"},
+        {"name":"Quarter-final 2","team1":"Pakistan","team2":"West Indies","winner":"West Indies","result":"West Indies won by 5 wickets"},
+        {"name":"Quarter-final 3","team1":"India","team2":"Namibia","winner":"India","result":"India won by 197 runs"},
+        {"name":"Quarter-final 4","team1":"England","team2":"Sri Lanka","winner":"Sri Lanka","result":"Sri Lanka won by 6 wickets"},
+        {"name":"Semi-final 1","team1":"Bangladesh","team2":"West Indies","winner":"West Indies","result":"West Indies won by 3 wickets"},
+        {"name":"Semi-final 2","team1":"India","team2":"Sri Lanka","winner":"India","result":"India won by 97 runs"},
+        {"name":"Final","team1":"India","team2":"West Indies","winner":"West Indies","result":"West Indies won by 5 wickets"},
+        {"name":"3rd-4th Place Play-off","team1":"Bangladesh","team2":"Sri Lanka","winner":"Bangladesh","result":"Bangladesh won by 3 wickets"},
+        {"name":"5th-8th Play-off Semi-final 1","team1":"England","team2":"Namibia","winner":"England","result":"England won by 203 runs"},
+        {"name":"5th-8th Play-off Semi-final 2","team1":"Pakistan","team2":"Nepal","winner":"Pakistan","result":"Pakistan won by 122 runs"},
+        {"name":"5th-6th Place Play-off","team1":"England","team2":"Pakistan","winner":"Pakistan","result":"Pakistan won by 7 wickets"},
+        {"name":"7th-8th Place Play-off","team1":"Namibia","team2":"Nepal","winner":"Namibia","result":"Namibia won by 15 runs"}
+      ]
+    },
+    {
+      "name": "Plate Championship",
+      "teams": [
+        {"team_name":"South Africa"},
+        {"team_name":"Scotland"},
+        {"team_name":"Afghanistan"},
+        {"team_name":"Canada"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Fiji"},
+        {"team_name":"New Zealand"},
+        {"team_name":"Ireland"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"South Africa","team2":"Ireland","winner":"South Africa","result":"South Africa won by 8 wickets"},
+        {"name":"Quarter-final 2","team1":"Afghanistan","team2":"Fiji","winner":"Afghanistan","result":"Afghanistan won by 226 runs"},
+        {"name":"Quarter-final 3","team1":"New Zealand","team2":"Scotland","winner":"New Zealand","result":"New Zealand won by 7 wickets"},
+        {"name":"Quarter-final 4","team1":"Zimbabwe","team2":"Canada","winner":"Zimbabwe","result":"Zimbabwe won by 6 wickets"},
+        {"name":"Semi-final 1","team1":"South Africa","team2":"Zimbabwe","winner":"Zimbabwe","result":"Zimbabwe won by 8 wickets"},
+        {"name":"Semi-final 2","team1":"New Zealand","team2":"Afghanistan","winner":"Afghanistan","result":"Afghanistan won by 8 wickets"},
+        {"name":"Plate Final","team1":"Zimbabwe","team2":"Afghanistan","winner":"Afghanistan","result":"Afghanistan won by 5 wickets"},
+        {"name":"11th-12th Place Play-off","team1":"South Africa","team2":"New Zealand","winner":"South Africa","result":"South Africa won by 138 runs"},
+        {"name":"13th-14th Place Play-off","team1":"Ireland","team2":"Scotland","winner":"Ireland","result":"Ireland won by 95 runs"},
+        {"name":"15th-16th Place Play-off","team1":"Fiji","team2":"Canada","winner":"Canada","result":"Canada won by 8 wickets"},
+        {"name":"Plate Last 4 Play-off 1","team1":"Scotland","team2":"Fiji","winner":"Scotland","result":"Scotland won by 76 runs"},
+        {"name":"Plate Last 4 Play-off 2","team1":"Canada","team2":"Ireland","winner":"Ireland","result":"Ireland won by 6 wickets"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"India"},
+        {"team_name":"West Indies"},
+        {"team_name":"Bangladesh"},
+        {"team_name":"Sri Lanka"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"Bangladesh","team2":"West Indies","winner":"West Indies","result":"West Indies won by 3 wickets"},
+        {"name":"Semi-final 2","team1":"India","team2":"Sri Lanka","winner":"India","result":"India won by 97 runs"},
+        {"name":"Final","team1":"India","team2":"West Indies","winner":"West Indies","result":"West Indies won by 5 wickets"},
+        {"name":"Third-place Play-off","team1":"Bangladesh","team2":"Sri Lanka","winner":"Bangladesh","result":"Bangladesh won by 3 wickets"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2017,
       "tournaments": [
@@ -8354,13 +9408,104 @@
           "name": "Women's Asia Cup",
           "teams": []
         },
-        {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+       {
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2018",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"New Zealand","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.576},
+        {"team_name":"South Africa","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.160},
+        {"team_name":"West Indies","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.660},
+        {"team_name":"Kenya","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-4.227},
+
+        {"team_name":"India","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.930},
+        {"team_name":"Australia","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":2.721},
+        {"team_name":"Zimbabwe","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-3.031},
+        {"team_name":"Papua New Guinea","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-5.614},
+
+        {"team_name":"England","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":4.165},
+        {"team_name":"Bangladesh","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.438},
+        {"team_name":"Canada","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-2.107},
+        {"team_name":"Namibia","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.689},
+
+        {"team_name":"Pakistan","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.404},
+        {"team_name":"Afghanistan","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.333},
+        {"team_name":"Sri Lanka","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.108},
+        {"team_name":"Ireland","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.896}
       ]
     },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"New Zealand"},
+        {"team_name":"South Africa"},
+        {"team_name":"India"},
+        {"team_name":"Australia"},
+        {"team_name":"England"},
+        {"team_name":"Bangladesh"},
+        {"team_name":"Pakistan"},
+        {"team_name":"Afghanistan"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"England","team2":"Australia","winner":"Australia","result":"Australia won by 31 runs"},
+        {"name":"Quarter-final 2","team1":"Pakistan","team2":"South Africa","winner":"Pakistan","result":"Pakistan won by 3 wickets"},
+        {"name":"Quarter-final 3","team1":"New Zealand","team2":"Afghanistan","winner":"Afghanistan","result":"Afghanistan won by 202 runs"},
+        {"name":"Quarter-final 4","team1":"India","team2":"Bangladesh","winner":"India","result":"India won by 131 runs"},
+        {"name":"5th-8th Play-off Semi-final 1","team1":"England","team2":"Bangladesh","winner":"Bangladesh","result":"Bangladesh won by 5 wickets"},
+        {"name":"5th-8th Play-off Semi-final 2","team1":"New Zealand","team2":"South Africa","winner":"South Africa","result":"South Africa won by 73 runs"},
+        {"name":"5th Place Play-off","team1":"South Africa","team2":"Bangladesh","winner":"South Africa","result":"South Africa won by 8 wickets"},
+        {"name":"7th Place Play-off","team1":"New Zealand","team2":"England","winner":"England","result":"England won by 32 runs"}
+      ]
+    },
+    {
+      "name": "Plate League",
+      "teams": [
+        {"team_name":"West Indies"},
+        {"team_name":"Kenya"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Papua New Guinea"},
+        {"team_name":"Canada"},
+        {"team_name":"Namibia"},
+        {"team_name":"Sri Lanka"},
+        {"team_name":"Ireland"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"Canada","team2":"Papua New Guinea","winner":"Canada","result":"Canada won by 70 runs"},
+        {"name":"Quarter-final 2","team1":"Namibia","team2":"Zimbabwe","winner":"Zimbabwe","result":"Zimbabwe won by 7 wickets"},
+        {"name":"Quarter-final 3","team1":"Sri Lanka","team2":"Kenya","winner":"Sri Lanka","result":"Sri Lanka won by 311 runs"},
+        {"name":"Quarter-final 4","team1":"Ireland","team2":"West Indies","winner":"West Indies","result":"West Indies won by 4 wickets"},
+        {"name":"9th-12th Play-off Semi-final 1","team1":"Papua New Guinea","team2":"Ireland","winner":"Ireland","result":"Ireland won by 3 wickets"},
+        {"name":"9th-12th Play-off Semi-final 2","team1":"Kenya","team2":"Namibia","winner":"Namibia","result":"Namibia won by 8 wickets"},
+        {"name":"Plate Final","team1":"West Indies","team2":"Sri Lanka","winner":"Sri Lanka","result":"Sri Lanka won by 3 wickets"},
+        {"name":"11th Place Play-off","team1":"Zimbabwe","team2":"Canada","winner":"Zimbabwe","result":"Zimbabwe won by 138 runs"},
+        {"name":"13th-16th Play-off Semi-final 1","team1":"Papua New Guinea","team2":"Canada","winner":"Canada","result":"Canada won by 9 wickets"},
+        {"name":"13th-16th Play-off Semi-final 2","team1":"Kenya","team2":"Zimbabwe","winner":"Zimbabwe","result":"Zimbabwe won by 10 wickets"},
+        {"name":"13th Place Play-off","team1":"Canada","team2":"Zimbabwe","winner":"Canada","result":"Canada won by 11 runs"},
+        {"name":"15th Place Play-off","team1":"Papua New Guinea","team2":"Kenya","winner":"Kenya","result":"Kenya won by 5 wickets"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"Australia"},
+        {"team_name":"Afghanistan"},
+        {"team_name":"India"},
+        {"team_name":"Pakistan"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"Australia","team2":"Afghanistan","winner":"Australia","result":"Australia won by 6 wickets"},
+        {"name":"Semi-final 2","team1":"India","team2":"Pakistan","winner":"India","result":"India won by 203 runs"},
+        {"name":"Final","team1":"Australia","team2":"India","winner":"India","result":"India won by 8 wickets"},
+        {"name":"Third-place Play-off","team1":"Pakistan","team2":"Afghanistan","winner":null,"result":"Match abandoned"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2019,
       "tournaments": [
@@ -8801,13 +9946,106 @@
           "name": "ICC Women's T20 World Cup",
           "teams": []
         },
-        {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+       {
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2020",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"India","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.598},
+        {"team_name":"New Zealand","group":"Group A","played":3,"won":1,"lost":1,"no_result":1,"points":3,"nrr":-0.577},
+        {"team_name":"Sri Lanka","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.214},
+        {"team_name":"Japan","group":"Group A","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":-5.508},
+
+        {"team_name":"West Indies","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.340},
+        {"team_name":"Australia","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.255},
+        {"team_name":"England","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.837},
+        {"team_name":"Nigeria","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-5.074},
+
+        {"team_name":"Bangladesh","group":"Group C","played":3,"won":2,"lost":0,"no_result":1,"points":5,"nrr":4.937},
+        {"team_name":"Pakistan","group":"Group C","played":3,"won":2,"lost":0,"no_result":1,"points":5,"nrr":2.706},
+        {"team_name":"Zimbabwe","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.478},
+        {"team_name":"Scotland","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-4.760},
+
+        {"team_name":"Afghanistan","group":"Group D","played":3,"won":2,"lost":0,"no_result":1,"points":5,"nrr":2.927},
+        {"team_name":"South Africa","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.488},
+        {"team_name":"United Arab Emirates","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.104},
+        {"team_name":"Canada","group":"Group D","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":-2.253}
       ]
     },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"India"},
+        {"team_name":"Bangladesh"},
+        {"team_name":"Pakistan"},
+        {"team_name":"Afghanistan"},
+        {"team_name":"West Indies"},
+        {"team_name":"Australia"},
+        {"team_name":"New Zealand"},
+        {"team_name":"South Africa"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"India","team2":"Australia","winner":"India","result":"India won by 74 runs"},
+        {"name":"Quarter-final 2","team1":"West Indies","team2":"New Zealand","winner":"West Indies","result":"West Indies won by 2 wickets"},
+        {"name":"Quarter-final 3","team1":"Bangladesh","team2":"South Africa","winner":"Bangladesh","result":"Bangladesh won by 104 runs"},
+        {"name":"Quarter-final 4","team1":"Afghanistan","team2":"Pakistan","winner":"Pakistan","result":"Pakistan won by 6 wickets"},
+        {"name":"Semi-final 1","team1":"India","team2":"Pakistan","winner":"India","result":"India won by 10 wickets"},
+        {"name":"Semi-final 2","team1":"Bangladesh","team2":"New Zealand","winner":"Bangladesh","result":"Bangladesh won by 6 wickets"},
+        {"name":"Final","team1":"India","team2":"Bangladesh","winner":"Bangladesh","result":"Bangladesh won by 3 wickets"},
+        {"name":"5th-8th Play-off Semi-final 1","team1":"West Indies","team2":"South Africa","winner":"West Indies","result":"West Indies won by 4 wickets"},
+        {"name":"5th-8th Play-off Semi-final 2","team1":"Afghanistan","team2":"Australia","winner":"Afghanistan","result":"Afghanistan won by 4 wickets"},
+        {"name":"5th Place Play-off","team1":"West Indies","team2":"Afghanistan","winner":null,"result":"Match abandoned"},
+        {"name":"7th Place Play-off","team1":"South Africa","team2":"Australia","winner":"Afghanistan","result":"Afghanistan won by 5 wickets"}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"Sri Lanka"},
+        {"team_name":"Japan"},
+        {"team_name":"England"},
+        {"team_name":"Nigeria"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Canada"},
+        {"team_name":"United Arab Emirates"},
+        {"team_name":"Scotland"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"Sri Lanka","team2":"Nigeria","winner":"Sri Lanka","result":"Sri Lanka won by 233 runs"},
+        {"name":"Quarter-final 2","team1":"England","team2":"Japan","winner":"England","result":"England won by 9 wickets"},
+        {"name":"Quarter-final 3","team1":"Zimbabwe","team2":"Canada","winner":"Zimbabwe","result":"Zimbabwe won by 97 runs"},
+        {"name":"Quarter-final 4","team1":"United Arab Emirates","team2":"Scotland","winner":"Scotland","result":"Scotland won by 7 wickets"},
+        {"name":"9th-12th Play-off Semi-final 1","team1":"Sri Lanka","team2":"Scotland","winner":"Sri Lanka","result":"Sri Lanka won by 128 runs"},
+        {"name":"9th-12th Play-off Semi-final 2","team1":"England","team2":"Zimbabwe","winner":"England","result":"England won by 75 runs"},
+        {"name":"Plate Final","team1":"England","team2":"Sri Lanka","winner":"England","result":"England won by 152 runs"},
+        {"name":"11th Place Play-off","team1":"Scotland","team2":"Zimbabwe","winner":"Zimbabwe","result":"Zimbabwe won by 172 runs"},
+        {"name":"13th-16th Play-off Semi-final 1","team1":"Nigeria","team2":"United Arab Emirates","winner":"United Arab Emirates","result":"UAE won by 7 wickets"},
+        {"name":"13th-16th Play-off Semi-final 2","team1":"Japan","team2":"Canada","winner":"Canada","result":"Canada won by 182 runs"},
+        {"name":"13th Place Play-off","team1":"United Arab Emirates","team2":"Canada","winner":"Canada","result":"Canada won by 4 wickets"},
+        {"name":"15th Place Play-off","team1":"Nigeria","team2":"Japan","winner":"Nigeria","result":"Nigeria won by 8 wickets"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"India"},
+        {"team_name":"Bangladesh"},
+        {"team_name":"Pakistan"},
+        {"team_name":"New Zealand"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"India","team2":"Pakistan","winner":"India","result":"India won by 10 wickets"},
+        {"name":"Semi-final 2","team1":"Bangladesh","team2":"New Zealand","winner":"Bangladesh","result":"Bangladesh won by 6 wickets"},
+        {"name":"Final","team1":"India","team2":"Bangladesh","winner":"Bangladesh","result":"Bangladesh won by 3 wickets"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2021,
       "tournaments": [
@@ -9860,13 +11098,104 @@
           "name": "Women's Asia Cup",
           "teams": []
         },
-        {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+       {
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2022",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"England","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.005},
+        {"team_name":"Bangladesh","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.228},
+        {"team_name":"United Arab Emirates","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.493},
+        {"team_name":"Canada","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.823},
+
+        {"team_name":"India","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.633},
+        {"team_name":"South Africa","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.558},
+        {"team_name":"Ireland","group":"Group B","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.959},
+        {"team_name":"Uganda","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.240},
+
+        {"team_name":"Pakistan","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.302},
+        {"team_name":"Afghanistan","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.467},
+        {"team_name":"Zimbabwe","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.027},
+        {"team_name":"Papua New Guinea","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.720},
+
+        {"team_name":"Sri Lanka","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":0.753},
+        {"team_name":"Australia","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.096},
+        {"team_name":"West Indies","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":0.699},
+        {"team_name":"Scotland","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.666}
       ]
     },
+    {
+      "name": "Super League",
+      "teams": [
+        {"team_name":"England"},
+        {"team_name":"Bangladesh"},
+        {"team_name":"India"},
+        {"team_name":"South Africa"},
+        {"team_name":"Pakistan"},
+        {"team_name":"Afghanistan"},
+        {"team_name":"Sri Lanka"},
+        {"team_name":"Australia"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"England","team2":"South Africa","winner":"England","result":"England won by 6 wickets"},
+        {"name":"Quarter-final 2","team1":"India","team2":"Bangladesh","winner":"India","result":"India won by 5 wickets"},
+        {"name":"Quarter-final 3","team1":"Pakistan","team2":"Australia","winner":"Australia","result":"Australia won by 119 runs"},
+        {"name":"Quarter-final 4","team1":"Sri Lanka","team2":"Afghanistan","winner":"Afghanistan","result":"Afghanistan won by 4 runs"},
+        {"name":"5th-8th Semi-final 1","team1":"Bangladesh","team2":"Pakistan","winner":"Pakistan","result":"Pakistan won by 6 wickets"},
+        {"name":"5th-8th Semi-final 2","team1":"South Africa","team2":"Sri Lanka","winner":"Sri Lanka","result":"Sri Lanka won by 65 runs"},
+        {"name":"5th Place Play-off","team1":"Sri Lanka","team2":"Pakistan","winner":"Pakistan","result":"Pakistan won by 238 runs"},
+        {"name":"7th Place Play-off","team1":"South Africa","team2":"Bangladesh","winner":"South Africa","result":"South Africa won by 2 wickets"}
+      ]
+    },
+    {
+      "name": "Plate",
+      "teams": [
+        {"team_name":"United Arab Emirates"},
+        {"team_name":"Canada"},
+        {"team_name":"Ireland"},
+        {"team_name":"Uganda"},
+        {"team_name":"Zimbabwe"},
+        {"team_name":"Papua New Guinea"},
+        {"team_name":"West Indies"},
+        {"team_name":"Scotland"}
+      ],
+      "matches": [
+        {"name":"Quarter-final 1","team1":"United Arab Emirates","team2":"Uganda","winner":"United Arab Emirates","result":"UAE won by 1 wicket"},
+        {"name":"Quarter-final 2","team1":"Ireland","team2":"Canada","winner":"Ireland","result":"Ireland won by 94 runs"},
+        {"name":"Quarter-final 3","team1":"Zimbabwe","team2":"Scotland","winner":"Zimbabwe","result":"Zimbabwe won by 108 runs"},
+        {"name":"Quarter-final 4","team1":"West Indies","team2":"Papua New Guinea","winner":"West Indies","result":"West Indies won by 169 runs"},
+        {"name":"9th-12th Semi-final 1","team1":"United Arab Emirates","team2":"West Indies","winner":"United Arab Emirates","result":"UAE won by 82 runs"},
+        {"name":"9th-12th Semi-final 2","team1":"Ireland","team2":"Zimbabwe","winner":"Ireland","result":"Ireland won by 8 wickets"},
+        {"name":"Plate Final","team1":"United Arab Emirates","team2":"Ireland","winner":"United Arab Emirates","result":"UAE won by 8 wickets"},
+        {"name":"11th Place Play-off","team1":"West Indies","team2":"Zimbabwe","winner":"West Indies","result":"West Indies won by 8 wickets"},
+        {"name":"13th-16th Semi-final 1","team1":"Uganda","team2":"Papua New Guinea","winner":"Uganda","result":"Uganda won by 35 runs"},
+        {"name":"13th-16th Semi-final 2","team1":"Canada","team2":"Scotland","winner":null,"result":"Match cancelled"},
+        {"name":"13th Place Play-off","team1":"Uganda","team2":"Scotland","winner":"Uganda","result":"Uganda won by 51 runs (DLS method)"},
+        {"name":"15th Place Play-off","team1":"Papua New Guinea","team2":"Canada","winner":null,"result":"Match cancelled"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"England"},
+        {"team_name":"Afghanistan"},
+        {"team_name":"India"},
+        {"team_name":"Australia"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"England","team2":"Afghanistan","winner":"England","result":"England won by 15 runs (DLS method)"},
+        {"name":"Semi-final 2","team1":"India","team2":"Australia","winner":"India","result":"India won by 96 runs"},
+        {"name":"Final","team1":"England","team2":"India","winner":"India","result":"India won by 4 wickets"},
+        {"name":"Third-place Play-off","team1":"Afghanistan","team2":"Australia","winner":"Australia","result":"Australia won by 2 wickets"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2023,
       "tournaments": [
@@ -11009,12 +12338,97 @@
           "teams": []
         },
         {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2024",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"India","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":3.240},
+        {"team_name":"Bangladesh","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.374},
+        {"team_name":"Ireland","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.778},
+        {"team_name":"United States","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.244},
+
+        {"team_name":"South Africa","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.110},
+        {"team_name":"England","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.895},
+        {"team_name":"West Indies","group":"Group B","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.653},
+        {"team_name":"Scotland","group":"Group B","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-3.104},
+
+        {"team_name":"Australia","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.606},
+        {"team_name":"Sri Lanka","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.898},
+        {"team_name":"Zimbabwe","group":"Group C","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.816},
+        {"team_name":"Namibia","group":"Group C","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-1.607},
+
+        {"team_name":"Pakistan","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.180},
+        {"team_name":"New Zealand","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.387},
+        {"team_name":"Nepal","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-0.351},
+        {"team_name":"Afghanistan","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.008}
       ]
     },
+    {
+      "name": "Super Six",
+      "teams": [
+        {"team_name":"India","group":"Group 1","played":4,"won":4,"lost":0,"no_result":0,"points":8,"nrr":3.155},
+        {"team_name":"Pakistan","group":"Group 1","played":4,"won":4,"lost":0,"no_result":0,"points":8,"nrr":0.752},
+        {"team_name":"Bangladesh","group":"Group 1","played":4,"won":2,"lost":2,"no_result":0,"points":4,"nrr":0.167},
+        {"team_name":"Ireland","group":"Group 1","played":4,"won":1,"lost":3,"no_result":0,"points":2,"nrr":-1.163},
+        {"team_name":"New Zealand","group":"Group 1","played":4,"won":1,"lost":3,"no_result":0,"points":2,"nrr":-1.800},
+        {"team_name":"Nepal","group":"Group 1","played":4,"won":0,"lost":4,"no_result":0,"points":0,"nrr":-1.762},
+
+        {"team_name":"Australia","group":"Group 2","played":4,"won":3,"lost":0,"no_result":1,"points":7,"nrr":2.781},
+        {"team_name":"South Africa","group":"Group 2","played":4,"won":3,"lost":1,"no_result":0,"points":6,"nrr":1.683},
+        {"team_name":"West Indies","group":"Group 2","played":4,"won":2,"lost":1,"no_result":1,"points":5,"nrr":0.134},
+        {"team_name":"England","group":"Group 2","played":4,"won":2,"lost":2,"no_result":0,"points":4,"nrr":0.198},
+        {"team_name":"Sri Lanka","group":"Group 2","played":4,"won":1,"lost":3,"no_result":0,"points":2,"nrr":-0.532},
+        {"team_name":"Zimbabwe","group":"Group 2","played":4,"won":0,"lost":4,"no_result":0,"points":0,"nrr":-3.586}
+      ],
+      "matches": [
+        {"name":"Super Six Match 1","team1":"India","team2":"New Zealand","winner":"India","result":"India won by 214 runs"},
+        {"name":"Super Six Match 2","team1":"Sri Lanka","team2":"West Indies","winner":"West Indies","result":"West Indies won by 3 wickets"},
+        {"name":"Super Six Match 3","team1":"Pakistan","team2":"Ireland","winner":"Pakistan","result":"Pakistan won by 3 wickets"},
+        {"name":"Super Six Match 4","team1":"Nepal","team2":"Bangladesh","winner":"Bangladesh","result":"Bangladesh won by 5 wickets"},
+        {"name":"Super Six Match 5","team1":"Australia","team2":"England","winner":"Australia","result":"Australia won by 110 runs (DLS method)"},
+        {"name":"Super Six Match 6","team1":"Zimbabwe","team2":"South Africa","winner":"South Africa","result":"South Africa won by 9 wickets"},
+        {"name":"Super Six Match 7","team1":"India","team2":"Nepal","winner":"India","result":"India won by 132 runs"},
+        {"name":"Super Six Match 8","team1":"West Indies","team2":"Australia","winner":null,"result":"Match abandoned"},
+        {"name":"Super Six Match 9","team1":"South Africa","team2":"Sri Lanka","winner":"South Africa","result":"South Africa won by 119 runs"},
+        {"name":"Super Six Match 10","team1":"Pakistan","team2":"Bangladesh","winner":"Pakistan","result":"Pakistan won by 5 runs"},
+        {"name":"Super Six Match 11","team1":"New Zealand","team2":"Ireland","winner":"Ireland","result":"Ireland won by 41 runs (DLS method)"},
+        {"name":"Super Six Match 12","team1":"England","team2":"Zimbabwe","winner":"England","result":"England won by 146 runs"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"India"},
+        {"team_name":"South Africa"},
+        {"team_name":"Australia"},
+        {"team_name":"Pakistan"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"India","team2":"South Africa","winner":"India","result":"India won by 2 wickets"},
+        {"name":"Semi-final 2","team1":"Australia","team2":"Pakistan","winner":"Australia","result":"Australia won by 1 wicket"},
+        {"name":"Final","team1":"Australia","team2":"India","winner":"Australia","result":"Australia won by 79 runs"}
+      ]
+    },
+    {
+      "name": "13th–16th Place Play-offs",
+      "teams": [
+        {"team_name":"United States"},
+        {"team_name":"Afghanistan"},
+        {"team_name":"Scotland"},
+        {"team_name":"Namibia"}
+      ],
+      "matches": [
+        {"name":"13th–16th Place Play-off 1","team1":"United States","team2":"Afghanistan","winner":"Afghanistan","result":"Afghanistan won by 3 wickets"},
+        {"name":"13th–16th Place Play-off 2","team1":"Scotland","team2":"Namibia","winner":"Scotland","result":"Scotland won by 3 runs"}
+      ]
+    }
+  ]
+}
+    ]
+  },
     {
       "year": 2025,
       "tournaments": [
@@ -12251,12 +13665,97 @@
             }
           ]
         },
-        {
-          "id": "u19-world-cup",
-          "name": "ICC Men's Under-19 Cricket World Cup",
-          "teams": []
-        }
+       {
+  "id": "u19-world-cup",
+  "name": "ICC Men's Under-19 Cricket World Cup",
+  "season": "2026",
+  "stages": [
+    {
+      "name": "Group Stage",
+      "teams": [
+        {"team_name":"Australia","group":"Group A","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.929},
+        {"team_name":"Sri Lanka","group":"Group A","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":1.113},
+        {"team_name":"Ireland","group":"Group A","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":-1.005},
+        {"team_name":"Japan","group":"Group A","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-2.408},
+
+        {"team_name":"India","group":"Group B","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.976},
+        {"team_name":"Bangladesh","group":"Group B","played":3,"won":1,"lost":1,"no_result":1,"points":3,"nrr":0.327},
+        {"team_name":"New Zealand","group":"Group B","played":3,"won":0,"lost":1,"no_result":2,"points":2,"nrr":-6.143},
+        {"team_name":"United States","group":"Group B","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":-1.720},
+
+        {"team_name":"England","group":"Group C","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.876},
+        {"team_name":"Pakistan","group":"Group C","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.642},
+        {"team_name":"Zimbabwe","group":"Group C","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":-2.916},
+        {"team_name":"Scotland","group":"Group C","played":3,"won":0,"lost":2,"no_result":1,"points":1,"nrr":-2.986},
+
+        {"team_name":"Afghanistan","group":"Group D","played":3,"won":3,"lost":0,"no_result":0,"points":6,"nrr":2.487},
+        {"team_name":"West Indies","group":"Group D","played":3,"won":2,"lost":1,"no_result":0,"points":4,"nrr":0.230},
+        {"team_name":"South Africa","group":"Group D","played":3,"won":1,"lost":2,"no_result":0,"points":2,"nrr":1.640},
+        {"team_name":"Tanzania","group":"Group D","played":3,"won":0,"lost":3,"no_result":0,"points":0,"nrr":-5.446}
+      ]
+    },
+    {
+      "name": "Super Six",
+      "teams": [
+        {"team_name":"Australia","group":"Group 1","played":4,"won":4,"lost":0,"no_result":0,"points":8,"nrr":1.950},
+        {"team_name":"Afghanistan","group":"Group 1","played":4,"won":3,"lost":1,"no_result":0,"points":6,"nrr":1.725},
+        {"team_name":"Sri Lanka","group":"Group 1","played":4,"won":3,"lost":1,"no_result":0,"points":6,"nrr":-0.113},
+        {"team_name":"West Indies","group":"Group 1","played":4,"won":2,"lost":2,"no_result":0,"points":4,"nrr":-0.421},
+        {"team_name":"South Africa","group":"Group 1","played":4,"won":0,"lost":4,"no_result":0,"points":0,"nrr":-0.980},
+        {"team_name":"Ireland","group":"Group 1","played":4,"won":0,"lost":4,"no_result":0,"points":0,"nrr":-2.010},
+
+        {"team_name":"India","group":"Group 2","played":4,"won":4,"lost":0,"no_result":0,"points":8,"nrr":2.585},
+        {"team_name":"England","group":"Group 2","played":4,"won":4,"lost":0,"no_result":0,"points":8,"nrr":1.757},
+        {"team_name":"Pakistan","group":"Group 2","played":4,"won":2,"lost":2,"no_result":0,"points":4,"nrr":0.765},
+        {"team_name":"Bangladesh","group":"Group 2","played":4,"won":1,"lost":2,"no_result":1,"points":3,"nrr":-0.505},
+        {"team_name":"New Zealand","group":"Group 2","played":4,"won":0,"lost":3,"no_result":1,"points":1,"nrr":-2.923},
+        {"team_name":"Zimbabwe","group":"Group 2","played":4,"won":0,"lost":4,"no_result":0,"points":0,"nrr":-2.815}
+      ],
+      "matches": [
+        {"name":"Super Six Match 1","team1":"Australia","team2":"South Africa","winner":"Australia","result":"Australia won by 6 wickets"},
+        {"name":"Super Six Match 2","team1":"West Indies","team2":"Ireland","winner":"West Indies","result":"West Indies won by 25 runs (DLS method)"},
+        {"name":"Super Six Match 3","team1":"Afghanistan","team2":"Sri Lanka","winner":"Sri Lanka","result":"Sri Lanka won by 4 wickets"},
+        {"name":"Super Six Match 4","team1":"England","team2":"Bangladesh","winner":"England","result":"England won by 7 wickets"},
+        {"name":"Super Six Match 5","team1":"Pakistan","team2":"New Zealand","winner":"Pakistan","result":"Pakistan won by 8 wickets"},
+        {"name":"Super Six Match 6","team1":"Zimbabwe","team2":"India","winner":"India","result":"India won by 204 runs"},
+        {"name":"Super Six Match 7","team1":"Australia","team2":"West Indies","winner":"Australia","result":"Australia won by 22 runs"},
+        {"name":"Super Six Match 8","team1":"South Africa","team2":"Sri Lanka","winner":"Sri Lanka","result":"Sri Lanka won by 5 wickets"},
+        {"name":"Super Six Match 9","team1":"Afghanistan","team2":"Ireland","winner":"Afghanistan","result":"Afghanistan won by 191 runs"},
+        {"name":"Super Six Match 10","team1":"New Zealand","team2":"England","winner":"England","result":"England won by 65 runs"},
+        {"name":"Super Six Match 11","team1":"Bangladesh","team2":"Zimbabwe","winner":"Bangladesh","result":"Bangladesh won by 74 runs"},
+        {"name":"Super Six Match 12","team1":"India","team2":"Pakistan","winner":"India","result":"India won by 58 runs"}
+      ]
+    },
+    {
+      "name": "Knockout",
+      "teams": [
+        {"team_name":"Australia"},
+        {"team_name":"England"},
+        {"team_name":"India"},
+        {"team_name":"Afghanistan"}
+      ],
+      "matches": [
+        {"name":"Semi-final 1","team1":"Australia","team2":"England","winner":"England","result":"England won by 27 runs"},
+        {"name":"Semi-final 2","team1":"India","team2":"Afghanistan","winner":"India","result":"India won by 7 wickets"},
+        {"name":"Final","team1":"India","team2":"England","winner":"India","result":"India won by 100 runs"}
+      ]
+    },
+    {
+      "name": "13th–16th Place Play-offs",
+      "teams": [
+        {"team_name":"Japan"},
+        {"team_name":"Tanzania"},
+        {"team_name":"United States"},
+        {"team_name":"Scotland"}
+      ],
+      "matches": [
+        {"name":"13th Place Play-off","team1":"Tanzania","team2":"Japan","winner":"Japan","result":"Japan won by 9 wickets"},
+        {"name":"15th Place Play-off","team1":"Scotland","team2":"United States","winner":"United States","result":"United States won by 7 wickets"}
       ]
     }
   ]
+}
+    ]
+  }
+]
 }
