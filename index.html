@@ -964,9 +964,9 @@ groupNames.forEach(groupName => {
       <p class="muted">
         Explore cricket content from different tours and tournaments.
       </p>
-      <button class="button" type="button">
-        EXPLORE VIDEOS
-      </button>
+      <button class="button" id="explore-videos-button" type="button">
+  EXPLORE VIDEOS
+</button>
     </article>
 
     <article class="card">
@@ -978,7 +978,13 @@ groupNames.forEach(groupName => {
       <p class="muted">Coming Soon</p>
     </article>
   </div>
+   <div id="videos-library" style="margin-top:25px;" hidden>
+  <h3 style="color:#e6bd62;">TOURS & TOURNAMENTS</h3>
+  <p id="videos-status" class="muted">Loading videos...</p>
+  <div id="videos-list" class="cards"></div>
+</div>
 </section>
+  
   <section class="section" id="news">
     <h2>The Cricket <span>Frame</span></h2>
     <div class="cards">
@@ -1308,6 +1314,120 @@ async function loadCricketNews() {
 
 loadCricketNews();
 setInterval(loadCricketNews, 300000);
+
+  // TOURS & TOURNAMENTS VIDEO CATALOGUE
+const exploreVideosButton = document.getElementById("explore-videos-button");
+const videosLibrary = document.getElementById("videos-library");
+const videosStatus = document.getElementById("videos-status");
+const videosList = document.getElementById("videos-list");
+
+let videosLoaded = false;
+
+exploreVideosButton.addEventListener("click", async () => {
+  videosLibrary.hidden = !videosLibrary.hidden;
+
+  if (videosLibrary.hidden || videosLoaded) return;
+
+  videosStatus.textContent = "Loading videos...";
+
+  try {
+    const workerURL = CRICKET_WORKER_URL.replace(/\/+$/, "");
+    const response = await fetch(workerURL + "/videos");
+    const data = await response.json();
+
+    if (!response.ok || !data.success) {
+      throw new Error("Could not load videos");
+    }
+
+    videosList.innerHTML = "";
+
+    if (!data.videos || data.videos.length === 0) {
+      videosStatus.textContent = "No videos available yet.";
+      videosLoaded = true;
+      return;
+    }
+
+    const groups = new Map();
+
+    data.videos.forEach((video, index) => {
+      let caption = video.caption || "Untitled Video";
+
+      const partMatch = caption.match(/PART[\s_-]*(\d+)/i);
+      const dayMatch = caption.match(/DAY[\s_-]*(\d+)/i);
+
+      const part = partMatch ? partMatch[1] : String(index + 1);
+      const day = dayMatch ? "Day " + dayMatch[1] : "";
+
+      const matchName = caption
+        .replace(/\.[a-z0-9]{2,5}$/i, "")
+        .replace(/PART[\s_-]*\d+/ig, "")
+        .replace(/DAY[\s_-]*\d+/ig, "")
+        .replace(/\b(1080p\d*|720p\d*|480p\d*|50fps|25fps|h\.?265|h\.?264|hevc|x264|x265|replay)\b/ig, "")
+        .replace(/\b(fox sports|sky sports(?: nz)?\s*\d*|sonyliv)\b/ig, "")
+        .replace(/[-_]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+
+      const key = matchName || "Other Videos";
+
+      if (!groups.has(key)) {
+        groups.set(key, new Map());
+      }
+
+      const dayGroups = groups.get(key);
+
+      if (!dayGroups.has(day)) {
+        dayGroups.set(day, []);
+      }
+
+      dayGroups.get(day).push({
+        part,
+        fileSize: video.file_size
+      });
+    });
+
+    groups.forEach((dayGroups, matchName) => {
+      const card = document.createElement("article");
+      card.className = "card";
+
+      const heading = document.createElement("h3");
+      heading.textContent = matchName;
+      card.appendChild(heading);
+
+      dayGroups.forEach((parts, day) => {
+        if (day) {
+          const dayHeading = document.createElement("h4");
+          dayHeading.textContent = day;
+          dayHeading.style.color = "#e6bd62";
+          card.appendChild(dayHeading);
+        }
+
+        const list = document.createElement("ul");
+
+        parts.forEach(video => {
+          const item = document.createElement("li");
+          const size = video.fileSize
+            ? " • " + (video.fileSize / (1024 * 1024 * 1024)).toFixed(2) + " GB"
+            : "";
+
+          item.textContent = "Part " + video.part + size;
+          list.appendChild(item);
+        });
+
+        card.appendChild(list);
+      });
+
+      videosList.appendChild(card);
+    });
+
+    videosStatus.textContent = "Videos loaded successfully.";
+    videosLoaded = true;
+
+  } catch (error) {
+    console.error("VIDEO LIBRARY ERROR:", error);
+    videosStatus.textContent = "Could not load videos. Please try again.";
+  }
+});
 
 </script>
   
