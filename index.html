@@ -981,6 +981,12 @@ groupNames.forEach(groupName => {
    <div id="videos-library" style="margin-top:25px;" hidden>
   <h3 style="color:#e6bd62;">TOURS & TOURNAMENTS</h3>
   <p id="videos-status" class="muted">Loading videos...</p>
+     <input
+  type="search"
+  id="video-search"
+  placeholder="Search teams, matches or tournaments..."
+  style="width:100%; margin:15px 0; padding:14px; background:#11141b; color:#fff; border:1px solid #34302a; border-radius:8px;"
+>
   <div id="videos-list" class="cards"></div>
 </div>
 </section>
@@ -1323,7 +1329,39 @@ const videosStatus = document.getElementById("videos-status");
 const videosList = document.getElementById("videos-list");
 
 let videosLoaded = false;
+let allVideos = [];
 
+const videoSearch = document.getElementById("video-search");
+
+function renderVideos(searchText = "") {
+  videosList.replaceChildren();
+
+  const query = searchText.trim().toLowerCase();
+
+  const filteredVideos = allVideos.filter(video =>
+    (video.caption || "").toLowerCase().includes(query)
+  );
+
+  filteredVideos.slice(0, 9).forEach(video => {
+    const caption = document.createElement("p");
+
+    caption.textContent = video.caption || "No caption";
+    caption.style.color = "#f7f7f7";
+    caption.style.padding = "12px 0";
+    caption.style.borderBottom = "1px solid #34302a";
+    caption.style.whiteSpace = "pre-wrap";
+
+    videosList.appendChild(caption);
+  });
+
+  videosStatus.textContent = filteredVideos.length
+    ? ""
+    : "No matching videos found.";
+}
+
+videoSearch.addEventListener("input", () => {
+  renderVideos(videoSearch.value);
+});
 exploreVideosButton.addEventListener("click", async () => {
   videosLibrary.hidden = !videosLibrary.hidden;
 
@@ -1347,17 +1385,8 @@ exploreVideosButton.addEventListener("click", async () => {
       return;
     }
 
-    data.videos.forEach(video => {
-      const caption = document.createElement("p");
-
-      caption.textContent = video.caption || "No caption";
-      caption.style.color = "#f7f7f7";
-      caption.style.padding = "12px 0";
-      caption.style.borderBottom = "1px solid #34302a";
-      caption.style.whiteSpace = "pre-wrap";
-
-      videosList.appendChild(caption);
-    });
+ allVideos = data.videos;
+renderVideos(videoSearch.value);
 
     videosStatus.textContent = "";
     videosLoaded = true;
