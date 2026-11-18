@@ -1345,7 +1345,7 @@ function renderVideos(searchText = "") {
  (query ? filteredVideos : filteredVideos.slice(0, 9)).forEach(video => {
     const caption = document.createElement("p");
 
-    caption.textContent = video.caption || "No caption";
+   caption.textContent = video.website_title || video.caption || "No title";
     caption.style.color = "#f7f7f7";
     caption.style.padding = "12px 0";
     caption.style.borderBottom = "1px solid #34302a";
