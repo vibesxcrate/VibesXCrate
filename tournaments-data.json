@@ -2,8 +2,290 @@
   "tournaments": [
     {
       "id": 1,
-      "title": "ICC T20 World Cup",
-      "caption": "ICC T20 World Cup Tournament",
+      "title": "ICC Men's Cricket World Cup",
+      "caption": "ICC Men's Cricket World Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 2,
+      "title": "ICC Men's T20 World Cup",
+      "caption": "ICC Men's T20 World Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 3,
+      "title": "ICC Champions Trophy",
+      "caption": "ICC Champions Trophy",
+      "category": "tournaments"
+    },
+    {
+      "id": 4,
+      "title": "ICC World Test Championship",
+      "caption": "ICC World Test Championship",
+      "category": "tournaments"
+    },
+    {
+      "id": 5,
+      "title": "Asia Cup",
+      "caption": "Asia Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 6,
+      "title": "ACC Men's Emerging Teams Asia Cup",
+      "caption": "ACC Men's Emerging Teams Asia Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 7,
+      "title": "ICC Women's Cricket World Cup",
+      "caption": "ICC Women's Cricket World Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 8,
+      "title": "ICC Women's T20 World Cup",
+      "caption": "ICC Women's T20 World Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 9,
+      "title": "Women's Asia Cup",
+      "caption": "Women's Asia Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 10,
+      "title": "ICC Under-19 Men's Cricket World Cup",
+      "caption": "ICC Under-19 Men's Cricket World Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 11,
+      "title": "ICC Under-19 Women's T20 World Cup",
+      "caption": "ICC Under-19 Women's T20 World Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 12,
+      "title": "Indian Premier League (IPL)",
+      "caption": "Indian Premier League (IPL)",
+      "category": "tournaments"
+    },
+    {
+      "id": 13,
+      "title": "Women's Premier League (WPL)",
+      "caption": "Women's Premier League (WPL)",
+      "category": "tournaments"
+    },
+    {
+      "id": 14,
+      "title": "Pakistan Super League (PSL)",
+      "caption": "Pakistan Super League (PSL)",
+      "category": "tournaments"
+    },
+    {
+      "id": 15,
+      "title": "Big Bash League (BBL)",
+      "caption": "Big Bash League (BBL)",
+      "category": "tournaments"
+    },
+    {
+      "id": 16,
+      "title": "Women's Big Bash League (WBBL)",
+      "caption": "Women's Big Bash League (WBBL)",
+      "category": "tournaments"
+    },
+    {
+      "id": 17,
+      "title": "Caribbean Premier League (CPL)",
+      "caption": "Caribbean Premier League (CPL)",
+      "category": "tournaments"
+    },
+    {
+      "id": 18,
+      "title": "The Hundred",
+      "caption": "The Hundred",
+      "category": "tournaments"
+    },
+    {
+      "id": 19,
+      "title": "SA20",
+      "caption": "SA20",
+      "category": "tournaments"
+    },
+    {
+      "id": 20,
+      "title": "ILT20",
+      "caption": "ILT20",
+      "category": "tournaments"
+    },
+    {
+      "id": 21,
+      "title": "Bangladesh Premier League (BPL)",
+      "caption": "Bangladesh Premier League (BPL)",
+      "category": "tournaments"
+    },
+    {
+      "id": 22,
+      "title": "Lanka Premier League (LPL)",
+      "caption": "Lanka Premier League (LPL)",
+      "category": "tournaments"
+    },
+    {
+      "id": 23,
+      "title": "Major League Cricket (MLC)",
+      "caption": "Major League Cricket (MLC)",
+      "category": "tournaments"
+    },
+    {
+      "id": 24,
+      "title": "Ranji Trophy",
+      "caption": "Ranji Trophy",
+      "category": "tournaments"
+    },
+    {
+      "id": 25,
+      "title": "Duleep Trophy",
+      "caption": "Duleep Trophy",
+      "category": "tournaments"
+    },
+    {
+      "id": 26,
+      "title": "Vijay Hazare Trophy",
+      "caption": "Vijay Hazare Trophy",
+      "category": "tournaments"
+    },
+    {
+      "id": 27,
+      "title": "Syed Mushtaq Ali Trophy",
+      "caption": "Syed Mushtaq Ali Trophy",
+      "category": "tournaments"
+    },
+    {
+      "id": 28,
+      "title": "Irani Cup",
+      "caption": "Irani Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 29,
+      "title": "County Championship",
+      "caption": "County Championship",
+      "category": "tournaments"
+    },
+    {
+      "id": 30,
+      "title": "T20 Blast",
+      "caption": "T20 Blast",
+      "category": "tournaments"
+    },
+    {
+      "id": 31,
+      "title": "Royal London One-Day Cup",
+      "caption": "Royal London One-Day Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 32,
+      "title": "Super Smash",
+      "caption": "Super Smash",
+      "category": "tournaments"
+    },
+    {
+      "id": 33,
+      "title": "Ford Trophy",
+      "caption": "Ford Trophy",
+      "category": "tournaments"
+    },
+    {
+      "id": 34,
+      "title": "Plunket Shield",
+      "caption": "Plunket Shield",
+      "category": "tournaments"
+    },
+    {
+      "id": 35,
+      "title": "Sheffield Shield",
+      "caption": "Sheffield Shield",
+      "category": "tournaments"
+    },
+    {
+      "id": 36,
+      "title": "Marsh One-Day Cup",
+      "caption": "Marsh One-Day Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 37,
+      "title": "National Cricket League (Bangladesh)",
+      "caption": "National Cricket League (Bangladesh)",
+      "category": "tournaments"
+    },
+    {
+      "id": 38,
+      "title": "Dhaka Premier Division Cricket League",
+      "caption": "Dhaka Premier Division Cricket League",
+      "category": "tournaments"
+    },
+    {
+      "id": 39,
+      "title": "National T20 Cup (Pakistan)",
+      "caption": "National T20 Cup (Pakistan)",
+      "category": "tournaments"
+    },
+    {
+      "id": 40,
+      "title": "Quaid-e-Azam Trophy",
+      "caption": "Quaid-e-Azam Trophy",
+      "category": "tournaments"
+    },
+    {
+      "id": 41,
+      "title": "CSA 4-Day Series",
+      "caption": "CSA 4-Day Series",
+      "category": "tournaments"
+    },
+    {
+      "id": 42,
+      "title": "CSA T20 Challenge",
+      "caption": "CSA T20 Challenge",
+      "category": "tournaments"
+    },
+    {
+      "id": 43,
+      "title": "CSA One-Day Cup",
+      "caption": "CSA One-Day Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 44,
+      "title": "Zimbabwe Domestic Twenty20 Competition",
+      "caption": "Zimbabwe Domestic Twenty20 Competition",
+      "category": "tournaments"
+    },
+    {
+      "id": 45,
+      "title": "Afghanistan Premier League",
+      "caption": "Afghanistan Premier League",
+      "category": "tournaments"
+    },
+    {
+      "id": 46,
+      "title": "Ireland Inter-Provincial Championship",
+      "caption": "Ireland Inter-Provincial Championship",
+      "category": "tournaments"
+    },
+    {
+      "id": 47,
+      "title": "Ireland Inter-Provincial Cup",
+      "caption": "Ireland Inter-Provincial Cup",
+      "category": "tournaments"
+    },
+    {
+      "id": 48,
+      "title": "FairBreak Invitational Tournament",
+      "caption": "FairBreak Invitational Tournament",
       "category": "tournaments"
     }
   ]
