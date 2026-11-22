@@ -371,6 +371,107 @@ html {
   display: grid;
   gap: 16px;
 }
+    
+/* CINEMATIC TOUR CARDS */
+#tours-list {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.tour-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 190px;
+  padding: 20px;
+  border: 1px solid rgba(230, 189, 98, 0.45);
+  border-radius: 15px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(230,189,98,0.18), transparent 55%),
+    linear-gradient(135deg, #202431, #090b12 55%, #24202a);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.tour-card:hover {
+  transform: translateY(-5px);
+  border-color: #e6bd62;
+}
+
+.tour-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent, rgba(230,189,98,0.07), transparent);
+}
+
+.tour-card .tour-visual {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  min-height: 105px;
+}
+
+.tour-flag-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+
+.tour-flag {
+  display: block;
+  width: 100%;
+  max-width: 125px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 7px;
+  border: 1px solid rgba(255,255,255,0.35);
+  box-shadow: 0 0 20px rgba(230,189,98,0.18);
+}
+
+.tour-vs {
+  color: #e6bd62;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-shadow: 0 0 14px rgba(230,189,98,0.55);
+}
+
+.tour-card h3 {
+  position: relative;
+  margin: 18px 0 4px;
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+}
+
+.tour-card .tour-caption {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  color: #b9bdc8;
+  font-size: 12px;
+}
+
+@media (max-width: 480px) {
+  .tour-card {
+    min-height: 175px;
+    padding: 16px;
+  }
+
+  .tour-card .tour-visual {
+    min-height: 90px;
+    gap: 8px;
+  }
+
+  .tour-flag {
+    max-width: 105px;
+  }
+}
+
  
   </style>
 </head>
@@ -1430,6 +1531,7 @@ async function loadTours() {
   }
 }
 
+
 function renderTours() {
   toursList.replaceChildren();
 
@@ -1440,18 +1542,73 @@ function renderTours() {
     (tour.caption || "").toLowerCase().includes(query)
   );
 
+  const tourFlagCodes = {
+    afghanistan: "af",
+    australia: "au",
+    bangladesh: "bd",
+    england: "gb-eng",
+    ireland: "ie",
+    "new zealand": "nz",
+    pakistan: "pk",
+    "south africa": "za",
+    "sri lanka": "lk",
+    "west indies": null,
+    zimbabwe: "zw"
+  };
+
+  function makeFlag(team) {
+    const wrap = document.createElement("div");
+    wrap.className = "tour-flag-wrap";
+
+    const code = tourFlagCodes[team.toLowerCase()];
+
+    function showFallback() {
+      const fallback = document.createElement("div");
+      fallback.className = "tour-flag-fallback";
+      fallback.textContent = team.toUpperCase();
+      wrap.replaceChildren(fallback);
+    }
+
+    if (!code) {
+      showFallback();
+      return wrap;
+    }
+
+    const img = document.createElement("img");
+    img.className = "tour-flag";
+    img.src = `https://flagcdn.com/w320/${code}.png`;
+    img.alt = team + " flag";
+    img.loading = "lazy";
+    img.onerror = showFallback;
+
+    wrap.appendChild(img);
+    return wrap;
+  }
+
   filteredTours.forEach(tour => {
-    const card = document.createElement("div");
-    card.className = "card";
+    const parts = (tour.title || "").split(/\s+Tour of\s+/i);
+    const team1 = parts[0]?.trim() || "";
+    const team2 = parts[1]?.trim() || "";
+
+    const card = document.createElement("article");
+    card.className = "tour-card";
+
+    const visual = document.createElement("div");
+    visual.className = "tour-visual";
+
+    const vs = document.createElement("div");
+    vs.className = "tour-vs";
+    vs.textContent = "V/S";
 
     const title = document.createElement("h3");
     title.textContent = tour.title || "Untitled Tour";
 
     const caption = document.createElement("p");
-    caption.className = "muted";
+    caption.className = "tour-caption";
     caption.textContent = tour.caption || "";
 
-    card.append(title, caption);
+    visual.append(makeFlag(team1), vs, makeFlag(team2));
+    card.append(visual, title, caption);
     toursList.appendChild(card);
   });
 
@@ -1459,6 +1616,7 @@ function renderTours() {
     toursList.textContent = "No matching tours found.";
   }
 }
+
 
 toursSearch.addEventListener("input", renderTours);
 loadTours();
