@@ -996,6 +996,21 @@ groupNames.forEach(groupName => {
     </article>
 
   </div>
+  
+  <div id="tours-section" hidden>
+  <h3>TOURS</h3>
+  <p class="muted">Explore cricket tours.</p>
+</div>
+
+<div id="tournaments-section" hidden>
+  <h3>TOURNAMENTS</h3>
+  <p class="muted">Explore cricket tournaments.</p>
+</div>
+
+<div id="highlights-section" hidden>
+  <h3>PLAYER HIGHLIGHTS</h3>
+  <p class="muted">Explore player highlights.</p>
+</div>
 </section>
 
   
@@ -1329,7 +1344,34 @@ async function loadCricketNews() {
 loadCricketNews();
 setInterval(loadCricketNews, 300000);
 
+// MATCH CATEGORY NAVIGATION
+const toursButton = document.getElementById("tours-button");
+const tournamentsButton = document.getElementById("tournaments-button");
+const highlightsButton = document.getElementById("highlights-button");
 
+const toursSection = document.getElementById("tours-section");
+const tournamentsSection = document.getElementById("tournaments-section");
+const highlightsSection = document.getElementById("highlights-section");
+
+function showMatchCategory(section) {
+  toursSection.hidden = true;
+  tournamentsSection.hidden = true;
+  highlightsSection.hidden = true;
+
+  section.hidden = false;
+}
+
+toursButton.addEventListener("click", () => {
+  showMatchCategory(toursSection);
+});
+
+tournamentsButton.addEventListener("click", () => {
+  showMatchCategory(tournamentsSection);
+});
+
+highlightsButton.addEventListener("click", () => {
+  showMatchCategory(highlightsSection);
+});
 </script>
   
 </body>
