@@ -1,0 +1,10 @@
+{
+  "tournaments": [
+    {
+      "id": 1,
+      "title": "ICC T20 World Cup",
+      "caption": "ICC T20 World Cup Tournament",
+      "category": "tournaments"
+    }
+  ]
+}
