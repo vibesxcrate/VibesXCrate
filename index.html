@@ -953,43 +953,51 @@ groupNames.forEach(groupName => {
 </script>
 
   
- <section class="section" id="matches">
+
+<section class="section" id="matches">
   <h2>Match <span>Centre</span></h2>
-  <p class="muted">Explore cricket tours, tournaments and player highlights.</p>
+  <p class="muted">
+    Explore cricket tours, tournaments and player highlights.
+  </p>
 
   <div class="cards">
+
     <article class="card">
-      <div class="label">VIDEO LIBRARY</div>
-      <h3>Tours & Tournaments</h3>
+      <div class="label">CRICKET TOURS</div>
+      <h3>Tours</h3>
       <p class="muted">
-        Explore cricket content from different tours and tournaments.
+        Explore cricket content from international bilateral tours.
       </p>
-      <button class="button" id="explore-videos-button" type="button">
-  EXPLORE VIDEOS
-</button>
+      <button class="button" type="button" disabled>
+        COMING SOON
+      </button>
+    </article>
+
+    <article class="card">
+      <div class="label">MAJOR EVENTS</div>
+      <h3>Tournaments</h3>
+      <p class="muted">
+        Explore cricket content from major domestic and international tournaments.
+      </p>
+      <button class="button" type="button" disabled>
+        COMING SOON
+      </button>
     </article>
 
     <article class="card">
       <div class="label">PLAYER COLLECTION</div>
       <h3>Player Highlights</h3>
       <p class="muted">
-        Discover memorable performances and player highlights.
+        Discover memorable performances and individual player moments.
       </p>
-      <p class="muted">Coming Soon</p>
+      <button class="button" type="button" disabled>
+        COMING SOON
+      </button>
     </article>
+
   </div>
-   <div id="videos-library" style="margin-top:25px;" hidden>
-  <h3 style="color:#e6bd62;">TOURS & TOURNAMENTS</h3>
-  <p id="videos-status" class="muted">Loading videos...</p>
-     <input
-  type="search"
-  id="video-search"
-  placeholder="Search teams, matches or tournaments..."
-  style="width:100%; margin:15px 0; padding:14px; background:#11141b; color:#fff; border:1px solid #34302a; border-radius:8px;"
->
- <div id="videos-list"></div>
-</div>
 </section>
+
   
   <section class="section" id="news">
     <h2>The Cricket <span>Frame</span></h2>
