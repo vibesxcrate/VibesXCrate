@@ -1398,7 +1398,65 @@ tournamentsButton.addEventListener("click", () => {
 highlightsButton.addEventListener("click", () => {
   showMatchCategory(highlightsSection);
 });
-</script>
+
   
+// TOURS SEARCH AND DISPLAY
+const toursSearch = document.getElementById("tours-search");
+const toursList = document.getElementById("tours-list");
+
+let allTours = [];
+
+async function loadTours() {
+  try {
+    const response = await fetch("./tours-data.json");
+
+    if (!response.ok) {
+      throw new Error("Tours data could not load");
+    }
+
+    const data = await response.json();
+    allTours = data.tours || [];
+
+    renderTours();
+  } catch (error) {
+    console.error("TOURS ERROR:", error);
+    toursList.textContent = "Could not load tours.";
+  }
+}
+
+function renderTours() {
+  toursList.replaceChildren();
+
+  const query = toursSearch.value.trim().toLowerCase();
+
+  const filteredTours = allTours.filter(tour =>
+    (tour.title || "").toLowerCase().includes(query) ||
+    (tour.caption || "").toLowerCase().includes(query)
+  );
+
+  filteredTours.forEach(tour => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const title = document.createElement("h3");
+    title.textContent = tour.title || "Untitled Tour";
+
+    const caption = document.createElement("p");
+    caption.className = "muted";
+    caption.textContent = tour.caption || "";
+
+    card.append(title, caption);
+    toursList.appendChild(card);
+  });
+
+  if (!filteredTours.length) {
+    toursList.textContent = "No matching tours found.";
+  }
+}
+
+toursSearch.addEventListener("input", renderTours);
+loadTours();
+
+</script>
 </body>
 </html>
