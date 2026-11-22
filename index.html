@@ -1457,6 +1457,65 @@ function renderTours() {
 toursSearch.addEventListener("input", renderTours);
 loadTours();
 
+  
+// TOURNAMENTS SEARCH AND DISPLAY
+const tournamentsSearch = document.getElementById("tournaments-search");
+const tournamentsList = document.getElementById("tournaments-list");
+
+let allTournaments = [];
+
+async function loadTournaments() {
+  try {
+    const response = await fetch("./tournaments-data.json");
+
+    if (!response.ok) {
+      throw new Error("Tournament data could not load");
+    }
+
+    const data = await response.json();
+    allTournaments = data.tournaments || [];
+
+    renderTournaments();
+  } catch (error) {
+    console.error("TOURNAMENTS ERROR:", error);
+    tournamentsList.textContent = "Could not load tournaments.";
+  }
+}
+
+function renderTournaments() {
+  tournamentsList.replaceChildren();
+
+  const query = tournamentsSearch.value.trim().toLowerCase();
+
+  const filtered = allTournaments.filter(tournament =>
+    (tournament.title || "").toLowerCase().includes(query) ||
+    (tournament.caption || "").toLowerCase().includes(query)
+  );
+
+  filtered.forEach(tournament => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const title = document.createElement("h3");
+    title.textContent = tournament.title || "Untitled Tournament";
+
+    const caption = document.createElement("p");
+    caption.className = "muted";
+    caption.textContent = tournament.caption || "";
+
+    card.append(title, caption);
+    tournamentsList.appendChild(card);
+  });
+
+  if (!filtered.length) {
+    tournamentsList.textContent = "No matching tournaments found.";
+  }
+}
+
+tournamentsSearch.addEventListener("input", renderTournaments);
+loadTournaments();
+
+
 </script>
 </body>
 </html>
