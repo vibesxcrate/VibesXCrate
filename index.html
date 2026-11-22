@@ -1515,6 +1515,65 @@ function renderTournaments() {
 tournamentsSearch.addEventListener("input", renderTournaments);
 loadTournaments();
 
+  
+// PLAYER HIGHLIGHTS SEARCH AND DISPLAY
+const highlightsSearch = document.getElementById("highlights-search");
+const highlightsList = document.getElementById("highlights-list");
+
+let allHighlights = [];
+
+async function loadHighlights() {
+  try {
+    const response = await fetch("./highlights-data.json");
+
+    if (!response.ok) {
+      throw new Error("Highlights data could not load");
+    }
+
+    const data = await response.json();
+    allHighlights = data.highlights || [];
+
+    renderHighlights();
+  } catch (error) {
+    console.error("HIGHLIGHTS ERROR:", error);
+    highlightsList.textContent = "Could not load highlights.";
+  }
+}
+
+function renderHighlights() {
+  highlightsList.replaceChildren();
+
+  const query = highlightsSearch.value.trim().toLowerCase();
+
+  const filtered = allHighlights.filter(highlight =>
+    (highlight.title || "").toLowerCase().includes(query) ||
+    (highlight.caption || "").toLowerCase().includes(query)
+  );
+
+  filtered.forEach(highlight => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const title = document.createElement("h3");
+    title.textContent = highlight.title || "Untitled Highlight";
+
+    const caption = document.createElement("p");
+    caption.className = "muted";
+    caption.textContent = highlight.caption || "";
+
+    card.append(title, caption);
+    highlightsList.appendChild(card);
+  });
+
+  if (!filtered.length) {
+    highlightsList.textContent = "No matching highlights found.";
+  }
+}
+
+highlightsSearch.addEventListener("input", renderHighlights);
+loadHighlights();
+
+
 
 </script>
 </body>
