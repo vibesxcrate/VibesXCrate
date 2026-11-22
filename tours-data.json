@@ -1,0 +1,10 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "title": "India vs Australia",
+      "caption": "India vs Australia - Cricket Tour",
+      "category": "tours"
+    }
+  ]
+}
