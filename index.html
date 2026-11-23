@@ -1553,7 +1553,7 @@ function renderTours() {
     pakistan: "pk",
     "south africa": "za",
     "sri lanka": "lk",
-    "west indies": "wi",
+    "west indies": "west-indies",
     zimbabwe: "zw"
   };
 
@@ -1577,7 +1577,9 @@ function renderTours() {
 
     const img = document.createElement("img");
     img.className = "tour-flag";
-    img.src = `https://flagcdn.com/w320/${code}.png`;
+   img.src = code === "west-indies"
+  ? "https://upload.wikimedia.org/wikipedia/commons/1/18/WestIndiesCricketFlagPre1999.svg"
+  : `https://flagcdn.com/w320/${code}.png`;
     img.alt = team + " flag";
     img.loading = "lazy";
     img.onerror = showFallback;
