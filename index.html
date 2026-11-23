@@ -499,6 +499,57 @@ html {
     0 0 25px rgba(230,189,98,0.12);
 }
  
+/* CINEMATIC TOURNAMENT CARDS */
+#tournaments-list {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.tournament-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 190px;
+  padding: 22px;
+  border: 1px solid rgba(230,189,98,0.45);
+  border-radius: 15px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(230,189,98,0.2), transparent 55%),
+    linear-gradient(145deg, #242633, #090b12 65%, #201b20);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tournament-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 38px rgba(230,189,98,0.16);
+}
+
+.tournament-visual {
+  min-height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tournament-trophy {
+  font-size: 65px;
+  filter: drop-shadow(0 0 18px rgba(230,189,98,0.5));
+}
+
+.tournament-card h3 {
+  position: relative;
+  margin: 16px 0 5px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.tournament-card .tournament-caption {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  color: #b9bdc8;
+  font-size: 12px;
+}
+
   </style>
 </head>
 <body>
@@ -1675,6 +1726,7 @@ async function loadTournaments() {
   }
 }
 
+
 function renderTournaments() {
   tournamentsList.replaceChildren();
 
@@ -1686,17 +1738,26 @@ function renderTournaments() {
   );
 
   filtered.forEach(tournament => {
-    const card = document.createElement("div");
-    card.className = "card";
+    const card = document.createElement("article");
+    card.className = "tournament-card";
+
+    const visual = document.createElement("div");
+    visual.className = "tournament-visual";
+
+    const trophy = document.createElement("div");
+    trophy.className = "tournament-trophy";
+    trophy.textContent = "🏆";
 
     const title = document.createElement("h3");
     title.textContent = tournament.title || "Untitled Tournament";
 
     const caption = document.createElement("p");
-    caption.className = "muted";
+    caption.className = "tournament-caption";
     caption.textContent = tournament.caption || "";
 
-    card.append(title, caption);
+    visual.appendChild(trophy);
+    card.append(visual, title, caption);
+
     tournamentsList.appendChild(card);
   });
 
