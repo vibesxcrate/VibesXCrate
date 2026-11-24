@@ -549,7 +549,14 @@ html {
   color: #b9bdc8;
   font-size: 12px;
 }
-
+.tournament-trophy-image {
+  display: block;
+  width: auto;
+  height: 125px;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 18px rgba(230,189,98,0.5));
+}
   </style>
 </head>
 <body>
@@ -1727,6 +1734,7 @@ async function loadTournaments() {
 }
 
 
+
 function renderTournaments() {
   tournamentsList.replaceChildren();
 
@@ -1744,9 +1752,19 @@ function renderTournaments() {
     const visual = document.createElement("div");
     visual.className = "tournament-visual";
 
-    const trophy = document.createElement("div");
-    trophy.className = "tournament-trophy";
-    trophy.textContent = "🏆";
+    if (tournament.title === "ICC Men's Cricket World Cup") {
+      const trophyImage = document.createElement("img");
+      trophyImage.src = "./images/trophies/world-cup.png";
+      trophyImage.alt = "ICC Men's Cricket World Cup trophy";
+      trophyImage.className = "tournament-trophy-image";
+      trophyImage.loading = "lazy";
+      visual.appendChild(trophyImage);
+    } else {
+      const trophy = document.createElement("div");
+      trophy.className = "tournament-trophy";
+      trophy.textContent = "🏆";
+      visual.appendChild(trophy);
+    }
 
     const title = document.createElement("h3");
     title.textContent = tournament.title || "Untitled Tournament";
@@ -1755,9 +1773,7 @@ function renderTournaments() {
     caption.className = "tournament-caption";
     caption.textContent = tournament.caption || "";
 
-    visual.appendChild(trophy);
     card.append(visual, title, caption);
-
     tournamentsList.appendChild(card);
   });
 
