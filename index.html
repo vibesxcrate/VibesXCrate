@@ -1752,14 +1752,22 @@ function renderTournaments() {
     const visual = document.createElement("div");
     visual.className = "tournament-visual";
 
-    if (tournament.title === "ICC Men's Cricket World Cup") {
-      const trophyImage = document.createElement("img");
-      trophyImage.src = "./images/trophies/world-cup.png";
-      trophyImage.alt = "ICC Men's Cricket World Cup trophy";
-      trophyImage.className = "tournament-trophy-image";
-      trophyImage.loading = "lazy";
-      visual.appendChild(trophyImage);
-    } else {
+   if (
+  tournament.title === "ICC Men's Cricket World Cup" ||
+  tournament.title === "ICC Men's T20 World Cup"
+) {
+  const trophyImage = document.createElement("img");
+
+  trophyImage.src =
+    tournament.title === "ICC Men's Cricket World Cup"
+      ? "./images/trophies/world-cup.png"
+      : "./images/trophies/t20-world-cup.png";
+
+  trophyImage.alt = tournament.title + " trophy";
+  trophyImage.className = "tournament-trophy-image";
+  trophyImage.loading = "lazy";
+  visual.appendChild(trophyImage);
+} else {
       const trophy = document.createElement("div");
       trophy.className = "tournament-trophy";
       trophy.textContent = "🏆";
