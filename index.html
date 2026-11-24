@@ -1756,7 +1756,8 @@ function renderTournaments() {
   tournament.title === "ICC Men's Cricket World Cup" ||
  tournament.title === "ICC Men's T20 World Cup" ||
 tournament.title === "ICC Champions Trophy" ||
-  tournament.title === "ICC World Test Championship"
+  tournament.title === "ICC World Test Championship" ||
+     tournament.title === "Asia Cup"
 ) {
   const trophyImage = document.createElement("img");
 
@@ -1769,6 +1770,8 @@ trophyImage.src =
     ? "./images/trophies/t20-world-cup.png"
     : tournament.title === "ICC Champions Trophy"
     ? "./images/trophies/champions-trophy.png"
+  : tournament.title === "Asia Cup"
+? "./images/trophies/asia-cup.png"
     : tournament.title === "ICC World Test Championship"
     ? "./images/trophies/world-test-championship.png"
     : "./images/trophies/champions-trophy.png";
