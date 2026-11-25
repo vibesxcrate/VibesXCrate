@@ -1758,6 +1758,7 @@ function renderTournaments() {
 tournament.title === "ICC Champions Trophy" ||
   tournament.title === "ICC World Test Championship" ||
      tournament.title === "Asia Cup" ||
+     tournament.title === "Women's Asia Cup" ||
      tournament.title === "ICC Women's T20 World Cup"
 ) {
   const trophyImage = document.createElement("img");
@@ -1771,6 +1772,8 @@ trophyImage.src =
     ? "./images/trophies/t20-world-cup.png"
     : tournament.title === "ICC Champions Trophy"
     ? "./images/trophies/champions-trophy.png"
+  : tournament.title === "Women's Asia Cup"
+? "./images/trophies/womes-asia-cup.png"
   : tournament.title === "Asia Cup"
 ? "./images/trophies/asia-cup.png"
   : tournament.title === "ICC Women's T20 World Cup"
