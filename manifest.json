@@ -12,9 +12,9 @@
   "theme_color": "#080a0f",
   "icons": [
     {
-      "src": "IMG-20261030-WA0000.jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
+      "src": "vibesxcrate-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
       "purpose": "any"
     }
   ]
