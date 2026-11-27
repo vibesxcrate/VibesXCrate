@@ -1,0 +1,15 @@
+
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.vibesxcrate.twa",
+      "sha256_cert_fingerprints": [
+        "29:25:D7:96:03:C7:8E:CA:DB:85:84:1E:88:9A:7C:FC:9E:DF:AA:C2:85:EE:2A:06:9E:85:9A:F8:9D:02:84:F0"
+      ]
+    }
+  }
+]
