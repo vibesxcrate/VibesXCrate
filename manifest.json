@@ -13,7 +13,7 @@
   "icons": [
     {
       "src": "IMG-20261030-WA0000.jpg",
-      "sizes": "any",
+      "sizes": "512x512",
       "type": "image/jpeg",
       "purpose": "any"
     }
