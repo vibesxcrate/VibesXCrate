@@ -1,0 +1,21 @@
+
+{
+  "id": "/VibesXCrate/",
+  "name": "VibesXCrate | The Cricket Frame",
+  "short_name": "VibesXCrate",
+  "description": "Your Cricket Frame for fixtures, scores, news and match updates.",
+  "start_url": "/VibesXCrate/",
+  "scope": "/VibesXCrate/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080a0f",
+  "theme_color": "#080a0f",
+  "icons": [
+    {
+      "src": "IMG-20261030-WA0000.jpg",
+      "sizes": "any",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
